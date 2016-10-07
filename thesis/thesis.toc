@@ -1,0 +1,19 @@
+\select@language {british}
+\contentsline {chapter}{List of Tables}{vi}{chapter*.4}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Neutrino Physics}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Standard Model}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Weak Force}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Neutrino Oscillations}{2}{section.2.3}
+\contentsline {section}{\numberline {2.4}Need to include the following}{3}{section.2.4}
+\contentsline {chapter}{\numberline {3}The NOvA Experiment}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}The NuMI Beam}{4}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Off-axis Detectors}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Horn Position}{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The NOvA Detectors}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Data Aquisition}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The Far Detector}{8}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The Near Detector}{8}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Energy Resolution}{9}{chapter.4}
+\contentsline {chapter}{Bibliography}{10}{chapter.4}
