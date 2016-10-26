@@ -49,8 +49,9 @@
 \usepackage[pdftex]{graphicx}
 %\renewcommand{\includegraphics}[2][]{\fbox{}}
 \DeclareGraphicsRule{*}{mps}{*}{} 
-\usepackage{subfigure}
-%\usepackage{subcaption}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+\usepackage{subcaption}
 %\usepackage{epstopdf}
 %\usepackage{epsfig}
 \usepackage{amsmath}
@@ -59,7 +60,7 @@
 \usepackage[british]{babel}
 \usepackage{multirow}
 \usepackage{tikz}
-\usepackage{tikz-3dplot}
+%\usepackage{tikz-3dplot}
 \usepackage{cancel}
 \usetikzlibrary{decorations.markings,calc,shapes,arrows}
 
@@ -91,7 +92,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}
 	% Add "DRAFT: <today's date>" to header (comment out the following to remove)
-	%\lhead{\textit{DRAFT: \today}}
+	\lhead{\textit{DRAFT: \today}}
 	%
 	\chead{\thepage}
 	\renewcommand{\headrulewidth}{0pt}

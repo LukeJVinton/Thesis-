@@ -63,13 +63,15 @@ and power. water cooling
 \subsection{Off-axis Detectors}
 
 The NOvA detectors are both placed 14~mrads off the axis of the NuMI
-beam. Placing the detectors off-axis has the advantages of increasing
-the neutrino flux at NOvA's oscillation maximum and reducing
-backgrounds.  The reasons for placing the detector will be described
+beam.
+The reasons for placing the detector will be described
 in more detail in the following paragraphs. 
+% Placing the detectors off-axis has the advantages of increasing
+% the neutrino flux at NOvA's oscillation maximum and reducing
+% backgrounds.
 
 The decay used to produce a neutrino beam is a two body decay, where a
-pion (or kaon) decays to a neutrino and a muon. The two body decay
+pion (or kaon) decays to a neutrino and a muon. The two body decay 
 occurs isotropically in the parent particles rest frame. 
 In the lab frame the parent particle is not at rest when decaying. For
 pion and kaon decay this boosts the neutrinos into a cone in the
@@ -83,11 +85,77 @@ decay ($\pi \rightarrow \nu_{\mu} + \mu$) are given by:
 \end{equation}
 
 \begin{equation}
-E_{\nu} = \dfrac{0.43E_{\pi}}{1+\gamma^2\theta^2}
+E_{\nu} = \dfrac{0.43E_{\pi}}{1+\gamma^2\theta^2},
 \label{eqn:NuPiEnrgy}
 \end{equation}
 
-where 
+where $E_{\pi}$ is the energy of the parent pion, $m_{\pi}$ the mass of the
+parent pion, $\theta$ the angle between the pion and neutrino
+directions and $\gamma = E_{\pi}/m_{\pi}$.
+
+Equations~\ref{eqn:NuPiFlux}~and~\ref{eqn:NuPiEnrgy} and are shown as 
+functions of neutrino energy and off-axis angle in
+Figure~\ref{fig:NuPiFlux}.
+Figure~\ref{fig:NuESpectra_MEAndLE} shows the number of neutrino
+events as a function of the
+charged current $\nu_{\mu}$ energy for the Low (left plot) and
+Medium (right plot) Energy Tune for various off-axis angles. 
+
+For the Medium Energy Tune, figure~\ref{fig:NuPiFluxb} shows that at
+14~mrad the neutrino energy
+does not have a strong dependence on the parent pion energy.
+In addition, figure~\ref{fig:NuESpectra_MEAndLE_b} shows that at
+14~mrad the Medium
+Energy Tune produces a narrow energy neutrino beam with approximately
+4 times more neutrinos at 2GeV than the on-axis scenario. This peak at
+2~GeV is well matched to the expected energy of the oscillation
+maximum for electron neutrino appearance.
+
+
+
+
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{../../img/baird/beam/020-flux.png}
+  \caption{Neutrino flux vs. pion energy. }
+  \label{fig:NuPiFluxa}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+  \includegraphics[width=\textwidth]{../../img/baird/beam/030-epi2enu.png}
+  \caption{Neutrino energy vs. pion energy.}
+  \label{fig:NuPiFluxb}
+  \end{subfigure}
+  \caption{The above distributions are as viewed from a site located
+    800km from the NuMI target and off-axis by an angle $\theta$.}
+  \label{fig:NuPiFlux}
+\end{figure}
+
+
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{../../img/baird/beam/040-le-spectra.png}
+    \caption{Low energy NuMI tune neutrino energy. \\ }
+    \label{fig:NuESpectra_MEAndLE_a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{../../img/baird/beam/050-me-spectra.png}
+    \caption{Medium energy NuMI tune neutrino energy.}
+    \label{fig:NuESpectra_MEAndLE_b}
+  \end{subfigure}
+  \caption{Charged current $\nu_{\mu}$ event rates vs. neutrino
+    energy in the absense of oscillations. The distributions are found
+  for a detector which is 800~km from the NuMI target and for various
+  off-axis angles.}
+  \label{fig:NuESpectra_MEAndLE}
+\end{figure}
+
+
 
 
 \subsection{Horn Position}
@@ -185,7 +253,7 @@ Explain digitisation via single and multi point readout.
 
 \subsection{The Far Detector}\label{sec:fardet}
 
-Detector on the surface. Overburden of (gravel?) barrite.
+Detector on the surface. Overburden of gravel and barrite.
 
 \subsection{The Near Detector}\label{sec:neardet}
 
