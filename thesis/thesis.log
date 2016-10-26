@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  26 OCT 2016 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  26 OCT 2016 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -990,7 +990,7 @@ Chapter 3.
 (./tex/sections/detectors.tex [4
 
 ]
-<tex/sections/../../img/beam/beam_diagram.png, id=185, 1200.485pt x 326.21875pt
+<tex/sections/../../img/beam/beam_diagram.png, id=203, 1200.485pt x 326.21875pt
 >
 File: tex/sections/../../img/beam/beam_diagram.png Graphic file (type png)
  <use tex/sections/../../img/beam/beam_diagram.png>
@@ -998,78 +998,108 @@ Package pdftex.def Info: tex/sections/../../img/beam/beam_diagram.png used on i
 nput line 57.
 (pdftex.def)             Requested size: 426.79135pt x 115.9752pt.
  [5 <./tex/sections/../../img/beam/beam_diagram.png>]
-<tex/sections/../../img/baird/beam/020-flux.png, id=202, 540.0978pt x 514.5624p
+<tex/sections/../../img/baird/beam/020-flux.png, id=220, 540.0978pt x 514.5624p
 t>
 File: tex/sections/../../img/baird/beam/020-flux.png Graphic file (type png)
  <use tex/sections/../../img/baird/beam/020-flux.png>
 Package pdftex.def Info: tex/sections/../../img/baird/beam/020-flux.png used on
- input line 117.
+ input line 134.
 (pdftex.def)             Requested size: 192.0548pt x 182.9732pt.
 
-<tex/sections/../../img/baird/beam/030-epi2enu.png, id=203, 516.9714pt x 513.11
+<tex/sections/../../img/baird/beam/030-epi2enu.png, id=221, 516.9714pt x 513.11
 7pt>
 File: tex/sections/../../img/baird/beam/030-epi2enu.png Graphic file (type png)
 
  <use tex/sections/../../img/baird/beam/030-epi2enu.png>
 Package pdftex.def Info: tex/sections/../../img/baird/beam/030-epi2enu.png used
- on input line 123.
+ on input line 140.
 (pdftex.def)             Requested size: 192.0548pt x 190.61761pt.
 
-<tex/sections/../../img/baird/beam/040-le-spectra.png, id=204, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/040-le-spectra.png, id=222, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/040-le-spectra.png Graphic file (type p
 ng)
  <use tex/sections/../../img/baird/beam/040-le-spectra.png>
 Package pdftex.def Info: tex/sections/../../img/baird/beam/040-le-spectra.png u
-sed on input line 137.
+sed on input line 154.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
 
-<tex/sections/../../img/baird/beam/050-me-spectra.png, id=205, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/050-me-spectra.png, id=223, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/050-me-spectra.png Graphic file (type p
 ng)
  <use tex/sections/../../img/baird/beam/050-me-spectra.png>
 Package pdftex.def Info: tex/sections/../../img/baird/beam/050-me-spectra.png u
-sed on input line 143.
+sed on input line 160.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
+
+<tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png, id=224, 609.9588pt
+ x 502.9992pt>
+File: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png Graphic file (
+type png)
+
+<use tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png>
+Package pdftex.def Info: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb
+.png used on input line 174.
+(pdftex.def)             Requested size: 213.39568pt x 175.9756pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./tex/sections/../../img/baird/beam/020-flux.png> <./tex/sections/../../im
-g/baird/beam/030-epi2enu.png>]
-<tex/sections/../../img/det/gen/nova_cell.png, id=218, 442.65375pt x 672.5125pt
+g/baird/beam/030-epi2enu.png>] [7 <./tex/sections/../../img/baird/beam/040-le-s
+pectra.png> <./tex/sections/../../img/baird/beam/050-me-spectra.png> <./tex/sec
+tions/../../img/beam/060-sig-and-bg-rates-thumb.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+
+LaTeX Warning: File `../../../../Screenshots/Screenshot 2016-10-26 16.28.03.png
+' not found on input line 244.
+
+
+! Package pdftex.def Error: File `../../../../Screenshots/Screenshot 2016-10-26
+ 16.28.03.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 ...shots/Screenshot 2016-10-26 16.28.03.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<tex/sections/../../img/det/gen/nova_cell.png, id=250, 442.65375pt x 672.5125pt
 >
 File: tex/sections/../../img/det/gen/nova_cell.png Graphic file (type png)
  <use tex/sections/../../img/det/gen/nova_cell.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/nova_cell.png used on i
-nput line 213.
+nput line 274.
 (pdftex.def)             Requested size: 170.71393pt x 259.36449pt.
 
-<tex/sections/../../img/det/gen/extru_cross_section.png, id=219, 1087.06125pt x
+<tex/sections/../../img/det/gen/extru_cross_section.png, id=251, 1087.06125pt x
  191.71625pt>
 File: tex/sections/../../img/det/gen/extru_cross_section.png Graphic file (type
  png)
  <use tex/sections/../../img/det/gen/extru_cross_section.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/extru_cross_section.png
- used on input line 223.
+ used on input line 284.
 (pdftex.def)             Requested size: 426.79135pt x 75.26926pt.
 
-<tex/sections/../../img/det/gen/planes.png, id=220, 341.275pt x 329.23pt>
+<tex/sections/../../img/det/gen/planes.png, id=252, 341.275pt x 329.23pt>
 File: tex/sections/../../img/det/gen/planes.png Graphic file (type png)
 
 <use tex/sections/../../img/det/gen/planes.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/planes.png used on inpu
-t line 232.
+t line 293.
 (pdftex.def)             Requested size: 213.39568pt x 205.86871pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./tex/sections/../../img/baird/beam/040-le-spectra.png> <./tex/sections/..
-/../img/baird/beam/050-me-spectra.png>] [8 <./tex/sections/../../img/det/gen/no
-va_cell.png> <./tex/sections/../../img/det/gen/extru_cross_section.png> <./tex/
-sections/../../img/det/gen/planes.png>]) [9]
+ [9] [10 <./tex/sections/../../img/det/gen/nova_cell.png> <./tex/sections/../..
+/img/det/gen/extru_cross_section.png> <./tex/sections/../../img/det/gen/planes.
+png>]) [11]
 Chapter 4.
-(./tex/sections/energyres.tex) [10
+(./tex/sections/energyres.tex) [12
 
 ] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write9
@@ -1077,29 +1107,38 @@ Chapter 4.
 
 )
 No complaints by nag.
-[11
+[13
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 64D73D66E94D95E5195D83DF4522C7C3;1291.
-Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: A169F67ED180B54E288ED448CD5580BA;76.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+(rerunfilecheck)             Checksum: 7F1C18CDA85D46074A5BCF3630B00BEC;1457.
+
+
+Package rerunfilecheck Warning: File `thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `thesis.brf':
+(rerunfilecheck)             Before: 684C4764EF8586B37EF19B356C478996;76
+(rerunfilecheck)             After:  39272E3E03C9DD2F9EEDC905DC1F12C5;76.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
  ) 
 Here is how much of TeX's memory you used:
- 22322 strings out of 493014
- 438042 string characters out of 6133350
- 544809 words of memory out of 5000000
- 25342 multiletter control sequences out of 15000+600000
- 14044 words of font info for 52 fonts, out of 8000000 for 9000
+ 22343 strings out of 493014
+ 438586 string characters out of 6133350
+ 546809 words of memory out of 5000000
+ 25352 multiletter control sequences out of 15000+600000
+ 14212 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,71p,413b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,71p,555b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1111,11 +1150,12 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (18 pages, 848023 bytes).
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis.pdf (20 pages, 939122 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

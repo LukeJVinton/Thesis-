@@ -109,10 +109,23 @@ In addition, figure~\ref{fig:NuESpectra_MEAndLE_b} shows that at
 Energy Tune produces a narrow energy neutrino beam with approximately
 4 times more neutrinos at 2GeV than the on-axis scenario. This peak at
 2~GeV is well matched to the expected energy of the oscillation
-maximum for electron neutrino appearance.
+maximum. The oscillation maximum for electron neutrino appearance in a
+muon neutrino beam is expected to occur at 1.6~GeV for
+NOvA's L/E and for $\Delta \textrm{m}_{32}^2=2.4~\textrm{meV}^2$.
 
-
-
+As described above, placing the detector off-axis increases the flux
+at the expected oscillation maximum. In addition the narrow energy
+range of the off-axis beam improves the rejection of background
+events. Neutral current events are an important background source
+whose topolgies can be hard to distinguish from electron showers
+produced by $\nu_e$ CC events. For NC events the neutrino carries a
+significant amount of the energy away and the visible energy tends to
+''feed down'' to lower energies. For narrow band off-axis  beam this
+feed down tends to shift the neutral current events to lower energies
+outside the $\nu_e$ appearance signal energy window. Firgure~\ref{fig:NuMIBeamComp}
+shows the number of $\nu_{\mu}$, $\nu_e$ and NC events as a function
+of visible energy, the bulk of the NC events (black histogram) are shown to shift below
+the signal region (red-hatched histogram).
 
 
 \begin{figure}
@@ -139,13 +152,13 @@ maximum for electron neutrino appearance.
   \centering
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{../../img/baird/beam/040-le-spectra.png}
-    \caption{Low energy NuMI tune neutrino energy. \\ }
+    \caption{Low Energy Tune neutrino energy.  }
     \label{fig:NuESpectra_MEAndLE_a}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{../../img/baird/beam/050-me-spectra.png}
-    \caption{Medium energy NuMI tune neutrino energy.}
+    \caption{Medium Energy Tune neutrino energy.}
     \label{fig:NuESpectra_MEAndLE_b}
   \end{subfigure}
   \caption{Charged current $\nu_{\mu}$ event rates vs. neutrino
@@ -156,6 +169,17 @@ maximum for electron neutrino appearance.
 \end{figure}
 
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{../../img/beam/060-sig-and-bg-rates-thumb.png}
+  \caption{Simulated visible energy distributions for $\nu_{\mu}$ CC
+    events with and without oscillations, $\nu_e$ oscillation signal events,
+    intrinsic beam $\nu_e$ events and neutral current events. The
+    simulation assumes an off-axis position of 12~km at 810~km, $\Delta m^2 = 2.5 \times 10^{-3}
+    \textrm{eV}^2$, $\sin^2(2\theta_{23}) = 1.0$ and
+  $\sin^2(2\theta_{13}) = 0.1$.}
+  \label{fig:NuMIBeamComp}
+\end{figure}
 
 
 \subsection{Horn Position}
@@ -177,9 +201,6 @@ $nu_e$ appearance measurements. The
 detectors are designed to distinguish electron and muon neutrino
 charged current events from backgrounds. 
 
-
-\subsection{Detector Construction}
-
 %include all information common among both detectors.
 The near and far NOvA detectors are almost functionally
 identical. Besides
@@ -190,6 +211,42 @@ construction common among both detectors will be discussed in the
 following section. The details specific to the far and near detectors
 will be discussed in Subsections~\ref{sec:fardet} and
 \ref{sec:neardet} respectively.
+
+\subsection{The Basic NOvA Detector Element}
+
+The basic unit of both NOvA detectors is a rectangular rigid PVC cell
+which contains liquid scintillator and a wavelength-shifting (WLS)
+fibre. An illustration of the cell is shown in
+Figure~\ref{fig:cell}. The WLS fibre, which is twice the length of the
+cell, is looped at the bottom of the cell such that the captured light
+travels in two directions to the instrument top end of the cell. At
+the top end of the cell each end of the looped fibre is direced onto
+one pixel of an Avalanche Photo Diode (APD) array. The APD converts
+the light from the WLS to a digital signal.
+
+The NOvA cells are made from highly reflective titanium dioxide loaded
+rigid PVC. The cells have 2 and 4.5~mm thick walls, an interior depth
+of 5.9~cm along the beam direction, an interior width of 3.8~cm
+transverse to the beam direction and an interior length of 15.5~m.
+
+
+\subsection{Liquid Scintillator}
+
+Approximately 70\% of the NOvA detector mass is composed of the liquid
+scintillator within the cells. The composition of the liquid
+scintillator is shown in Figure~\ref{fig:scintComp}. 
+
+In addition 4.1\% pseudocumene as
+the scintillant.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.4\textwidth]{../../../../Screenshots/Screenshot 2016-10-26 16.28.03.png}
+  \caption{Liquid scintillator composition. cite }
+  \label{fig:scintComp}
+\end{figure}
+
+\subsection{Detector Assembly}
 
 %build the detector starting with the cell:
 The NOvA detectors are constructed using extruded PVC tubes. Each PVC

@@ -10,11 +10,13 @@
 \contentsline {chapter}{\numberline {3}The NOvA Experiment}{4}{chapter.3}
 \contentsline {section}{\numberline {3.1}The NuMI Beam}{4}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Off-axis Detectors}{5}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Horn Position}{6}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}The NOvA Detectors}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Detector Construction}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Data Aquisition}{9}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The Far Detector}{9}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}The Near Detector}{9}{subsection.3.2.4}
-\contentsline {chapter}{\numberline {4}Energy Resolution}{10}{chapter.4}
-\contentsline {chapter}{Bibliography}{11}{chapter.4}
+\contentsline {subsection}{\numberline {3.1.2}Horn Position}{8}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}The NOvA Detectors}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The Basic NOvA Detector Element}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Liquid Scintillator}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Detector Assembly}{9}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Data Aquisition}{9}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}The Far Detector}{9}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}The Near Detector}{11}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}Energy Resolution}{12}{chapter.4}
+\contentsline {chapter}{Bibliography}{13}{chapter.4}
