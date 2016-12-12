@@ -1,80 +1,122 @@
 
 %Introduce the NOvA detectors and give big picture overview
-The NOvA experiment (NuMI Off-axis $\nu_e$ Appearance) consists of two
+The NuMI Off-axis $\nu_e$ Appearance (NOvA) experiment consists of two 
 detectors which measure the neutrino composition of the NuMI
 (Neutrinos at the Main Injector) beam. The
 300~ton near detector is located on site at Fermilab 1.015~km 
 from the NuMI
 target. The 14~kiloton far detector is located at a site near Ash
-River Minnesota and is 810km from the
+River, Minnesota and is 810~km from the
 NuMI target. Both detectors are placed off-axis from the centre
 of the NuMI beam by 14.6~mrads.
 
 The original design of the NOvA experiment is laid out in the
-technical design report (TDR) \cite{TDR}. The constructed experiment
-differs only slightly with the design laid out in the TDR. The details
+technical design report (TDR) \cite{TDR} and the constructed experiment
+design differs only slightly. The details
 of the constructed experiment, including the neutrino beam source and
 the two detectors, are discussed in the following chapter.
 
 
 \section{The NuMI Beam}
 
-The NOvA experiment's neutrino source is provided by the Neutrinos at
+The NOvA experiment's neutrino source is the Neutrinos at
 the Main Injector (NuMI) beam at Fermilab. The following section
-describes the process by which the NuMI muon neutrino beam is created.
+briefly describes the process by which the NuMI muon neutrino beam is
+created. More details are available in Ref~\cite{NuMI}.
+
+The NuMI beam-line extracts batches of approximately $4.8 \times
+10^{13}$ 120~GeV protons from the Main
+injector and directs the protons onto a 0.95~m long graphite
+target. This is known as a beam spill. There is typically an
+interval of 1.33~s between beam spills.
 
 An instructive diagram of the NuMI beam facility is presented in
-Figure~\ref{fig:NuMI}.
-The Main Injector accepts six batches, each spanning 10~$\mu$sec, of
-protons at a time and accelerates the protons up to 120~GeV. A 10~$\mu
-s$ pulse of accelerated protons, known as a beam spill, is directed to
-collide with the 95~cm long graphite target every 1.33~s. 
-
-The collision of the accelerated protons with the carbon atoms of the
+Figure~\ref{fig:NuMI}. The Figure shows the beam passing through the 
+Target Hall, Decay Pipe, Hadron Monitor, Absorber and Muon Monitors. 
+Collisions between the accelerated protons and the carbon atoms of the
 target produce a plethora of secondary particles (mostly pions and
-kaons). The charged
-mesons are focused into a beam by two magnetic focussing horns. 
-The focussed beam of charged mesons then travels through a 675~m long
-evacuated decay pipe. Along this length of pipe the mesons decay
-predominantly to charged leptons and neutrinos. 
+kaons). The charged mesons are focused into a beam by two magnetic
+focussing horns. The focussed beam of charged mesons then travels
+into a 675~m long evacuated decay pipe. Along this length the
+mesons decay predominantly to charged leptons and neutrinos. 
 The decay pipe is followed by hadron and muon
-monitors and about 240m of rock. The rock absorbs the remaining charged
-particles in the beam before reaching the near detector.
+monitors and about 240~m of rock. The rock absorbs the remaining
+charged particles leaving a beam of neutrinos. After the rock the beam
+arrives at the NOvA near detector. The beam then continues through the
+Earth's crust for 810~km before reaching the NOvA far detector.
 
-Details of the focussing horns and off-axis detector detector position
-are provided in the following subsections.
+% The Main Injector accepts 12 batches, each spanning a spill window of
+% 10~$\mu$sec, of protons at a time. Each proton is accelerated up to
+% 120~GeV and directed to 
+% %A 10~$\mus$ pulse of 120~GeV protons, known as a beam spill, is
+% %directed to
+% collide with the 95~cm long NuMI graphite target. 
+% There is typically an interval of 1.33~s between each beam spill. 
 
 % NuMI beam figure
-%\begin{figure}[!ht]
 \begin{figure}
   \centering
-  \includegraphics[width=1\textwidth]{../../img/beam/beam_diagram.png}
-  \caption{A diagram showing the layout of the NuMI beam.}
+  \includegraphics[width=1\textwidth]{../../img/beam/beam_diagram.png} 
+  \caption{A diagram showing the layout of the NuMI beam.  }
   \label{fig:NuMI}
 \end{figure}
 
 \subsection{Focussing Horns}
 
-Focussing horns are used to focus the mesons, created by collisions of
-protons with the NuMI target, into a beam. Changing the current
-direction within the magnetic focussing horns changes the sign
-of the mesons that are focussed. The focussing horns are run in
-Forward Horn Current (FHC) or Reverse Horn Current (RHC)
-mode to select positively or negatively charged mesons
-respectively, leading to a neutrino or an anti-neutrino beam respectively. 
+Two magnetic horns are used to focus the mesons created 
+by collisions of protons with the NuMI target into a
+beam. Figure~\ref{fig:horn} shows the NuMI target, Horn~1, Horn~2 and
+example meson trajectories. 
+The Target is placed 1.3~m upstream from the opening of Horn~1 while
+Horn~2 is placed 23~m downstream relative to the front face of Horn~1.
+These are the horn positions used for the NuMI medium energy tune. 
+The horns act as a lens where the focal
+length is proportional to the momentum of the mesons.
+
+Changing the current
+direction within the focussing horns, choosing either forward or
+reverse horn current, changes the direction of
+the magnetic field and therefore the sign
+of the mesons that are focussed. Operating the horns with forward or
+reverse horn current selects positively or negatively charged mesons
+respectively, leading to a predominantly neutrino or antineutrino beam
+respectively. 
+
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{../../img/beam/images_pion_tracks_in_horn.png}  
+  \caption{
+    A diagram of the magnetic focussing horns operating in forward
+    horn current 
+    mode. Positively charged mesons arriving from different directions
+    are focussed by the combination of the two horns. The trajectory of
+    positively charged mesons that are over or under focussed by Horn
+    1 may be corrected by Horn 2. \cite{NuMI}
+  }
+  \label{fig:horn}
+\end{figure}
+
+
+% Energy Tune
+For the NOvA experiment the NuMI target and magnetic horns will be
+setup in the Medium Energy Tune configuration. In this configuration
+Horn 2 is placed 19.2~m downstream of Horn 1.
 
 
 \subsection{Off-axis Detectors}
 
 The NOvA detectors are both placed 14~mrads off the axis of the NuMI
 beam.
-The reasons for placing the detector will be described
+The reasons for placing the detectors at this angle will be described
 in more detail in the following paragraphs. 
 
-The decay used to produce a neutrino beam is a two body decay, where a
+The decay process used to produce a neutrino beam is a two-body decay,
+where a
 pion (or kaon) decays to a neutrino and a muon. The two body decay 
 occurs isotropically in the parent particles rest frame. 
-In the lab frame the parent particle is not at rest when decaying. For
+In the lab frame the parent particle is not at rest when decaying, for
 pion and kaon decay this boosts the neutrinos into a cone in the
 direction of the parent particle.
 For small angles, the flux and energy of neutrinos produced by pion
@@ -90,17 +132,26 @@ E_{\nu} = \dfrac{0.43E_{\pi}}{1+\gamma^2\theta^2},
 \label{eqn:NuPiEnrgy}
 \end{equation}
 
-where $E_{\pi}$ is the energy of the parent pion, $m_{\pi}$ the mass of the
+\noindent where $E_{\pi}$ is the energy of the parent pion, $m_{\pi}$ the mass of the
 parent pion, $\theta$ the angle between the pion and neutrino
 directions and $\gamma = E_{\pi}/m_{\pi}$.
 
-Equations~\ref{eqn:NuPiFlux}~and~\ref{eqn:NuPiEnrgy} and are shown as 
-functions of neutrino energy and off-axis angle in
-Figure~\ref{fig:NuPiFlux}.
+Equations~\ref{eqn:NuPiFlux}~and~\ref{eqn:NuPiEnrgy} are shown as 
+functions of neutrino energy and off-axis angle for the Medium Energy
+Tune in Figure~\ref{fig:NuPiFlux}. The Figures show the relationship
+between the neutrino flux and energy with the parent pion energy for
+four off-axis angles ($\theta = 21~\text{mrads}$, $\theta =
+14~\text{mrads}$, $\theta = 7~\text{mrads}$ and $\theta =
+0~\text{mrads}$). 
+
 Figure~\ref{fig:NuESpectra_MEAndLE} shows the number of neutrino
 events as a function of the
-charged current $\nu_{\mu}$ energy for the Low (left plot) and
-Medium (right plot) Energy Tune for various off-axis angles. 
+charged current $\nu_{\mu}$ energy for the Low
+(Figure~\ref{fig:NuESpectra_MEAndLE_a}) and 
+Medium (Figure~\ref{fig:NuESpectra_MEAndLE_b}) Energy Tune for various
+off-axis angles. The plot shows that as the off-axis angle is
+increased the mean and width of the energy distribution decreases.
+
 
 For the Medium Energy Tune, figure~\ref{fig:NuPiFluxb} shows that at
 14~mrad the neutrino energy
@@ -108,25 +159,27 @@ does not have a strong dependence on the parent pion energy.
 In addition, figure~\ref{fig:NuESpectra_MEAndLE_b} shows that at
 14~mrad the Medium
 Energy Tune produces a narrow energy neutrino beam with approximately
-4 times more neutrinos at 2GeV than the on-axis scenario. This peak at
+4 times more neutrinos at 2~GeV than the on-axis scenario. This peak at
 2~GeV is well matched to the expected energy of the oscillation
 maximum. The oscillation maximum for electron neutrino appearance in a
 muon neutrino beam is expected to occur at 1.6~GeV for
 NOvA's L/E and for $\Delta \textrm{m}_{32}^2=2.4~\textrm{meV}^2$.
 
 As described above, placing the detector off-axis increases the flux
-at the expected oscillation maximum. In addition the narrow energy
+at the expected oscillation maximum. In addition, the narrow energy
 range of the off-axis beam improves the rejection of background
 events. Neutral current events are an important background source
 whose topologies can be hard to distinguish from electron showers
-produced by $\nu_e$ CC events. For NC events the neutrino carries a
-significant amount of the energy away and the visible energy tends to
-''feed down'' to lower energies. For narrow band off-axis  beam this
-feed down tends to shift the neutral current events to lower energies
-outside the $\nu_e$ appearance signal energy window. Figure~\ref{fig:NuMIBeamComp}
-shows the number of $\nu_{\mu}$, $\nu_e$ and NC events as a function
-of visible energy, the bulk of the NC events (black histogram) are shown to shift below
-the signal region (red-hatched histogram).
+produced by $\nu_e$ charged current events. For neutral current events, the neutrino carries a
+significant amount of the energy away and the energy visible within
+the detector tends to
+``feed down'' to lower energies. For a narrow band off-axis beam, this
+feed down tends to shift the neutral current events towards lower energies
+outside the $\nu_e$ appearance signal energy
+window. Figure~\ref{fig:NuMIBeamComp} 
+shows the number of $\nu_{\mu}$, $\nu_e$ and neutral current events as a function
+of visible energy. The bulk of the neutral current events (black histogram) are
+shown to shift below the signal region (red-hatched histogram).
 
 
 \begin{figure}
@@ -142,8 +195,9 @@ the signal region (red-hatched histogram).
   \caption{Neutrino energy vs. pion energy.}
   \label{fig:NuPiFluxb}
   \end{subfigure}
-  \caption{The above distributions are as viewed from a site located
-    800km from the NuMI target and off-axis by an angle $\theta$.}
+  \caption{The above distributions are for the medium energy tune NuMI
+    beam as viewed from a site located
+    800km from the NuMI target and off-axis by an angle $\theta$. }
   \label{fig:NuPiFlux}
 \end{figure}
 
@@ -173,7 +227,7 @@ the signal region (red-hatched histogram).
 \begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{../../img/beam/060-sig-and-bg-rates-thumb.png}
-  \caption{Simulated visible energy distributions for $\nu_{\mu}$ CC
+  \caption{Simulated visible energy distributions for $\nu_{\mu}$ charged current
     events with and without oscillations, $\nu_e$ oscillation signal events,
     intrinsic beam $\nu_e$ events and neutral current events. The
     simulation assumes an off-axis position of 12~km at 810~km, $\Delta m^2 = 2.5 \times 10^{-3}
@@ -185,96 +239,170 @@ the signal region (red-hatched histogram).
 
 \section{The NOvA Detectors}
 
-The NOvA experiment uses a near and far detector to measure neutrino
-oscillations. The near detector is used to measure the un-oscillated
-neutrino energy spectrum and the electron neutrino component of the
-beam. The un-oscillated neutrino energy spectrum measured by the near
-detector is extrapolated to the far detector (\textcolor{red}{need to
-  discuss further in a future chapter}). The far detectors purpose is
-to measure the energy spectrum of the beam neutrinos for comparison
-with the extrapolated near detector energy spectrum.
+% The NOvA experiment uses the NuMI beam, a near detector and a far
+% detector to measure neutrino oscillation parameters. 
+% The spectrum and composition of the NuMI beam is measured by both the
+% near and far detectors. The near detector spectrum is extrapolated and
+% compared with the far detector spectrum.
 
-The NOvA experiment aims to perform both $\nu{\mu}$ disappearance and
-$nu_e$ appearance measurements. The
-detectors are designed to distinguish electron and muon neutrino
-charged current events from backgrounds. 
+% The near detector is used to measure the un-oscillated
+% neutrino energy spectrum and the electron neutrino component of the
+% beam. The un-oscillated neutrino energy spectrum measured by the near
+% detector is extrapolated to the far detector. The far detectors purpose is
+% to measure the energy spectrum of the beam neutrinos for comparison
+% with the extrapolated near detector energy spectrum.
+
+
+The NOvA collaboration performs measurements of both $\nu_{\mu}$
+disappearance and $\nu_e$ appearance and the NOvA detectors are
+designed to be able to identify the muons and electrons produced in
+charged-current neutrino interactions. 
+The $\nu_e$ appearance
+analysis has the potential to be overrun with neutral current
+background events, 
+as a large potential background comes from $\pi^0$s produced in
+neutral current 
+events which can fake an electron shower.
+The NOvA detectors are constructed from low Z materials (primarily
+carbon) to aid in the distinction between neutrino interaction
+signatures and the potentially troublesome background events.
+The constructed detectors have a Moliere radius~\cite{pdg} of
+approximately 11~cm which is equivalent to the depth (width) of two
+(three) NOvA cells.  
 
 %include all information common among both detectors.
+A diagram of the two detectors
+is shown in Figure~\ref{fig:bothDets}. 
 The near and far NOvA detectors are almost functionally
 identical. Besides
-the different masses there are a few physical
-differences. The near detector has a so called ``muon catcher'', has a
-higher rate of readout and uses slightly different APDs. The
+the different masses, there are a few physical
+differences designed considering the proximity to the NuMI beam and
+the depth of the detector relative to ground level. 
+The smaller near detector has a so called ``muon catcher'' and
+has a higher rate of readout. 
+Whilst the far detector is constructed with an overburden to mitigate
+the cosmic ray background.
+The
 construction common among both detectors will be discussed in the
-following section. The details specific to the far and near detectors
-will be discussed in Subsections~\ref{sec:fardet} and
+following sub-sections. The details specific to the far and near detectors
+will be discussed in sub-sections~\ref{sec:fardet} and
 \ref{sec:neardet} respectively.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{../../img/det/gen/both_detectors.png} 
+  \caption{
+    Scaled depiction of the near and far NOvA
+    detectors with respect to the average person.
+    The alternating alignment of the NOvA
+    cells is shown by the inset. }
+  \label{fig:bothDets}
+\end{figure} 
+
 
 \subsection{The Basic NOvA Detector Element} \label{sec:cell}
 
-The basic unit of both NOvA detectors is a rectangular rigid PVC cell
-which contains liquid scintillator and a wavelength-shifting (WLS)
-fibre. An illustration of the cell is shown in
-Figure~\ref{fig:cell}. The WLS fibre, which is twice the length of the
+The basic unit of the NOvA detectors is a rectangular rigid PVC
+(Polyvinyl chloride) cell
+which contains liquid scintillator and a wavelength-shifting
+fibre. % An illustration of the NOvA cell is shown in
+% Figure~\ref{fig:cell}. 
+Figure~\ref{fig:cell} shows the NOvA cell, looped wavelength-shifting
+fibre and an example charged particle .
+The wavelength-shifting fibre, which is twice
+the length of the 
 cell, is looped at the bottom of the cell such that the captured light
-travels in two directions to the instrument top end of the cell. At
-the top end of the cell each end of the looped fibre is directed onto
-one pixel of an Avalanche Photo Diode (APD) array. The APD converts
-the light from the fibre to a digital signal.
+travels in two directions to the instrumented top end of the cell. 
+Each end of the looped fibre is directed onto one pixel of an
+Avalanche Photo Diode (APD) array.
+The APD converts the light from the fibre into a digital signal.
+% At
+% the top end of the cell each end of the looped fibre is directed onto
+% one pixel of an Avalanche Photo Diode (APD) array.
+
 
 The NOvA cells are made from highly reflective titanium dioxide loaded
-rigid PVC. The cells have 2 and 4.5~mm thick walls, an interior depth
-of 5.9~cm along the beam direction, an interior width of 3.8~cm
-transverse to the beam direction and an interior length of 15.5~m.
+rigid PVC. The cells have 2 to 4.5~mm thick walls, an interior depth
+of 5.9~cm along the beam direction and an interior width of 3.8~cm
+transverse to the beam direction. The thickness of the cell walls
+varies due to structural considerations.
+The length of the cells differs
+between the two detectors, the far detector cells have a length of
+15.5~m whilst the near detector cells are 3.6~m long.
 
 
 \subsection{Liquid Scintillator}
 
-Approximately 70\% of the NOvA detector mass is composed of the liquid
-scintillator within the cells. The composition of the liquid
-scintillator is shown in Figure~\ref{fig:scintComp}. The scintillator
-is composed mainly of mineral oil along with 4.1\% pseudocumene as the
-scintillant. The scintillant emits scintillation light with a spectrum
-peaked between 360 - 390~nm. Wavelength shifting chemical
-additives PPE and bis\_MSB are added to shift the initial light
-spectrum to 400 - 450~nm to match the absorption spectra of the WLS
-fibre. 
+Approximately 65\% of the NOvA detector mass is composed of the liquid
+scintillator held within the cells. The composition of the liquid
+scintillator is shown in Table~\ref{tab:scintComp}, which shows that
+the scintillator is composed mainly of mineral oil along with 5.23\%
+pseudocumene as the scintillant. The scintillant emits scintillation
+light with a spectrum peaked between 360~-~390~nm. Wavelength shifting
+chemical additives PPE and bis\_MSB are added to shift the initial
+light spectrum to 400~-~450~nm to match the absorption spectra of the
+wavelength-shifting fibre. 
 
-\begin{figure}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{../../img/det/gen/ScintCompTable.png}
+%   \caption{Liquid scintillator composition. Table taken from \cite{scintillatorComp}. }
+%   \label{fig:scintComp}
+% \end{figure}
+
+\begin{table}
   \centering
-  \includegraphics[width=0.8\textwidth]{../../img/det/gen/ScintCompTable.png}
-  \caption{Liquid scintillator composition. Table taken from \cite{scintillatorComp}. }
-  \label{fig:scintComp}
-\end{figure}
+  %\begin{tabular}{| l | l | l |}
+  \begin{tabular}{ l | l | l }
+    %\hline
+    Component & Purpose & Mass fraction \% \\ \hline
+    mineral oil & solvent & 94.63 \\
+    pseudocumene & scintillant & 5.23 \\
+    PPO & waveshifter & 0.14 \\
+    bis-MSB & waveshifter & 0.0016 \\
+    stadis-425 & anti-static agent & 0.0010 \\
+    tocopherol & antioxidant & 0.0010 \\
+    %\hline
+  \end{tabular}
+  \caption{Liquid scintillator
+    composition. \cite{scintillatorComp} }
+  \label{tab:scintComp}
+\end{table}
 
 
 \subsection{Wavelength Shifting Fibre}
-The WLS fibre has a diameter of 0.7~mm and a core of polystyrene mixed
-with 300~ppm R27 dye as the wave shifter. The fibre has two coatings
-of materials with a lower refractive index than the core which
-facilitates total internal reflection within the fibre. The fibre is
-first coated with a thin acrylic layer of PMMA and second with
-fluor-acrylic. These coatings make up about 3\% of the fibre
-diameter. 
+The wavelength-shifting fibre has a diameter of 0.7~mm and a core of
+polystyrene mixed with R27 dye (as the wavelength shifter) at a
+concentration of 300~ppm. The fibre has two
+coatings (contributing about 3\% of the fibre diameter) of materials
+with a lower refractive index than the core
+which facilitates total internal reflection within the fibre. The
+fibre is first coated with a thin acrylic layer of PMMA and second
+with fluor-acrylic. 
 
-The 400 - 450~nm light emitted by the scintillator is absorbed by the
-fibre and wavelength shifted to green light (490 - 550~nm). 
+The 400~-~450~nm light emitted by the liquid scintillator is absorbed
+by the fibre and then wavelength shifted to 490~-~550~nm. 
 As light travels down the fibre it is attenuated, by a factor of about
-10 in the FD, with red light (520 - 550~nm) preferentially
-surviving. 
+10 in the far detector, with light in the range 520~-~550~nm
+preferentially surviving. 
 
 
 \subsection{Avalanche Photo Diode}
 
 The light exiting the fibre ends is detected by an Avalanche
-Photodiode (APD), see Figure~\ref{fig:apd}. An APD contains an array
-of 32 pixels, each pixel is interfaced with both ends of a single WLS
-fibre. The NOvA APD has an 85\% quantum efficiency for the red light (520 -
-550~nm) exiting the fibre ends. 
-The thermal noise generated by each APD is reduced by thermo-electric
-coolers which cool the APDs to -15$^o$C. The excess heat is removed by
-a water cooling system.
+Photodiode (APD) and converted into an
+electronic signal pulse. 
+Figure~\ref{fig:apd} shows a photograph of a NOvA APD
+and the array
+of 32 pixels. Each pixel is interfaced with both ends of a single
+wavelength-shifting fibre. Each APD is connected to a front end board
+that prepares the signals from the APD for the data acquisition
+system. 
 
+The NOvA APD was chosen because it has an 85\% quantum efficiency for
+the 520~-~550~nm light exiting the fibre ends. 
+The thermal noise generated by each APD is reduced by thermo-electric
+coolers which cool the APDs to -15$^o$C. 
 
 
 \begin{figure}
@@ -285,10 +413,44 @@ a water cooling system.
 \end{figure}
 
 
-\subsection{Front End Board}
 
-A front end board (FEB) is connected to each APD. The
-signals from each APD are continously read out by the FEBs.
+
+
+\subsection{Data Acquisition System}
+
+%intro
+NOvA's data acquisition system continuously reads out all
+the information from the APDs. The information is temporarily stored
+in a buffer farm and awaits a decision as to whether it should be
+permanently recorded or rejected. The decision can be made by either
+online triggering algorithms or by receiving a trigger signal from an
+external source. The NuMI beam spill signal is an example of an
+external source trigger.
+
+
+%FEB
+Each APD is continuously readout by an front end board, which handles the pedestal
+subtraction and
+pulse shaping for each signal from the APD. The pedestals are
+determined for each APD pixel by measuring the baseline noise level.
+The signal pulses are shaped with a characteristic rise and fall
+time. When a signal is triggered the signal sample is read out along
+with the three immediately preceding samples in a process called
+``multi-point readout''. Once the data is permanently recorded, the
+known pulse shaping 
+parameters are used to fit the four samples and provide more
+precise timing resolution. 
+
+%FEB to DCM
+The front end board transmits the digitised data to a data
+concentrator module, which can take inputs from up to 64 front end
+boards. 
+%DCM to buffer node
+Each data concentrator module collects all the information from the connected front end boards during a
+50~$\mu s$ window (``microslice''). 
+This data packet is then sent to and stored in the buffer farm
+until online trigger processes decide whether to recored or reject the
+data. 
 
 
 \subsection{Detector Assembly} \label{sec:detAssembly}
@@ -296,10 +458,15 @@ signals from each APD are continously read out by the FEBs.
 %build the detector starting with the cell:
 The NOvA detectors are constructed from the cells described
 in Section~\ref{sec:cell}. 16 cells are extruded together in one unit
-to form an extrusion as shown in Figure~\ref{fig:extrusion}. 
-
+to form an extrusion.
+Figure~\ref{fig:extrusion} shows the end-on view of an extrusion with
+a width of 63.5~cm and depth of 6.6~cm. 
 Two extrusions are placed side by side to form an extrusion module
-consisting of 32 cells as shown in Figure~\ref{fig:module}. The
+consisting of 32 cells.
+Figure~\ref{fig:module} shows an extrusion module consisting of
+32~cells, end plate, side seal, manifold cover, snout and
+electronics box.
+The
 module ends are capped by the end plate so that the modules can
 contain the liquid scintillator. The other end is capped by a manifold
 cover which contains the liquid scintillator in the horizontal cells
@@ -308,33 +475,57 @@ APD.
 
 Flat planes of cells are constructed from multiple modules glued
 together side by side. 
-The planes layered with alternating orthogonal
+Figure~\ref{fig:stackedPlanes} shows a cross-section of multiple plane
+layers and the alternating orthogonal cell orientation.
+The planes are layered with alternating orthogonal
 orientations, such that the orientation of the cells making up the
-plain alternate between horizontal and vertical from plane to plane (see
-Figure~\ref{fig:stackedPlanes}). The orthogonal
+plain alternate between horizontal and vertical from plane to
+plane. The orthogonal 
 orientation of the planes allows for three dimensional reconstruction
 of tracks passing through multiple planes. Planes are glued together
 in the orthogonal arrangement described above to form one solid
 detector piece called a block, consisting of 32 or 24 planes in the
 far detector or near detector respectively.
 
-%image of cell
+
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\textwidth]{../../img/det/gen/nova_cell.png}
-  \caption{A NOvA cell consisting of an extruded
-    PVC tube filled with liquid scintillator and a looped WLS fibre.}
-  \label{fig:cell}
+  \begin{minipage}{.45\textwidth}
+    \centering
+    \includegraphics[height=0.4\textheight]{../../img/det/gen/nova_cell.png}
+    \captionof{figure}{A NOvA cell consisting of an extruded
+      PVC tube filled with liquid scintillator and a looped wavelength-shifting fibre.}
+    \label{fig:cell}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}{.45\textwidth}
+    \centering
+    \includegraphics[height=0.4\textheight]{../../img/baird/det/extru_cross_section.png}
+    \captionof{figure}{A side on view of an extrusion constructed from
+      16 NOvA cells.\\}
+    \label{fig:extrusion}
+  \end{minipage}
 \end{figure}
 
 
- %extrusion
-\begin{figure}
-  \centering
-  \includegraphics[width=0.5\textwidth]{../../img/det/gen/extru_cross_section.png}
-  \caption{A side on view of an extrusion constructed from16 cells.}
-  \label{fig:extrusion}
-\end{figure}
+
+
+% %image of cell
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{../../img/det/gen/nova_cell.png}
+%   \caption{A NOvA cell consisting of an extruded
+%     PVC tube filled with liquid scintillator and a looped wavelength-shifting fibre.}
+%   \label{fig:cell}
+% \end{figure}
+
+%  %extrusion
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.5\textwidth]{../../img/det/gen/extru_cross_section.png}
+%   \caption{A side on view of an extrusion constructed from16 cells.}
+%   \label{fig:extrusion}
+% \end{figure}
 
  %module
 \begin{figure}
@@ -355,28 +546,10 @@ far detector or near detector respectively.
 \end{figure}
 
 
-\section{Data Acquisition System}
-
-NOvA's readout and data acquisition system (DAQ) are designed to
-concentrate data from all the channels into one stream to be analysed
-and stored.
-Data is stored in an intermediate location while online trigger
-processors analyse whether to record or reject the data.
-
-
-
-% The data acquisition system (DAQ) starts with the from end boards
-% (FEBs) that attach to each APD. 
-
-
-
-%Explain digitisation via single and multi point readout.
-
-
 \subsection{The Far Detector}\label{sec:fardet}
 
-The 14~kt far detector is located 810~km from the NuMI target,
-approximately 10~m below the surface and at an elevation of 372~m
+The 14~kiloton far detector is located 810~km from the NuMI target,
+approximately 10~m below ground level and at an elevation of 372~m
 above sea-level. The neutrino beam enters the
 detector travelling at an angle of 3$^o$ upwards. The detector is
 constructed, as described in Section~\ref{sec:detAssembly}, from
@@ -385,22 +558,22 @@ direction. The detector mass is approximately 65\% liquid scintillator
 and 35\% PVC.
 
 As described above, the far detector is built on the surface above sea
-level which means that cosmic rays will be a major source of
+level so cosmic rays will be a major source of
 background events. The background due to cosmic rays is mitigated
 using selection cuts and a shielding overburden above the detector.
 For the $\nu_{\mu}$ disappearance analysis the background is primarily
-due cosmic ray muons which are removed using cuts. For the $\nu_e$
-appearance analysis the background is primariy cosmic ray photons
+due to cosmic ray muons which are almost entirely removed using cuts. For
+the $\nu_e$
+appearance analysis, the background is primary cosmic ray photons
 whose interactions within the detector can be mistaken for an electron
 shower. 
-
-During a six year run the FD without overburden shielding will see
+During a six year run the far detector without overburden shielding will see
 approximately 1600 background events due to cosmic ray photons. In
 order to reduce this background source to less than one event requires
 approximately 9 radiation lengths of material above the detector
-surface. Additional radiation lengths are desirable to contain any
+surface. Additional radiation lengths will then help to contain any
 showers caused by interactions within the overburden. With this in
-mind the far detector building was constructed with a 122~cm thick
+mind, the far detector building was constructed with a 122~cm thick
 concrete enclosure which supports a 15~cm thick overburden of
 barite. Together, the concrete enclosure and barite overburden provide
 12 radiation lengths of shielding.
@@ -410,37 +583,50 @@ barite. Together, the concrete enclosure and barite overburden provide
 \subsection{The Near Detector}\label{sec:neardet}
 
 The NOvA near detector is located on site at Fermilab next to the
-MINOS Hall as shown in Figure~\ref{fig:cavern}. The detector is 105~m
-underground and 1.015~km from the NuMI target. The detector therefore
-sees a higher flux of NuMI neutrino events and a lower flux of cosmic
-rays than the far detector.
+MINOS Hall. Figure~\ref{fig:cavern} is a diagram of the MINOS Hall
+area showing the MINOS Shaft, NuMI beam-line, MINOS Hall, NuMI
+Beam-line, 14.6~mrad off-axis beam and the NOvA Near Detector cavern. 
+The near detector is 105~m
+underground and 1.015~km from the NuMI target. The near detector
+therefore sees a higher flux of NuMI neutrino events and a lower flux
+of cosmic rays than the far detector.
 The neutrino beam enters the detector travelling downwards at an angle
-of 3$^o$ downwards. 
-A diagram of the near detector is shown in Figure~\ref{fig:neardet}.
+of 3$^o$. 
+
+A diagram of the near detector is shown in
+Figure~\ref{fig:neardet}. The Figure shows the NOvA Near Detector
+cavern, access catwalks, and the fully active detector and muon catcher
+detector sections.
 The detector is constructed in a similar fashion to the far detector
-from 20,192 cells arranged in 214 planes, each plane is comprised of 3
+with 20,192 cells arranged in 214 planes, each plane is comprised of 3
 modules (except in the muon catcher). The detector has a width and
-height of 4.2~m and a length of 15.8~m. The near detector is
+height (except in the muon catcher) of 4.2~m and a length of
+15.8~m. The near detector is
 functionally equivalent to the far detector with the exception of two
 distinguishing features.
 
-First, a muon catcher is employed at the downstream end of the near
-detector. 
-The muon catcher is constructed from layers of steel planes and
-planes of liquid scintillator cells. The steel planes are 10~cm
-thick and are seperated by pairs of horizontal and vertically aligned
-planes of liquid scintillator cells. The vertical planes consist of
+First, a muon catcher is placed at the downstream end of the near
+detector in order to help range out muons
+from few GeV charged current $\nu_{\mu}$ interactions which would not
+otherwise stop within the detector.
+The muon catcher is constructed from layers of steel and liquid
+scintillator planes. The steel planes are 10~cm
+thick and are separated by 
+two (one horizontal and one vertically aligned) scintillator planes.
+The vertical planes consist of
 three modules while the horizontal planes are made from just two
-modules. Therefore the sets of steel and scintillator planes are
+modules. Therefore, the sets of steel and scintillator planes are
 three modules wide (the same as the rest of the detector) but only
 two modules high. Ten of these steel and
 liquid scintillator plane sets are stacked to form the muon
 catcher. The downstream end of the muon catcher has an additional 3
-liquid scintillator planes. The muon catcher is added to the
-downstream end of the near detector in order to help range out muons
-from few GeV charged current $\nu_{\mu}$ interactions.
+liquid scintillator planes.
+% The muon catcher is added to the
+% downstream end of the near detector in order to help range out muons
+% from few GeV charged current $\nu_{\mu}$ interactions.
 
 Second, the near detector electronics are setup to sample each channel
+(APD pixel)
 four times more frequently (every 125~ns) than in the far 
 detector to help handle the data pileup. 
 The near detector sees approximately 5-10 neutrino interactions per
@@ -448,7 +634,7 @@ beam spill (10 $\mu s$ window) while the far detector sees
 approximately 60-70 cosmic rays per 550 $\mu s$ window spread out over
 approximately 17 times more channels. The faster sampling rate
 improves the timing resolution of hits in the detector. With better
-timing resolution pileup events are more easily distinguished from one
+timing resolution, pileup events are more easily distinguished from one
 another. 
 
 
@@ -458,7 +644,7 @@ another.
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{../../img/baird/det/neardet_cavern_diagram.png}
-  \caption{Bird's-eye view of NuMI Beamline, NOvA near detector cavern
+  \caption{Bird's-eye view of the NuMI Beam-line, NOvA near detector cavern
     and the MINOS Hall. }
   \label{fig:cavern}
 \end{figure}

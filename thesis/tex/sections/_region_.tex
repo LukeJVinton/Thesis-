@@ -1,42 +1,40 @@
-\message{ !name(detectors.tex)}
-\message{ !name(detectors.tex) !offset(-2) }
-%Introduce the NOvA detectors
+\message{ !name(energyres.tex)}
+\message{ !name(energyres.tex) !offset(34) }
 
-The original design of the NOvA experiment is laid out in the technical
-design report (TDR) \cite{TDR}. The constructed experiment
-differs only slightly with the vision laid out in the TDR.
-
-\section{The NuMI Beam}
-
-The NOvA experiment's neutrino source is provided by the Neutrinos at
-the Main Injector (NuMI) beam at Fermilab.
-
-%Paragraph in notes form. Revisit!
-The produce of the NuMI beam is presented in Figure~\ref{fig:NuMI}.
-Protons accelerated up to 120~GeV by the Main Injector. Six batches,
-each spanning 10~$\mu sec$. The protons are directed to collide with a
-graphite target to create mesons, mostly pions some kaons. 
-The mesons
-decay producing predominantly muon neutrinos and muons. rock absorber
-used to get rid of muons. left with clean beam of muon neutrinos with a
-small electron neutrino background.
-
-The focussing horns are used to create a beam of predominantly muon
-neutrino or muon anti-neutrino.
-
-% NuMI beam figure
-\begin{figure}[!ht]
+\begin{table*}[t]
   \centering
-  \includegraphics[width=1\textwidth]{../../img/beam/beam_diagram.png}
-  \caption{A diagram showing the layout of the NuMI beam}
-  \label{fig:NuMI}
-\end{figure}
-
-
-
-
-
-\section{The Near Detector}
-
-\section{The Far Detector}
-\message{ !name(detectors.tex) !offset(-42) }
+  \caption{
+    All improvs syst. table
+  }
+  \begin{tabular}{c c c}
+    \hline 
+    \multirow{2}{*}{Source of uncertainty} & Uncertainty in & Uncertainty in \\
+                                           & $\sin^2\!\theta_{23} (\times 10^{-3})$ & $\Delta m^2_{32} \left(10^{-6}\text{ eV}^{2}\right)$ \\
+    \hline 
+    norm& +0.03 / -0.03& +0.04 / -0.04 \\
+    relNorm& +5 / -6 & +4 / -4 \\
+    numuNCScale& +2 / -2& +4 / -4 \\
+    TransportPlusNA49& +1 / -1& +5 / -2 \\
+    mecScale& +1 / -1& +10 / -11 \\
+    RPA& +0.6 / -0.0 & +6 / -0 \\
+    SAMuEScale& +3 / -2& +20 / -20 \\
+    FDSAMuEScale& +4 / -3& +8 / -6 \\
+    SACalibXY& +1 / -3& +21 / -15 \\
+    SACalibYFunc& +1 / -1& +8 / -8 \\
+    SABirks& +0.3 / -0.3& +13 / -14 \\
+    SARelHadE& +4 / -4& +7 / -10 \\
+    numuSumSmallGENIE& +0.3 / -0.3& +1 / -1 \\
+    MaNCEL& +0.01 / -0.01& +0.07 / -0.03 \\
+    NormCCQE& +0.96 / -0.80& +3.3 / -2.8 \\
+    MaCCQEshape& +0.51 / -0.54& +2.2 / -2.0 \\
+    MaCCRES& +0.67 / -0.74& +15 / -13 \\
+    MvCCRES& +0.55 / -0.29& +9.3 / -8.3 \\
+    MaNCRES& +0.24 / -0.17& +0.82 / -0.65 \\
+    MvNCRES& +0.057 / -0.047& +0.21 / -0.18 \\
+    CCQEPauliSupViaKF& +0.50 / -0.65& +2.6 / -2.3 \\
+    normalizations& +5.3 / -5.7& +4.6 / -4.4 \\
+    \hline 
+  \end{tabular}
+  \label{tab:systShifts}
+\end{table*}
+\message{ !name(energyres.tex) !offset(-40) }

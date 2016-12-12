@@ -63,6 +63,10 @@
 %\usepackage{tikz-3dplot}
 \usepackage{cancel}
 \usetikzlibrary{decorations.markings,calc,shapes,arrows}
+\usepackage[utf8]{inputenc}
+%\usepackage[]{tikz-feynman}
+\usepackage{feynmp}
+% \usepackage{feynmp-auto} 
 
 \newcommand{\Width}{1.5}
 \newcommand{\Height}{2.5}
@@ -172,12 +176,12 @@
 %%	(v) the month and year of submission.
 \thispagestyle{empty}
 \begin{flushright}
-%\includegraphics[width=6cm]{figures/uslogo.pdf}
+\includegraphics[width=6cm]{img/uslogo.pdf}
 \end{flushright}	
 \vskip40mm
 \begin{center}
 % TITLE
-\huge\textbf{Measuring muon neutrino disappearance with the NOvA experiment}
+\huge\textbf{Measuring Muon Neutrino Disappearance With The NOvA Experiment}
 \vskip2mm
 %% SUBTITLE (optional)
 %\LARGE\textit{How it all works}
@@ -186,62 +190,63 @@
 \Large\textbf{Luke Vinton}
 \normalsize
 \end{center}
-%\vfill
-%\begin{flushleft}
-%\large
-%% QUALIFICATION
-%Submitted for the degree of Doctor of Philosophy \\
-%University of Sussex	\\
-%% DATE OF SUBMISSION
-%March 2013
-%\end{flushleft}		
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DECLARATIONS
-\chapter*{Declaration}
-I hereby declare that this thesis has not been and will not be submitted in whole or in part to another University for the award of any
-other degree.
-	
-% ADDITIONAL DECLARATIONS HERE (IF ANY)
-
-\vskip5mm
-Signature:
-\vskip20mm
-% AUTHOR
-Luke Vinton
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% SUMMARY PAGE
-\thispagestyle{empty}
-\newpage
-\null\vskip10mm
-\begin{center}
+\vfill
+\begin{flushleft}
 \large
-\underline{UNIVERSITY OF SUSSEX}
-\vskip20mm
-% AUTHOR, QUALIFICATION
-\textsc{Luke Vinton, Doctor of Philosophy}
-\vskip20mm
-% TITLE
-\underline{\textsc{Measuring muon neutrino disappearance with the NOvA
-    experiment}}
-\vskip0mm
-% SUBTITLE (optional)
-%\underline{\textsc{How it all works}}
-\vskip20mm
-\underline{\textsc{Summary}}
-\vskip2mm
-\end{center}
-% Change line spacing
-\renewcommand{\baselinestretch}{1.0}
-\small\normalsize
+%% QUALIFICATION
+Submitted for the degree of Doctor of Philosophy \\
+University of Sussex	\\
+%% DATE OF SUBMISSION
+\today
+%March 2013
+\end{flushleft}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % DECLARATIONS
+% \chapter*{Declaration}
+% I hereby declare that this thesis has not been and will not be submitted in whole or in part to another University for the award of any
+% other degree.
+	
+% % ADDITIONAL DECLARATIONS HERE (IF ANY)
+
+% \vskip5mm
+% Signature:
+% \vskip20mm
+% % AUTHOR
+% Luke Vinton
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % SUMMARY PAGE
+% \thispagestyle{empty}
+% \newpage
+% \null\vskip10mm
+% \begin{center}
+% \large
+% \underline{UNIVERSITY OF SUSSEX}
+% \vskip20mm
+% % AUTHOR, QUALIFICATION
+% \textsc{Luke Vinton, Doctor of Philosophy}
+% \vskip20mm
+% % TITLE
+% \underline{\textsc{Measuring muon neutrino disappearance with the NOvA
+%     experiment}}
+% \vskip0mm
+% % SUBTITLE (optional)
+% %\underline{\textsc{How it all works}}
+% \vskip20mm
+% \underline{\textsc{Summary}}
+% \vskip2mm
+% \end{center}
+% % Change line spacing
+% \renewcommand{\baselinestretch}{1.0}
+% \small\normalsize
 
 
-Abstract
+% Abstract
 
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -249,9 +254,9 @@ Abstract
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ACKNOWLEDGEMENTS
-\chapter*{Acknowledgements}
-\renewcommand{\baselinestretch}{\linespacing}
-\small\normalsize
+% \chapter*{Acknowledgements}
+% \renewcommand{\baselinestretch}{\linespacing}
+% \small\normalsize
 
 % ACKNOWLEDGEMENTS HERE:
 %
@@ -260,15 +265,15 @@ Abstract
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TABLE OF CONTENTS, LISTS OF TABLES & FIGURES
-\newpage
-\pdfbookmark[0]{Contents}{contents_bookmark}
-\tableofcontents
-\listoftables
-%\phantomsection
-\addcontentsline{toc}{chapter}{List of Tables}
-\listoffigures
-%\phantomsection
-\addcontentsline{toc}{chapter}{List of Figures}
+% \newpage
+% \pdfbookmark[0]{Contents}{contents_bookmark}
+% \tableofcontents
+% \listoftables
+% %\phantomsection
+% \addcontentsline{toc}{chapter}{List of Tables}
+% \listoffigures
+% %\phantomsection
+% \addcontentsline{toc}{chapter}{List of Figures}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
@@ -277,11 +282,16 @@ Abstract
 \newpage
 \pagenumbering{arabic}
 
+
+
 \chapter{Introduction}
+\import{tex/introduction.tex}
+
+% \chapter{The Standard Model}
+% \import{tex/sections/}{theory.tex}
 
 \chapter{Neutrino Physics}
-\import{tex/sections/}{theory.tex}
-
+\import{tex/sections/}{NeutrinoPhysics.tex}
 \chapter{The NOvA Experiment}
 \import{tex/sections/}{detectors.tex}
 
@@ -294,7 +304,8 @@ Abstract
 \clearpage
 %\phantomsection
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliographystyle{plain}
+%\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 \bibliography{tex/sections/bibliography} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -302,10 +313,3 @@ Abstract
 % END DOCUMENT
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
-

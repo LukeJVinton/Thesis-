@@ -2,12 +2,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A diagram showing the layout of the NuMI beam.\relax }}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The above distributions are as viewed from a site located 800km from the NuMI target and off-axis by an angle $\theta $.\relax }}{6}{figure.caption.7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Charged current $\nu _{\mu }$ event rates vs. neutrino energy in the absense of oscillations. The distributions are found for a detector which is 800~km from the NuMI target and for various off-axis angles.\relax }}{7}{figure.caption.8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Simulated visible energy distributions for $\nu _{\mu }$ CC events with and without oscillations, $\nu _e$ oscillation signal events, intrinsic beam $\nu _e$ events and neutral current events. The simulation assumes an off-axis position of 12~km at 810~km, $\Delta m^2 = 2.5 \times 10^{-3} \textrm {eV}^2$, $\qopname \relax o{sin}^2(2\theta _{23}) = 1.0$ and $\qopname \relax o{sin}^2(2\theta _{13}) = 0.1$.\relax }}{7}{figure.caption.9}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Liquid scintillator composition. cite \relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A NOvA cell consisting of an extruded PVC tube filled with liquid scintillator and a looped WLS fibre.\relax }}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces A side on view of a module constructed from 18 cells glued together.\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Cut out of a NOvA detector showing the alternating orientation of the stacked planes.\relax }}{10}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Scaled depiction of the near and far NOvA detectors with respect to the average person. The alternating alignment of the NOvA cells is shown by the inset. \relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A diagram showing the layout of the NuMI beam. \relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A diagram of the magnetic focussing horns operating in FHC mode. Positively charged mesons arriving from different directions are focussed by the combination of the two horns. The path of positively charged mesons that are over or under focussed by Horn 1 is corrected by Horn 2. \cite {NuMI} \relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The above distributions are as viewed from a site located 800km from the NuMI target and off-axis by an angle $\theta $.\relax }}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Charged current $\nu _{\mu }$ event rates vs. neutrino energy in the absence of oscillations. The distributions are found for a detector which is 800~km from the NuMI target and for various off-axis angles.\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Simulated visible energy distributions for $\nu _{\mu }$ CC events with and without oscillations, $\nu _e$ oscillation signal events, intrinsic beam $\nu _e$ events and neutral current events. The simulation assumes an off-axis position of 12~km at 810~km, $\Delta m^2 = 2.5 \times 10^{-3} \textrm {eV}^2$, $\qopname \relax o{sin}^2(2\theta _{23}) = 1.0$ and $\qopname \relax o{sin}^2(2\theta _{13}) = 0.1$.\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The NOvA APD containing an array of 32 pixels.\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces A NOvA cell consisting of an extruded PVC tube filled with liquid scintillator and a looped WLS fibre.\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces A side on view of an extrusion constructed from 16 NOvA cells. \relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A side on view of an extrusion module constructed from two extrusions of 16 cells. \relax }}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Cut out of a NOvA detector showing the alternating orientation of the stacked planes.\relax }}{15}{figure.caption.16}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Bird's-eye view of the NuMI Beamline, NOvA near detector cavern and the MINOS Hall. \relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Technical drawing of the near detector and surrounding cavern. The NuMI beam enters from the left and the shorter muon catcher is shown on the right hand side of the detector. Note that only some of the planes have been drawn to aid visualisation.\relax }}{17}{figure.caption.18}
 \addvspace {10\p@ }

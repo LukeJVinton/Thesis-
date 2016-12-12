@@ -1,9 +1,171 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{LBNReview_Rubbia}
+M.~V. Diwan, V.~Galymov, X.~Qian, and A.~Rubbia.
+\newblock {Long-Baseline Neutrino Experiments}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:47--71, 2016.
+
+\bibitem{Drell:1978}
+S.~D. Drell.
+\newblock {When Is a Particle: The Richtmyer Memorial Lecture}.
+\newblock {\em Am. J. Phys.}, 46:597--606, 1978.
+\newblock [Phys. Today31,no.6,23(1978)].
+
+\bibitem{Fermi:1934}
+E.~Fermi.
+\newblock {Trends to a Theory of beta Radiation. (In Italian)}.
+\newblock {\em Nuovo Cim.}, 11:1--19, 1934.
+\newblock [,535(1934)].
+
+\bibitem{Reines:1956rs}
+Frederick Reines and Clyde~L. Cowan.
+\newblock {The neutrino}.
+\newblock {\em Nature}, 178:446--449, 1956.
+
+\bibitem{Kolb:1990vq}
+Edward~W. Kolb and Michael~S. Turner.
+\newblock {The Early Universe}.
+\newblock {\em Front. Phys.}, 69:1--547, 1990.
+
+\bibitem{pdg}
+C.~Patrignani et~al.
+\newblock Chin. phys. c, 40, 100001.
+\newblock {\em Particle Data Group}, 2016.
+
+\bibitem{Mohapatra:2005wg}
+R.~N. Mohapatra et~al.
+\newblock {Theory of neutrinos: A White paper}.
+\newblock {\em Rept. Prog. Phys.}, 70:1757--1867, 2007.
+
+\bibitem{Davis:PhysRevLett.20.1205}
+Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
+\newblock Search for neutrinos from the sun.
+\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
+
+\bibitem{Pontecorvo:1967fh}
+B.~Pontecorvo.
+\newblock {Neutrino Experiments and the Problem of Conservation of Leptonic
+  Charge}.
+\newblock {\em Sov. Phys. JETP}, 26:984--988, 1968.
+\newblock [Zh. Eksp. Teor. Fiz.53,1717(1967)].
+
+\bibitem{Gribov:1968kq}
+V.~N. Gribov and B.~Pontecorvo.
+\newblock {Neutrino astronomy and lepton charge}.
+\newblock {\em Phys. Lett.}, B28:493, 1969.
+
+\bibitem{Maki:1962mu}
+Ziro Maki, Masami Nakagawa, and Shoichi Sakata.
+\newblock {Remarks on the unified model of elementary particles}.
+\newblock {\em Prog. Theor. Phys.}, 28:870--880, 1962.
+
+\bibitem{Kamland:PhysRevLett.90.021802}
+K.~Eguchi et~al.
+\newblock First results from kamland: Evidence for reactor antineutrino
+  disappearance.
+\newblock {\em Phys. Rev. Lett.}, 90:021802, Jan 2003.
+
+\bibitem{Kamland:PhysRevLett.94.081801}
+T.~Araki et~al.
+\newblock Measurement of neutrino oscillation with kamland: Evidence of
+  spectral distortion.
+\newblock {\em Phys. Rev. Lett.}, 94:081801, Mar 2005.
+
+\bibitem{Kamland:PhysRevLett.100.221803}
+S.~Abe et~al.
+\newblock Precision measurement of neutrino oscillation parameters with
+  kamland.
+\newblock {\em Phys. Rev. Lett.}, 100:221803, Jun 2008.
+
+\bibitem{SNO:PhysRevC.81.055504}
+B.~Aharmim et~al.
+\newblock Low-energy-threshold analysis of the phase i and phase ii data sets
+  of the sudbury neutrino observatory.
+\newblock {\em Phys. Rev. C}, 81:055504, May 2010.
+
+\bibitem{SNO:PhysRevC.88.025501}
+B.~Aharmim et~al.
+\newblock Combined analysis of all three phases of solar neutrino data from the
+  sudbury neutrino observatory.
+\newblock {\em Phys. Rev. C}, 88:025501, Aug 2013.
+
+\bibitem{SK:PhysRevD.73.112001}
+J.~Hosaka et~al.
+\newblock Solar neutrino measurements in super-kamiokande-i.
+\newblock {\em Phys. Rev. D}, 73:112001, Jun 2006.
+
+\bibitem{SK:PhysRevD.83.052010}
+K.~Abe et~al.
+\newblock Solar neutrino results in super-kamiokande-iii.
+\newblock {\em Phys. Rev. D}, 83:052010, Mar 2011.
+
+\bibitem{DayaBay-PhysRevLett.115.111802}
+F.~P. An et~al.
+\newblock New measurement of antineutrino oscillation with the full detector
+  configuration at daya bay.
+\newblock {\em Phys. Rev. Lett.}, 115:111802, Sep 2015.
+
+\bibitem{DayaBay2012}
+F.~P. An et~al.
+\newblock {Observation of electron-antineutrino disappearance at Daya Bay}.
+\newblock {\em Phys. Rev. Lett.}, 108:171803, 2012.
+
+\bibitem{RENO:2015ksa}
+J.~H. Choi et~al.
+\newblock {Observation of Energy and Baseline Dependent Reactor Antineutrino
+  Disappearance in the RENO Experiment}.
+\newblock {\em Phys. Rev. Lett.}, 116(21):211801, 2016.
+
+\bibitem{RENO:PhysRevLett.108.191802}
+J.~K. Ahn et~al.
+\newblock Observation of reactor electron antineutrinos disappearance in the
+  reno experiment.
+\newblock {\em Phys. Rev. Lett.}, 108:191802, May 2012.
+
+\bibitem{Abe:2014bwa}
+Y.~Abe et~al.
+\newblock {Improved measurements of the neutrino mixing angle $\theta_{13}$
+  with the Double Chooz detector}.
+\newblock {\em JHEP}, 10:086, 2014.
+\newblock [Erratum: JHEP02,074(2015)].
+
+\bibitem{MINOS:PhysRevLett.97.191801}
+D.~G. Michael et~al.
+\newblock Observation of muon neutrino disappearance with the minos detectors
+  in the numi neutrino beam.
+\newblock {\em Phys. Rev. Lett.}, 97:191801, Nov 2006.
+
+\bibitem{MINOS:PhysRevLett.112.191801}
+P.~Adamson et~al.
+\newblock Combined analysis of ${{\nu}}_{{\mu}}$ disappearance and
+  ${{\nu}}_{{\mu}}{\rightarrow}{{\nu}}_{e}$ appearance in minos using
+  accelerator and atmospheric neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 112:191801, May 2014.
+
+\bibitem{Hiroshi}
+Hiroshi Nunokawa, Stephen Parke, and Jose W.~F. Valle.
+\newblock Cp violation and neutrino oscillations.
+\newblock {\em Prog. Part. Nucl. Phys}, 2007.
+
+\bibitem{FA_nue}
+P.~Adamson et~al.
+\newblock {First measurement of electron neutrino appearance in NOvA}.
+\newblock {\em Phys. Rev. Lett.}, 116(15):151806, 2016.
 
 \bibitem{TDR}
 D.~S. Ayres et~al.
 \newblock {The NOvA Technical Design Report}.
 \newblock {\em Fermilab Publication}, 2007.
+
+\bibitem{NuMI}
+P.~Adamson et~al.
+\newblock {The NuMI Neutrino Beam}.
+\newblock {\em Nucl. Instrum. Meth.}, A806:279--306, 2016.
+
+\bibitem{scintillatorComp}
+Stuart~L. Mufson.
+\newblock {Scintillator update}.
+\newblock {\em Internal NOvA document, DocDB-8541}, 2013.
 
 \bibitem{Marshall}
 John~Stuart Marshall.

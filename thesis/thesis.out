@@ -1,22 +1,24 @@
-\BOOKMARK [0][-]{contents_bookmark.0}{Contents}{}% 1
-\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter*.5}{List of Figures}{}% 3
-\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 4
-\BOOKMARK [0][-]{chapter.2}{2 Neutrino Physics}{}% 5
-\BOOKMARK [1][-]{section.2.1}{2.1 The Standard Model}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{2.2 The Weak Force}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{2.3 Neutrino Oscillations}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.4}{2.4 Need to include the following}{chapter.2}% 9
-\BOOKMARK [0][-]{chapter.3}{3 The NOvA Experiment}{}% 10
-\BOOKMARK [1][-]{section.3.1}{3.1 The NuMI Beam}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Off-axis Detectors}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Horn Position}{section.3.1}% 13
-\BOOKMARK [1][-]{section.3.2}{3.2 The NOvA Detectors}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 The Basic NOvA Detector Element}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Liquid Scintillator}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Detector Assembly}{section.3.2}% 17
-\BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Data Aquisition}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.5}{3.2.5 The Far Detector}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.6}{3.2.6 The Near Detector}{section.3.2}% 20
-\BOOKMARK [0][-]{chapter.4}{4 Energy Resolution}{}% 21
-\BOOKMARK [0][-]{chapter.4}{Bibliography}{}% 22
+\BOOKMARK [0][-]{chapter.1}{1 Neutrino Physics}{}% 1
+\BOOKMARK [1][-]{section.1.1}{1.1 History of Neutrino Oscillations}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Recent results}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{1.2 Weak Interactions}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{1.3 Neutrino Eigenstates}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{1.4 Neutrino Oscillation Probability in Vacuum}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{1.5 Neutrino Oscillation Paremeter Measurements}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{1.6 Two-Flavour Approximation}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{1.7 Matter Effects}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{2 The NOvA Experiment}{}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 The NuMI Beam}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Focussing Horns}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Off-axis Detectors}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{2.2 The NOvA Detectors}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 The Basic NOvA Detector Element}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Liquid Scintillator}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Wavelength Shifting Fibre}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 Avalanche Photo Diode}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.5}{2.2.5 Data Acquisition System}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.6}{2.2.6 Detector Assembly}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.7}{2.2.7 The Far Detector}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.8}{2.2.8 The Near Detector}{section.2.2}% 22
+\BOOKMARK [0][-]{chapter.3}{3 Energy Resolution}{}% 23
+\BOOKMARK [0][-]{table.caption.19}{Bibliography}{}% 24
