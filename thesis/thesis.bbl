@@ -5,27 +5,80 @@ M.~V. Diwan, V.~Galymov, X.~Qian, and A.~Rubbia.
 \newblock {Long-Baseline Neutrino Experiments}.
 \newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:47--71, 2016.
 
-\bibitem{Drell:1978}
-S.~D. Drell.
-\newblock {When Is a Particle: The Richtmyer Memorial Lecture}.
-\newblock {\em Am. J. Phys.}, 46:597--606, 1978.
-\newblock [Phys. Today31,no.6,23(1978)].
+\bibitem{chadwick1914distribution}
+J~Chadwick.
+\newblock Distribution in intensity in the magnetic spectrum of the
+  $\beta$-rays of radium.
+\newblock {\em Ver. Dtsch. Physik. Ges}, 16:383--391, 1914.
 
-\bibitem{Fermi:1934}
-E.~Fermi.
-\newblock {Trends to a Theory of beta Radiation. (In Italian)}.
-\newblock {\em Nuovo Cim.}, 11:1--19, 1934.
-\newblock [,535(1934)].
+\bibitem{pauli1930letter}
+Wolfgang Pauli.
+\newblock Letter to the physical society of tubingen.
+\newblock {\em Reproduced in [2]}, 1930.
+
+\bibitem{fermi1934tentativo}
+Enrico Fermi.
+\newblock Tentativo di una teoria dei raggi $\beta$.
+\newblock {\em Il Nuovo Cimento (1924-1942)}, 11(1):1--19, 1934.
 
 \bibitem{Reines:1956rs}
 Frederick Reines and Clyde~L. Cowan.
 \newblock {The neutrino}.
 \newblock {\em Nature}, 178:446--449, 1956.
 
-\bibitem{Kolb:1990vq}
-Edward~W. Kolb and Michael~S. Turner.
-\newblock {The Early Universe}.
-\newblock {\em Front. Phys.}, 69:1--547, 1990.
+\bibitem{MuonNeutrino:PhysRevLett.9.36}
+G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
+  and J.~Steinberger.
+\newblock Observation of high-energy neutrino reactions and the existence of
+  two kinds of neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 9:36--44, Jul 1962.
+
+\bibitem{Davis:PhysRevLett.20.1205}
+Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
+\newblock Search for neutrinos from the sun.
+\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
+
+\bibitem{Kamiokande:PhysRevLett.63.16}
+K.~S. Hirata, T.~Kajita, T.~Kifune, K.~Kihara, M.~Nakahata, K.~Nakamura,
+  S.~Ohara, Y.~Oyama, N.~Sato, M.~Takita, Y.~Totsuka, Y.~Yaginuma, M.~Mori,
+  A.~Suzuki, K.~Takahashi, T.~Tanimori, M.~Yamada, M.~Koshiba, T.~Suda,
+  K.~Miyano, H.~Miyata, H.~Takei, K.~Kaneyuki, H.~Nagashima, Y.~Suzuki, E.~W.
+  Beier, L.~R. Feldscher, E.~D. Frank, W.~Frati, S.~B. Kim, A.~K. Mann, F.~M.
+  Newcomer, R.~Van~Berg, and W.~Zhang.
+\newblock Observation of $^{8}\mathrm{B}$ solar neutrinos in the kamiokande-ii
+  detector.
+\newblock {\em Phys. Rev. Lett.}, 63:16--19, Jul 1989.
+
+\bibitem{SAGE:PhysRevLett.67.3332}
+A.~I. Abazov, O.~L. Anosov, E.~L. Faizov, V.~N. Gavrin, A.~V. Kalikhov, T.~V.
+  Knodel, I.~I. Knyshenko, V.~N. Kornoukhov, S.~A. Mezentseva, I.~N. Mirmov,
+  A.~V. Ostrinsky, A.~M. Pshukov, N.~E. Revzin, A.~A. Shikhin, P.~V. Timofeyev,
+  E.~P. Veretenkin, V.~M. Vermul, G.~T. Zatsepin, T.~J. Bowles, B.~T.
+  Cleveland, S.~R. Elliott, H.~A. O'Brien, D.~L. Wark, J.~F. Wilkerson,
+  R.~Davis, K.~Lande, M.~L. Cherry, and R.~T. Kouzes.
+\newblock Search for neutrinos from the sun using the reaction
+  $^{71}\mathrm{Ga}$(${\ensuremath{\nu}}_{\mathit{e}}$,${\mathit{e}}^{\mathrm{-}}$${)}^{71}$ge.
+\newblock {\em Phys. Rev. Lett.}, 67:3332--3335, Dec 1991.
+
+\bibitem{GALLEX:Anselmann:1992um}
+P.~Anselmann et~al.
+\newblock {Solar neutrinos observed by GALLEX at Gran Sasso.}
+\newblock {\em Phys. Lett.}, B285:376--389, 1992.
+
+\bibitem{ZWidth:Decamp:1989tu}
+D.~Decamp et~al.
+\newblock {Determination of the Number of Light Neutrino Species}.
+\newblock {\em Phys. Lett.}, B231:519--529, 1989.
+
+\bibitem{ALEPH:2005ab}
+S.~Schael et~al.
+\newblock {Precision electroweak measurements on the $Z$ resonance}.
+\newblock {\em Phys. Rept.}, 427:257--454, 2006.
+
+\bibitem{nutau:Kodama:2000mp}
+K.~Kodama et~al.
+\newblock {Observation of tau neutrino interactions}.
+\newblock {\em Phys. Lett.}, B504:218--224, 2001.
 
 \bibitem{pdg}
 C.~Patrignani et~al.
@@ -36,11 +89,6 @@ C.~Patrignani et~al.
 R.~N. Mohapatra et~al.
 \newblock {Theory of neutrinos: A White paper}.
 \newblock {\em Rept. Prog. Phys.}, 70:1757--1867, 2007.
-
-\bibitem{Davis:PhysRevLett.20.1205}
-Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
-\newblock Search for neutrinos from the sun.
-\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
 
 \bibitem{Pontecorvo:1967fh}
 B.~Pontecorvo.

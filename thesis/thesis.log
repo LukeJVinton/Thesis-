@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  9 DEC 2016 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  12 DEC 2016 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1345,13 +1345,13 @@ Package pdftex.def Info: img/uslogo.pdf used on input line 179.
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/u
 slogo.pdf>]
 Chapter 1.
-(./tex/sections/NeutrinoPhysics.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+(./tex/sections/introduction.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1364,39 +1364,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 292.
+]) [2]
+Chapter 2.
+(./tex/sections/NeutrinoPhysics.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
+
+[3
+
+]
+Underfull \vbox (badness 6063) has occurred while \output is active []
+
+ [4]
+[5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 247.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
-LaTeX Font Info:    Try loading font information for U+euf on input line 336.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
+LaTeX Font Info:    Try loading font information for U+euf on input line 291.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [5] [6]
-[7]
+) [6] [7]
+[8]
 \openout3 = `diagram.mp'.
 
 File: diagram.1 Graphic file (type mps)
- [MP to PDF] (./diagram.1) (./diagram.t1) [8]
-<tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf, id=258, 479.7925pt 
+ [MP to PDF] (./diagram.1) (./diagram.t1) [9]
+<tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf, id=278, 479.7925pt 
 x 467.7475pt>
 File: tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf Graphic file (t
 ype pdf)
  <use tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf>
 Package pdftex.def Info: tex/sections/../../img/Theory/09_Bi-Probability_Plots.
-pdf used on input line 620.
+pdf used on input line 575.
 (pdftex.def)             Requested size: 384.1096pt x 374.46971pt.
 )
-[9] [10 <./tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf>]
-Chapter 2.
-(./tex/sections/detectors.tex [11
+[10] [11 <./tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf>]
+Chapter 3.
+(./tex/sections/detectors.tex [12
 
 ]
-<tex/sections/../../img/beam/beam_diagram.png, id=285, 1200.485pt x 326.21875pt
+<tex/sections/../../img/beam/beam_diagram.png, id=308, 1200.485pt x 326.21875pt
 >
 File: tex/sections/../../img/beam/beam_diagram.png Graphic file (type png)
  <use tex/sections/../../img/beam/beam_diagram.png>
@@ -1404,7 +1417,7 @@ Package pdftex.def Info: tex/sections/../../img/beam/beam_diagram.png used on i
 nput line 59.
 (pdftex.def)             Requested size: 426.79135pt x 115.9752pt.
 
-<tex/sections/../../img/beam/images_pion_tracks_in_horn.png, id=288, 828.09375p
+<tex/sections/../../img/beam/images_pion_tracks_in_horn.png, id=311, 828.09375p
 t x 523.9575pt>
 File: tex/sections/../../img/beam/images_pion_tracks_in_horn.png Graphic file (
 type png)
@@ -1413,9 +1426,9 @@ type png)
 Package pdftex.def Info: tex/sections/../../img/beam/images_pion_tracks_in_horn
 .png used on input line 89.
 (pdftex.def)             Requested size: 341.43437pt x 216.0392pt.
- [12 <./tex/sections/../../img/beam/beam_diagram.png>] [13 <./tex/sections/../.
+ [13 <./tex/sections/../../img/beam/beam_diagram.png>] [14 <./tex/sections/../.
 ./img/beam/images_pion_tracks_in_horn.png (PNG copy)>]
-<tex/sections/../../img/baird/beam/020-flux.png, id=315, 540.0978pt x 514.5624p
+<tex/sections/../../img/baird/beam/020-flux.png, id=338, 540.0978pt x 514.5624p
 t>
 File: tex/sections/../../img/baird/beam/020-flux.png Graphic file (type png)
  <use tex/sections/../../img/baird/beam/020-flux.png>
@@ -1423,7 +1436,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/020-flux.png used on
  input line 188.
 (pdftex.def)             Requested size: 192.0548pt x 182.9732pt.
 
-<tex/sections/../../img/baird/beam/030-epi2enu.png, id=316, 516.9714pt x 513.11
+<tex/sections/../../img/baird/beam/030-epi2enu.png, id=339, 516.9714pt x 513.11
 7pt>
 File: tex/sections/../../img/baird/beam/030-epi2enu.png Graphic file (type png)
 
@@ -1432,7 +1445,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/030-epi2enu.png used
  on input line 194.
 (pdftex.def)             Requested size: 192.0548pt x 190.61761pt.
 
-<tex/sections/../../img/baird/beam/040-le-spectra.png, id=317, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/040-le-spectra.png, id=340, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/040-le-spectra.png Graphic file (type p
 ng)
@@ -1441,7 +1454,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/040-le-spectra.png u
 sed on input line 209.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
 
-<tex/sections/../../img/baird/beam/050-me-spectra.png, id=318, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/050-me-spectra.png, id=341, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/050-me-spectra.png Graphic file (type p
 ng)
@@ -1450,7 +1463,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/050-me-spectra.png u
 sed on input line 215.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
 
-<tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png, id=319, 609.9588pt
+<tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png, id=342, 609.9588pt
  x 502.9992pt>
 File: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png Graphic file (
 type png)
@@ -1459,10 +1472,10 @@ type png)
 Package pdftex.def Info: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb
 .png used on input line 229.
 (pdftex.def)             Requested size: 213.39568pt x 175.9756pt.
- [14] [15 <./tex/sections/../../img/baird/beam/020-flux.png> <./tex/sections/..
+ [15] [16 <./tex/sections/../../img/baird/beam/020-flux.png> <./tex/sections/..
 /../img/baird/beam/030-epi2enu.png> <./tex/sections/../../img/baird/beam/040-le
 -spectra.png> <./tex/sections/../../img/baird/beam/050-me-spectra.png>]
-<tex/sections/../../img/det/gen/both_detectors.png, id=339, 720.6925pt x 383.43
+<tex/sections/../../img/det/gen/both_detectors.png, id=361, 720.6925pt x 383.43
 25pt>
 File: tex/sections/../../img/det/gen/both_detectors.png Graphic file (type png)
 
@@ -1470,19 +1483,19 @@ File: tex/sections/../../img/det/gen/both_detectors.png Graphic file (type png)
 Package pdftex.def Info: tex/sections/../../img/det/gen/both_detectors.png used
  on input line 293.
 (pdftex.def)             Requested size: 341.43437pt x 181.65257pt.
- [16 <./tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png>]
-Underfull \vbox (badness 6592) has occurred while \output is active []
+ [17 <./tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./tex/sections/../../img/det/gen/both_detectors.png>]
-<tex/sections/../../img/det/gen/APD.png, id=358, 281.05pt x 374.39874pt>
+ [18 <./tex/sections/../../img/det/gen/both_detectors.png>]
+<tex/sections/../../img/det/gen/APD.png, id=381, 281.05pt x 374.39874pt>
 File: tex/sections/../../img/det/gen/APD.png Graphic file (type png)
 
 <use tex/sections/../../img/det/gen/APD.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/APD.png used on input l
 ine 410.
 (pdftex.def)             Requested size: 170.71393pt x 227.41171pt.
- [18 <./tex/sections/../../img/det/gen/APD.png>] [19]
-<tex/sections/../../img/det/gen/nova_cell.png, id=375, 442.65375pt x 672.5125pt
+ [19 <./tex/sections/../../img/det/gen/APD.png>] [20]
+<tex/sections/../../img/det/gen/nova_cell.png, id=397, 442.65375pt x 672.5125pt
 >
 File: tex/sections/../../img/det/gen/nova_cell.png Graphic file (type png)
  <use tex/sections/../../img/det/gen/nova_cell.png>
@@ -1490,7 +1503,7 @@ Package pdftex.def Info: tex/sections/../../img/det/gen/nova_cell.png used on i
 nput line 495.
 (pdftex.def)             Requested size: 185.02847pt x 281.10893pt.
 
-<tex/sections/../../img/baird/det/extru_cross_section.png, id=376, 191.71625pt 
+<tex/sections/../../img/baird/det/extru_cross_section.png, id=398, 191.71625pt 
 x 1087.06125pt>
 File: tex/sections/../../img/baird/det/extru_cross_section.png Graphic file (ty
 pe png)
@@ -1499,7 +1512,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/det/extru_cross_section.p
 ng used on input line 503.
 (pdftex.def)             Requested size: 49.57591pt x 281.10893pt.
 
-<tex/sections/../../img/det/gen/extrusionModule.jpg, id=377, 486.81876pt x 598.
+<tex/sections/../../img/det/gen/extrusionModule.jpg, id=399, 486.81876pt x 598.
 235pt>
 File: tex/sections/../../img/det/gen/extrusionModule.jpg Graphic file (type jpg
 )
@@ -1508,17 +1521,17 @@ Package pdftex.def Info: tex/sections/../../img/det/gen/extrusionModule.jpg use
 d on input line 533.
 (pdftex.def)             Requested size: 213.39568pt x 262.22922pt.
 
-<tex/sections/../../img/det/gen/planes.png, id=378, 341.275pt x 329.23pt>
+<tex/sections/../../img/det/gen/planes.png, id=400, 341.275pt x 329.23pt>
 File: tex/sections/../../img/det/gen/planes.png Graphic file (type png)
 
 <use tex/sections/../../img/det/gen/planes.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/planes.png used on inpu
 t line 542.
 (pdftex.def)             Requested size: 213.39568pt x 205.86871pt.
- [20 <./tex/sections/../../img/det/gen/nova_cell.png> <./tex/sections/../../img
-/baird/det/extru_cross_section.png>] [21 <./tex/sections/../../img/det/gen/extr
-usionModule.jpg> <./tex/sections/../../img/det/gen/planes.png>] [22]
-<tex/sections/../../img/baird/det/neardet_cavern_diagram.png, id=399, 1132.23pt
+ [21 <./tex/sections/../../img/det/gen/nova_cell.png> <./tex/sections/../../img
+/baird/det/extru_cross_section.png>] [22 <./tex/sections/../../img/det/gen/extr
+usionModule.jpg> <./tex/sections/../../img/det/gen/planes.png>] [23]
+<tex/sections/../../img/baird/det/neardet_cavern_diagram.png, id=421, 1132.23pt
  x 392.46625pt>
 File: tex/sections/../../img/baird/det/neardet_cavern_diagram.png Graphic file 
 (type png)
@@ -1528,53 +1541,53 @@ Package pdftex.def Info: tex/sections/../../img/baird/det/neardet_cavern_diagra
 m.png used on input line 646.
 (pdftex.def)             Requested size: 341.43437pt x 118.35161pt.
 
-<tex/sections/../../img/baird/det/ND_01.png, id=400, 1710.39pt x 744.7825pt>
+<tex/sections/../../img/baird/det/ND_01.png, id=422, 1710.39pt x 744.7825pt>
 File: tex/sections/../../img/baird/det/ND_01.png Graphic file (type png)
 
 <use tex/sections/../../img/baird/det/ND_01.png>
 Package pdftex.def Info: tex/sections/../../img/baird/det/ND_01.png used on inp
 ut line 655.
 (pdftex.def)             Requested size: 341.43437pt x 148.66974pt.
-) [23 <./tex/sections/../../img/baird/det/neardet_cavern_diagram.png> <./tex/se
+) [24 <./tex/sections/../../img/baird/det/neardet_cavern_diagram.png> <./tex/se
 ctions/../../img/baird/det/ND_01.png (PNG copy)>]
-Chapter 3.
+Chapter 4.
 (./tex/sections/energyres.tex
 
 LaTeX Warning: Float too large for page by 67.2142pt on input line 173.
 
-) [24
+) [25
 
-] [25] [26] [27] (./thesis.bbl (./thesis.brf)
+] [26] [27] [28] (./thesis.bbl (./thesis.brf)
 \tf@brf=\write6
 \openout6 = `thesis.brf'.
 
- [28
+ [29
 
 
-] [29])
+] [30] [31])
 No complaints by nag.
-[30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 52660219B484FDDEE9F6BFF8E90A96B8;1771.
+(rerunfilecheck)             Checksum: 3E2C65AC62377A6CEA1FD8C044B928CF;1736.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 0F6690A345BACA3D68A4C3F93C3246B1;2013.
+(rerunfilecheck)             Checksum: FC344D1AAD5998F91CB187D8617AAA4B;2379.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 23065 strings out of 493014
- 448387 string characters out of 6133350
+ 23129 strings out of 493014
+ 449734 string characters out of 6133350
  559693 words of memory out of 5000000
- 25970 multiletter control sequences out of 15000+600000
- 13542 words of font info for 50 fonts, out of 8000000 for 9000
+ 26011 multiletter control sequences out of 15000+600000
+ 16999 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,71p,1179b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1585,16 +1598,19 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (31 pages, 1760773 bytes).
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (33 pages, 1796829 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 508 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
  290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
