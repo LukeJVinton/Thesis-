@@ -27,43 +27,10 @@ Frederick Reines and Clyde~L. Cowan.
 \newblock {\em Nature}, 178:446--449, 1956.
 
 \bibitem{MuonNeutrino:PhysRevLett.9.36}
-G.~Danby, J-M. Gaillard, K.~Goulianos, L.~M. Lederman, N.~Mistry, M.~Schwartz,
-  and J.~Steinberger.
+G.~Danby et~al.
 \newblock Observation of high-energy neutrino reactions and the existence of
   two kinds of neutrinos.
 \newblock {\em Phys. Rev. Lett.}, 9:36--44, Jul 1962.
-
-\bibitem{Davis:PhysRevLett.20.1205}
-Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
-\newblock Search for neutrinos from the sun.
-\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
-
-\bibitem{Kamiokande:PhysRevLett.63.16}
-K.~S. Hirata, T.~Kajita, T.~Kifune, K.~Kihara, M.~Nakahata, K.~Nakamura,
-  S.~Ohara, Y.~Oyama, N.~Sato, M.~Takita, Y.~Totsuka, Y.~Yaginuma, M.~Mori,
-  A.~Suzuki, K.~Takahashi, T.~Tanimori, M.~Yamada, M.~Koshiba, T.~Suda,
-  K.~Miyano, H.~Miyata, H.~Takei, K.~Kaneyuki, H.~Nagashima, Y.~Suzuki, E.~W.
-  Beier, L.~R. Feldscher, E.~D. Frank, W.~Frati, S.~B. Kim, A.~K. Mann, F.~M.
-  Newcomer, R.~Van~Berg, and W.~Zhang.
-\newblock Observation of $^{8}\mathrm{B}$ solar neutrinos in the kamiokande-ii
-  detector.
-\newblock {\em Phys. Rev. Lett.}, 63:16--19, Jul 1989.
-
-\bibitem{SAGE:PhysRevLett.67.3332}
-A.~I. Abazov, O.~L. Anosov, E.~L. Faizov, V.~N. Gavrin, A.~V. Kalikhov, T.~V.
-  Knodel, I.~I. Knyshenko, V.~N. Kornoukhov, S.~A. Mezentseva, I.~N. Mirmov,
-  A.~V. Ostrinsky, A.~M. Pshukov, N.~E. Revzin, A.~A. Shikhin, P.~V. Timofeyev,
-  E.~P. Veretenkin, V.~M. Vermul, G.~T. Zatsepin, T.~J. Bowles, B.~T.
-  Cleveland, S.~R. Elliott, H.~A. O'Brien, D.~L. Wark, J.~F. Wilkerson,
-  R.~Davis, K.~Lande, M.~L. Cherry, and R.~T. Kouzes.
-\newblock Search for neutrinos from the sun using the reaction
-  $^{71}\mathrm{Ga}$(${\ensuremath{\nu}}_{\mathit{e}}$,${\mathit{e}}^{\mathrm{-}}$${)}^{71}$ge.
-\newblock {\em Phys. Rev. Lett.}, 67:3332--3335, Dec 1991.
-
-\bibitem{GALLEX:Anselmann:1992um}
-P.~Anselmann et~al.
-\newblock {Solar neutrinos observed by GALLEX at Gran Sasso.}
-\newblock {\em Phys. Lett.}, B285:376--389, 1992.
 
 \bibitem{ZWidth:Decamp:1989tu}
 D.~Decamp et~al.
@@ -80,15 +47,32 @@ K.~Kodama et~al.
 \newblock {Observation of tau neutrino interactions}.
 \newblock {\em Phys. Lett.}, B504:218--224, 2001.
 
-\bibitem{pdg}
-C.~Patrignani et~al.
-\newblock Chin. phys. c, 40, 100001.
-\newblock {\em Particle Data Group}, 2016.
+\bibitem{GALLEX:Anselmann:1992um}
+P.~Anselmann et~al.
+\newblock {Solar neutrinos observed by GALLEX at Gran Sasso.}
+\newblock {\em Phys. Lett.}, B285:376--389, 1992.
 
-\bibitem{Mohapatra:2005wg}
-R.~N. Mohapatra et~al.
-\newblock {Theory of neutrinos: A White paper}.
-\newblock {\em Rept. Prog. Phys.}, 70:1757--1867, 2007.
+\bibitem{Davis:PhysRevLett.20.1205}
+Raymond Davis, Don~S. Harmer, and Kenneth~C. Hoffman.
+\newblock Search for neutrinos from the sun.
+\newblock {\em Phys. Rev. Lett.}, 20:1205--1209, May 1968.
+
+\bibitem{BAHCALL1968359}
+J.N. Bahcall, N.A. Bahcall, W.A. Fowler, and G.~Shaviv.
+\newblock Solar neutrinos and low-energy nuclear cross sections.
+\newblock {\em Physics Letters B}, 26(6):359 -- 361, 1968.
+
+\bibitem{Kamiokande:PhysRevLett.63.16}
+K.~S. Hirata et~al.
+\newblock Observation of $^{8}\mathrm{B}$ solar neutrinos in the kamiokande-ii
+  detector.
+\newblock {\em Phys. Rev. Lett.}, 63:16--19, Jul 1989.
+
+\bibitem{SAGE:PhysRevLett.67.3332}
+A.~I. Abazov et~al.
+\newblock Search for neutrinos from the sun using the reaction
+  $^{71}\mathrm{Ga}$(${\ensuremath{\nu}}_{\mathit{e}}$,${\mathit{e}}^{\mathrm{-}}$${)}^{71}$ge.
+\newblock {\em Phys. Rev. Lett.}, 67:3332--3335, Dec 1991.
 
 \bibitem{Pontecorvo:1967fh}
 B.~Pontecorvo.
@@ -106,6 +90,28 @@ V.~N. Gribov and B.~Pontecorvo.
 Ziro Maki, Masami Nakagawa, and Shoichi Sakata.
 \newblock {Remarks on the unified model of elementary particles}.
 \newblock {\em Prog. Theor. Phys.}, 28:870--880, 1962.
+
+\bibitem{SK:PhysRevLett.81.1562}
+Y.~Fukuda et~al.
+\newblock Evidence for oscillation of atmospheric neutrinos.
+\newblock {\em Phys. Rev. Lett.}, 81:1562--1567, Aug 1998.
+
+\bibitem{SNO:PhysRevC.72.055502}
+B.~Aharmim et~al.
+\newblock Electron energy spectra, fluxes, and day-night asymmetries of
+  ${}^{8}$b solar neutrinos from measurements with nacl dissolved in the
+  heavy-water detector at the sudbury neutrino observatory.
+\newblock {\em Phys. Rev. C}, 72:055502, Nov 2005.
+
+\bibitem{pdg}
+C.~Patrignani et~al.
+\newblock Chin. phys. c, 40, 100001.
+\newblock {\em Particle Data Group}, 2016.
+
+\bibitem{Mohapatra:2005wg}
+R.~N. Mohapatra et~al.
+\newblock {Theory of neutrinos: A White paper}.
+\newblock {\em Rept. Prog. Phys.}, 70:1757--1867, 2007.
 
 \bibitem{Kamland:PhysRevLett.90.021802}
 K.~Eguchi et~al.
