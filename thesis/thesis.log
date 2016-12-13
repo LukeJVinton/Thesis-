@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  13 DEC 2016 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.26)  13 DEC 2016 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1194,19 +1194,14 @@ File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count144
 \Hy@SectionHShift=\skip60
 )
-(./thesis.aux)
-Runaway argument?
-{\contentsline {figure}{\numberline {3.4}{\ignorespaces Charged curre\ETC.
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.158 \begin{document}
-                      
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+(./thesis.aux
 
+LaTeX Warning: Label `tab:systShifts' multiply defined.
+
+
+LaTeX Warning: Label `tab:systShifts' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
@@ -1224,7 +1219,7 @@ LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 158.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 158.
@@ -1339,7 +1334,7 @@ Package nag Info: Command \hc@caption not defined, skipping amendment on input
 line 158.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 158.
- <img/uslogo.pdf, id=7, 160.6pt x 98.3675pt>
+ <img/uslogo.pdf, id=103, 160.6pt x 98.3675pt>
 File: img/uslogo.pdf Graphic file (type pdf)
 
 <use img/uslogo.pdf>
@@ -1351,15 +1346,8 @@ Package pdftex.def Info: img/uslogo.pdf used on input line 179.
 slogo.pdf>]
 Chapter 1.
 (./tex/sections/introduction.tex
-
-LaTeX Warning: Citation `LBNReview_Rubbia' on page 1 undefined on input line 1.
-
-
-
-LaTeX Warning: Citation `chadwick1914distribution' on page 1 undefined on input
- line 4.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1369,31 +1357,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `pauli1930letter' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation `fermi1934tentativo' on page 1 undefined on input line 
-15.
-
-
-LaTeX Warning: Citation `Reines:1956rs' on page 1 undefined on input line 18.
-
-
-LaTeX Warning: Citation `MuonNeutrino:PhysRevLett.9.36' on page 1 undefined on 
-input line 36.
-
-
-LaTeX Warning: Citation `ZWidth:Decamp:1989tu' on page 1 undefined on input lin
-e 41.
-
-
-LaTeX Warning: Citation `ALEPH:2005ab' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Citation `nutau:Kodama:2000mp' on page 1 undefined on input line
- 48.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1402,131 +1365,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-
-LaTeX Warning: Citation `GALLEX:Anselmann:1992um' on page 2 undefined on input 
-line 61.
-
-
-LaTeX Warning: Citation `Davis:PhysRevLett.20.1205' on page 2 undefined on inpu
-t line 63.
-
-
-LaTeX Warning: Citation `BAHCALL1968359' on page 2 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Kamiokande:PhysRevLett.63.16' on page 2 undefined on i
-nput line 78.
-
-
-LaTeX Warning: Citation `SAGE:PhysRevLett.67.3332' on page 2 undefined on input
- line 80.
-
-
-LaTeX Warning: Citation `GALLEX:Anselmann:1992um' on page 2 undefined on input 
-line 81.
-
-
-LaTeX Warning: Citation `Pontecorvo:1967fh' on page 2 undefined on input line 9
-3.
-
-
-LaTeX Warning: Citation `Gribov:1968kq' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `Maki:1962mu' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `SK:PhysRevLett.81.1562' on page 2 undefined on input l
-ine 96.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-
-LaTeX Warning: Citation `SNO:PhysRevC.72.055502' on page 3 undefined on input l
-ine 112.
-
-
-LaTeX Warning: Citation `pdg' on page 3 undefined on input line 129.
-
-
-LaTeX Warning: Citation `Mohapatra:2005wg' on page 3 undefined on input line 13
-2.
-
-) [3]
+ [2])
+[3]
 Chapter 2.
 (./tex/sections/NeutrinoPhysics.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-
-LaTeX Warning: Citation `Kamland:PhysRevLett.90.021802' on page 4 undefined on 
-input line 18.
-
-
-LaTeX Warning: Citation `Kamland:PhysRevLett.94.081801' on page 4 undefined on 
-input line 21.
-
-
-LaTeX Warning: Citation `Kamland:PhysRevLett.100.221803' on page 4 undefined on
- input line 29.
-
-
-LaTeX Warning: Citation `SNO:PhysRevC.81.055504' on page 4 undefined on input l
-ine 41.
-
-
-LaTeX Warning: Citation `SNO:PhysRevC.88.025501' on page 4 undefined on input l
-ine 47.
-
-
-LaTeX Warning: Citation `SK:PhysRevD.73.112001' on page 4 undefined on input li
-ne 61.
-
-
-LaTeX Warning: Citation `SK:PhysRevD.83.052010' on page 4 undefined on input li
-ne 61.
-
 [4
 
 ]
-
-LaTeX Warning: Citation `DayaBay-PhysRevLett.115.111802' on page 5 undefined on
- input line 73.
-
-
-LaTeX Warning: Citation `DayaBay2012' on page 5 undefined on input line 74.
-
-
-LaTeX Warning: Citation `RENO:2015ksa' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `RENO:PhysRevLett.108.191802' on page 5 undefined on in
-put line 84.
-
-
-LaTeX Warning: Citation `Abe:2014bwa' on page 5 undefined on input line 91.
-
-
-LaTeX Warning: Citation `MINOS:PhysRevLett.97.191801' on page 5 undefined on in
-put line 101.
-
-
-LaTeX Warning: Citation `MINOS:PhysRevLett.112.191801' on page 5 undefined on i
-nput line 107.
-
-
 Underfull \vbox (badness 6063) has occurred while \output is active []
 
  [5]
-
-LaTeX Warning: Citation `pdg' on page 6 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Hiroshi' on page 6 undefined on input line 189.
-
 [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 247.
 
@@ -1535,37 +1389,17 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 247.
-
-
-LaTeX Warning: Citation `pdg' on page 7 undefined on input line 250.
-
 LaTeX Font Info:    Try loading font information for U+euf on input line 291.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [7]
-
-LaTeX Warning: Citation `FA_nue' on page 8 undefined on input line 330.
-
-
-LaTeX Warning: Citation `pdg' on page 8 undefined on input line 362.
-
-
-LaTeX Warning: Citation `pdg' on page 8 undefined on input line 362.
-
-[8]
-
-LaTeX Warning: Citation `pdg' on page 9 undefined on input line 418.
-
+) [7] [8]
 [9]
 \openout3 = `diagram.mp'.
 
 File: diagram.1 Graphic file (type mps)
  [MP to PDF] (./diagram.1) (./diagram.t1) [10]
-
-LaTeX Warning: Citation `TDR' on page 11 undefined on input line 541.
-
-
-<tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf, id=119, 479.7925pt 
+<tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf, id=288, 479.7925pt 
 x 467.7475pt>
 File: tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf Graphic file (t
 ype pdf)
@@ -1576,17 +1410,10 @@ pdf used on input line 575.
 )
 [11] [12 <./tex/sections/../../img/Theory/09_Bi-Probability_Plots.pdf>]
 Chapter 3.
-(./tex/sections/detectors.tex
-
-LaTeX Warning: Citation `TDR' on page 13 undefined on input line 14.
-
-
-LaTeX Warning: Citation `NuMI' on page 13 undefined on input line 25.
-
-[13
+(./tex/sections/detectors.tex [13
 
 ]
-<tex/sections/../../img/beam/beam_diagram.png, id=148, 1200.485pt x 326.21875pt
+<tex/sections/../../img/beam/beam_diagram.png, id=318, 1200.485pt x 326.21875pt
 >
 File: tex/sections/../../img/beam/beam_diagram.png Graphic file (type png)
  <use tex/sections/../../img/beam/beam_diagram.png>
@@ -1594,7 +1421,7 @@ Package pdftex.def Info: tex/sections/../../img/beam/beam_diagram.png used on i
 nput line 59.
 (pdftex.def)             Requested size: 426.79135pt x 115.9752pt.
 
-<tex/sections/../../img/beam/images_pion_tracks_in_horn.png, id=151, 828.09375p
+<tex/sections/../../img/beam/images_pion_tracks_in_horn.png, id=321, 828.09375p
 t x 523.9575pt>
 File: tex/sections/../../img/beam/images_pion_tracks_in_horn.png Graphic file (
 type png)
@@ -1603,25 +1430,9 @@ type png)
 Package pdftex.def Info: tex/sections/../../img/beam/images_pion_tracks_in_horn
 .png used on input line 89.
 (pdftex.def)             Requested size: 341.43437pt x 216.0392pt.
-
-
-LaTeX Warning: Citation `NuMI' on page 14 undefined on input line 97.
-
-
-LaTeX Warning: Citation `NuMI' on page 14 undefined on input line 97.
-
-[14 <./tex/sections/../../img/beam/beam_diagram.png>]
-
-LaTeX Warning: Reference `fig:NuESpectra_MEAndLE' on page 15 undefined on input
- line 147.
-
-[15 <./tex/sections/../../img/beam/images_pion_tracks_in_horn.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:NuMIBeamComp' on page 16 undefined on input line 
-179.
-
-
-<tex/sections/../../img/baird/beam/020-flux.png, id=174, 540.0978pt x 514.5624p
+ [14 <./tex/sections/../../img/beam/beam_diagram.png>] [15 <./tex/sections/../.
+./img/beam/images_pion_tracks_in_horn.png (PNG copy)>]
+<tex/sections/../../img/baird/beam/020-flux.png, id=348, 540.0978pt x 514.5624p
 t>
 File: tex/sections/../../img/baird/beam/020-flux.png Graphic file (type png)
  <use tex/sections/../../img/baird/beam/020-flux.png>
@@ -1629,7 +1440,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/020-flux.png used on
  input line 188.
 (pdftex.def)             Requested size: 192.0548pt x 182.9732pt.
 
-<tex/sections/../../img/baird/beam/030-epi2enu.png, id=175, 516.9714pt x 513.11
+<tex/sections/../../img/baird/beam/030-epi2enu.png, id=349, 516.9714pt x 513.11
 7pt>
 File: tex/sections/../../img/baird/beam/030-epi2enu.png Graphic file (type png)
 
@@ -1638,7 +1449,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/030-epi2enu.png used
  on input line 194.
 (pdftex.def)             Requested size: 192.0548pt x 190.61761pt.
 
-<tex/sections/../../img/baird/beam/040-le-spectra.png, id=176, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/040-le-spectra.png, id=350, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/040-le-spectra.png Graphic file (type p
 ng)
@@ -1647,7 +1458,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/040-le-spectra.png u
 sed on input line 209.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
 
-<tex/sections/../../img/baird/beam/050-me-spectra.png, id=177, 523.7166pt x 533
+<tex/sections/../../img/baird/beam/050-me-spectra.png, id=351, 523.7166pt x 533
 .3526pt>
 File: tex/sections/../../img/baird/beam/050-me-spectra.png Graphic file (type p
 ng)
@@ -1656,7 +1467,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/beam/050-me-spectra.png u
 sed on input line 215.
 (pdftex.def)             Requested size: 192.0548pt x 195.58763pt.
 
-<tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png, id=178, 609.9588pt
+<tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png, id=352, 609.9588pt
  x 502.9992pt>
 File: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png Graphic file (
 type png)
@@ -1665,24 +1476,10 @@ type png)
 Package pdftex.def Info: tex/sections/../../img/beam/060-sig-and-bg-rates-thumb
 .png used on input line 229.
 (pdftex.def)             Requested size: 213.39568pt x 175.9756pt.
-
-
-LaTeX Warning: Citation `pdg' on page 16 undefined on input line 269.
-
-
-LaTeX Warning: Reference `fig:bothDets' on page 16 undefined on input line 275.
-
-
-
-LaTeX Warning: Reference `sec:fardet' on page 16 undefined on input line 288.
-
-
-LaTeX Warning: Reference `sec:neardet' on page 16 undefined on input line 289.
-
-[16] [17 <./tex/sections/../../img/baird/beam/020-flux.png> <./tex/sections/../
-../img/baird/beam/030-epi2enu.png> <./tex/sections/../../img/baird/beam/040-le-
-spectra.png> <./tex/sections/../../img/baird/beam/050-me-spectra.png>]
-<tex/sections/../../img/det/gen/both_detectors.png, id=193, 720.6925pt x 383.43
+ [16] [17 <./tex/sections/../../img/baird/beam/020-flux.png> <./tex/sections/..
+/../img/baird/beam/030-epi2enu.png> <./tex/sections/../../img/baird/beam/040-le
+-spectra.png> <./tex/sections/../../img/baird/beam/050-me-spectra.png>]
+<tex/sections/../../img/det/gen/both_detectors.png, id=371, 720.6925pt x 383.43
 25pt>
 File: tex/sections/../../img/det/gen/both_detectors.png Graphic file (type png)
 
@@ -1690,54 +1487,19 @@ File: tex/sections/../../img/det/gen/both_detectors.png Graphic file (type png)
 Package pdftex.def Info: tex/sections/../../img/det/gen/both_detectors.png used
  on input line 293.
 (pdftex.def)             Requested size: 341.43437pt x 181.65257pt.
-
-
-LaTeX Warning: Reference `fig:cell' on page 18 undefined on input line 310.
-
-[18 <./tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png>]
-
-LaTeX Warning: Reference `tab:scintComp' on page 19 undefined on input line 338
-.
-
-
-LaTeX Warning: Citation `scintillatorComp' on page 19 undefined on input line 3
-68.
-
-
-LaTeX Warning: Citation `scintillatorComp' on page 19 undefined on input line 3
-68.
-
-
-Underfull \vbox (badness 6592) has occurred while \output is active []
+ [18 <./tex/sections/../../img/beam/060-sig-and-bg-rates-thumb.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./tex/sections/../../img/det/gen/both_detectors.png>]
-
-LaTeX Warning: Reference `fig:apd' on page 20 undefined on input line 395.
-
-<tex/sections/../../img/det/gen/APD.png, id=210, 281.05pt x 374.39874pt>
+<tex/sections/../../img/det/gen/APD.png, id=391, 281.05pt x 374.39874pt>
 File: tex/sections/../../img/det/gen/APD.png Graphic file (type png)
 
 <use tex/sections/../../img/det/gen/APD.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/APD.png used on input l
 ine 410.
 (pdftex.def)             Requested size: 170.71393pt x 227.41171pt.
- [20 <./tex/sections/../../img/det/gen/APD.png>]
-
-LaTeX Warning: Reference `sec:cell' on page 21 undefined on input line 460.
-
-
-LaTeX Warning: Reference `fig:extrusion' on page 21 undefined on input line 462
-.
-
-
-LaTeX Warning: Reference `fig:module' on page 21 undefined on input line 466.
-
-
-LaTeX Warning: Reference `fig:stackedPlanes' on page 21 undefined on input line
- 478.
-
-[21]
-<tex/sections/../../img/det/gen/nova_cell.png, id=224, 442.65375pt x 672.5125pt
+ [20 <./tex/sections/../../img/det/gen/APD.png>] [21]
+<tex/sections/../../img/det/gen/nova_cell.png, id=407, 442.65375pt x 672.5125pt
 >
 File: tex/sections/../../img/det/gen/nova_cell.png Graphic file (type png)
  <use tex/sections/../../img/det/gen/nova_cell.png>
@@ -1745,7 +1507,7 @@ Package pdftex.def Info: tex/sections/../../img/det/gen/nova_cell.png used on i
 nput line 495.
 (pdftex.def)             Requested size: 185.02847pt x 281.10893pt.
 
-<tex/sections/../../img/baird/det/extru_cross_section.png, id=225, 191.71625pt 
+<tex/sections/../../img/baird/det/extru_cross_section.png, id=408, 191.71625pt 
 x 1087.06125pt>
 File: tex/sections/../../img/baird/det/extru_cross_section.png Graphic file (ty
 pe png)
@@ -1754,7 +1516,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/det/extru_cross_section.p
 ng used on input line 503.
 (pdftex.def)             Requested size: 49.57591pt x 281.10893pt.
 
-<tex/sections/../../img/det/gen/extrusionModule.jpg, id=226, 486.81876pt x 598.
+<tex/sections/../../img/det/gen/extrusionModule.jpg, id=409, 486.81876pt x 598.
 235pt>
 File: tex/sections/../../img/det/gen/extrusionModule.jpg Graphic file (type jpg
 )
@@ -1763,29 +1525,17 @@ Package pdftex.def Info: tex/sections/../../img/det/gen/extrusionModule.jpg use
 d on input line 533.
 (pdftex.def)             Requested size: 213.39568pt x 262.22922pt.
 
-<tex/sections/../../img/det/gen/planes.png, id=227, 341.275pt x 329.23pt>
+<tex/sections/../../img/det/gen/planes.png, id=410, 341.275pt x 329.23pt>
 File: tex/sections/../../img/det/gen/planes.png Graphic file (type png)
 
 <use tex/sections/../../img/det/gen/planes.png>
 Package pdftex.def Info: tex/sections/../../img/det/gen/planes.png used on inpu
 t line 542.
 (pdftex.def)             Requested size: 213.39568pt x 205.86871pt.
-
-
-LaTeX Warning: Reference `sec:detAssembly' on page 22 undefined on input line 5
-55.
-
-[22 <./tex/sections/../../img/det/gen/nova_cell.png> <./tex/sections/../../img/
-baird/det/extru_cross_section.png>] [23 <./tex/sections/../../img/det/gen/extru
-sionModule.jpg> <./tex/sections/../../img/det/gen/planes.png>]
-
-LaTeX Warning: Reference `fig:cavern' on page 24 undefined on input line 586.
-
-
-LaTeX Warning: Reference `fig:neardet' on page 24 undefined on input line 597.
-
-[24]
-<tex/sections/../../img/baird/det/neardet_cavern_diagram.png, id=249, 1132.23pt
+ [22 <./tex/sections/../../img/det/gen/nova_cell.png> <./tex/sections/../../img
+/baird/det/extru_cross_section.png>] [23 <./tex/sections/../../img/det/gen/extr
+usionModule.jpg> <./tex/sections/../../img/det/gen/planes.png>] [24]
+<tex/sections/../../img/baird/det/neardet_cavern_diagram.png, id=432, 1132.23pt
  x 392.46625pt>
 File: tex/sections/../../img/baird/det/neardet_cavern_diagram.png Graphic file 
 (type png)
@@ -1795,7 +1545,7 @@ Package pdftex.def Info: tex/sections/../../img/baird/det/neardet_cavern_diagra
 m.png used on input line 646.
 (pdftex.def)             Requested size: 341.43437pt x 118.35161pt.
 
-<tex/sections/../../img/baird/det/ND_01.png, id=250, 1710.39pt x 744.7825pt>
+<tex/sections/../../img/baird/det/ND_01.png, id=433, 1710.39pt x 744.7825pt>
 File: tex/sections/../../img/baird/det/ND_01.png Graphic file (type png)
 
 <use tex/sections/../../img/baird/det/ND_01.png>
@@ -1806,13 +1556,6 @@ ut line 655.
 ctions/../../img/baird/det/ND_01.png (PNG copy)>]
 Chapter 4.
 (./tex/sections/energyres.tex
-
-LaTeX Warning: Citation `Marshall' on page 26 undefined on input line 4.
-
-
-LaTeX Warning: Reference `tab:systShifts' on page 26 undefined on input line 8.
-
-
 
 LaTeX Warning: Float too large for page by 67.2142pt on input line 173.
 
@@ -1839,30 +1582,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  3E2C65AC62377A6CEA1FD8C044B928CF;1736.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3E2C65AC62377A6CEA1FD8C044B928CF;1736.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 44D700C1CC9F5B048B60B26D4F3B6592;2531.
 
-LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 23120 strings out of 493014
- 449722 string characters out of 6133350
+ 23145 strings out of 493014
+ 450088 string characters out of 6133350
  559693 words of memory out of 5000000
- 25998 multiletter control sequences out of 15000+600000
+ 26023 multiletter control sequences out of 15000+600000
  16999 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,71p,1179b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1883,10 +1617,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (34 pages, 1795751 bytes).
+Output written on thesis.pdf (34 pages, 1799936 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 383 compressed objects within 4 object streams
+ 613 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
  141 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
