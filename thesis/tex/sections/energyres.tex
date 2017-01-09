@@ -1,4 +1,7 @@
 
+
+\section{Energy Resolution Binning}
+
 Energy resolution binning was implemented in MINOS to improve the
 sensitivity of the experiment. Techniques similar to those found in
 \cite{Marshall} will be used in the following chapter to improve the
@@ -10,6 +13,8 @@ $\sin^22\theta_{23}$ and $\Delta m^2_{32}$ due to the systematic
 uncertainties. 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Change in width %%%%%%%%%%
 \begin{table*}[t]
 \caption{
 \textcolor{red}{\textbf{Following copied from the NuMu SA paper: }
@@ -58,7 +63,10 @@ Statistical uncertainty & +21 /  -23 & +93 /  -99  \\
 \begin{table*}[t]
   \centering
   \caption{
-    All improvs syst. table
+    Table of uncertainty in $\sin^2\!\theta_{23}$ and $\Delta
+    m^2_{32}$ due to each source of systematic uncertainty when
+    using the standard second analysis. This should be a break down of
+    the table above.
   }
   \begin{tabular}{c c c}
     \hline 
@@ -73,104 +81,238 @@ Statistical uncertainty & +21 /  -23 & +93 /  -99  \\
                                                                  eV}^{2}\right)$\\
     \hline 
     \textbf{Normalisation} & & \\
-    norm& +0.03 / -0.03& +0.04 / -0.04 \\
-    relNorm& +5 / -6 & +4 / -4 \\
-    normalizations& +5 / -6& +5 / -4 \\
+    norm & +0 / -0.076 & +0.2 / -0\\
+    relNorm & +3.6 / -3.1 & +3.5 / -6.4\\
+    % \hline
+    % normalizations & +3.6 / -3.1 & +3.5 / -6.4\\
+    \textbf{Muon energy scale} & & \\
+    SAMuEScale & +8.5 / -7.9 & +2.8 / -10\\
+    FDSAMuEScale & +8.7 / -9.2 & +23 / -14\\
     \hline
-    \textbf{Absolute muon energy scale} & & \\
-    SAMuEScale& +3 / -2& +20 / -20 \\
-    \textbf{Relative muon energy scale} & & \\
-    FDSAMuEScale& +4 / -3& +8 / -6 \\
-    \textbf{Absolute hadronic energy scale} & & \\
-    SACalibXY& +1 / -3& +21 / -15 \\
-    SACalibYFunc& +1 / -1& +8 / -8 \\
-    \textbf{Relative hadronic energy scale} & & \\
-    SARelHadE& +4 / -4& +7 / -10 \\
-    \hline
+    muon E scales & +11 / -12 & +23 / -20\\
+    \textbf{Hadronic energy scale} & & \\
+    SACalibXY & +5 / -4.7 & +4.4 / -1.1\\
+    SACalibYFunc & +0.11 / -0.076 & +2.4 / -2.9\\
+    calibrations & +5 / -4.7 & +5.1 / -3.2\\
+    SARelHadE & +9.9 / -11 & +29 / -19\\
     \textbf{Cross sections and final state interactions} & & \\
-    TransportPlusNA49& +1 / -1& +5 / -2 \\
-    mecScale& +1 / -1& +10 / -11 \\
-    RPA& +0.6 / -0.0 & +6 / -0 \\
-    numuSumSmallGENIE& +0.3 / -0.3& +1 / -1 \\
-    MaNCEL& +0.01 / -0.01& +0.07 / -0.03 \\
-    NormCCQE& +0.96 / -0.80& +3.3 / -2.8 \\
-    MaCCQEshape& +0.51 / -0.54& +2.2 / -2.0 \\
-    MaCCRES& +0.67 / -0.74& +15 / -13 \\
-    MvCCRES& +0.55 / -0.29& +9.3 / -8.3 \\
-    MaNCRES& +0.24 / -0.17& +0.82 / -0.65 \\
-    MvNCRES& +0.057 / -0.047& +0.21 / -0.18 \\
-    CCQEPauliSupViaKF& +0.50 / -0.65& +2.6 / -2.3 \\
+    TransportPlusNA49 & +0.97 / -1.9 & +3.7 / -7.1\\
+    mecScale & +0.9 / -0.52 & +5.5 / -7.1\\
+    RPA & +0.68 / -0.55 & +1.5 / -2.1\\
+    numuSumSmallGENIE & +0.38 / -0.89 & +1 / -2.4\\
+    MaNCEL & +0.048 / -0.12 & +0.28 / -0.51\\
+    NormCCQE & +0.41 / -0.42 & +1.6 / -1.2\\
+    MaCCQEshape & +0.64 / -0.49 & +1.7 / -2.4\\
+    MaCCRES & +2.2 / -1.5 & +8.9 / -12\\
+    MvCCRES & +1.4 / -1 & +5.4 / -7.1\\
+    MaNCRES & +0.4 / -0.82 & +1.5 / -2.7\\
+    MvNCRES & +0.095 / -0.21 & +0.4 / -0.68\\
+    CCQEPauliSupViaKF & +0.91 / -0.75 & +1.4 / -2.5\\
     \hline
+    GENIE+MEC+RPA & +3.1 / -2.5 & +12 / -16\\
     \textbf{Beam background normalization} & & \\
-    numuNCScale& +2 / -2& +4 / -4 \\
+    numuNCScale & +3.3 / -6.5 & +9.3 / -17\\
     \textbf{Scintillation model} & & \\
-    SABirks& +0.3 / -0.3& +13 / -14 \\
+    SABirks & +3.7 / -3.2 & +2.9 / -6.5\\
     \hline 
+    osc par & +3.1 / -4 & +74 / -2.1\\
+    \hline
+    all systs & +15 / -18 & +87 / -39\\
+    \hline
   \end{tabular}
   \label{tab:systShifts}
 \end{table*}
+
 
 
 
 \begin{table*}[t]
   \centering
   \caption{
-    std syst table. broken down
+    Table of uncertainty in $\sin^2\!\theta_{23}$ and $\Delta
+    m^2_{32}$ due to each source of systematic uncertainty when
+    splitting the sample into four hadronic energy fraction quantiles
+    and a CVN -  remid hybrid selection.
   }
   \begin{tabular}{c c c}
     \hline 
-    \multirow{2}{*}{Source of uncertainty} & Uncertainty in & Uncertainty in \\
+    \multirow{2}{*}{Source of uncertainty} & 
+                                             Uncertainty in & 
+                                                              Uncertainty in \\
                                            & $\sin^2\!\theta_{23}
-                                             (\times 10^{-3})$ &
+                                             (\times 10^{-3})$ & 
                                                                  $\Delta
                                                                  m^2_{32}
                                                                  \left(10^{-6}\text{
-                                                                 eV}^{2}\right)$
-    \\
+                                                                 eV}^{2}\right)$\\
     \hline 
     \textbf{Normalisation} & & \\
-    norm& +0.049 / -0.049& +0.13 / -0.13 \\
-    relNorm& +3.5 / -3.6& +4.3 / -4.4 \\
-    normalizations& +3.4 / -3.6& +4.4 / -4.5 \\
-    \hline
-    \textbf{Absolute muon energy scale} & & \\
-    SAMuEScale& +9.7 / -8.8& +2.9 / -8.5 \\
-    \textbf{Relative muon energy scale} & & \\
-    FDSAMuEScale& +10 / -9.6& +26 / -16 \\
-    muon E scales& +20 / -18& +29 / -4.6 \\
-    \textbf{Absolute hadronic energy scale} & & \\
-    SACalibXY& +5.2 / -5.7& +3.4 / -13 \\
-    SACalibYFunc& +0.099 / -0.033& +2.3 / -2.8 \\
-    calibrations& +5.3 / -5.5& +0.55 / -15 \\
-    \textbf{Relative hadronic energy scale} & & \\
-    SARelHadE& +11 / -11& +21 / -32 \\
-    \hline
+    norm & +0.0455 / -0.0503 & +0 / -0.216\\
+    relNorm & +5.11 / -5.1 & +0.743 / -9.31\\
+    \textbf{Muon energy scale} & & \\
+    SAMuEScale & +2.46 / -1.91 & +15.3 / -22.9\\
+    FDSAMuEScale & +3.1 / -3.35 & +8.01 / -3.69\\
+    muon E scales & +3.82 / -3.79 & +17.9 / -23.6\\
+    \textbf{Hadronic energy scale} & & \\
+    SACalibXY & +1.53 / -2.09 & +14.7 / -17.5\\
+    SACalibYFunc & +1.3 / -1.67 & +7.96 / -7.22\\
+    calibrations & +1.92 / -2.6 & +16.2 / -18.5\\    
+    SARelHadE & +3.15 / -3.39 & +8.8 / -4.76\\
     \textbf{Cross sections and final state interactions} & & \\
-    TransportPlusNA49& +1.6 / -1.1& +6.8 / -3.6 \\
-    mecScale& +0.79 / -0.84& +5.6 / -6.6 \\
-    RPA& +1.4 / -0& +3.1 / -0 \\
-    numuSumSmallGENIE& +0.58 / -0.56& +1.7 / -1.6 \\
-    MaNCEL& +0.1 / -0.046& +0.49 / -0.22 \\
-    NormCCQE& +0.46 / -0.38& +1.7 / -1.4 \\
-    MaCCQEshape& +0.6 / -0.61& +1.9 / -1.8 \\
-    MaCCRES& +2 / -2.1& +11 / -8.8 \\
-    MvCCRES& +1.3 / -1.3& +6.5 / -5.4 \\
-    MaNCRES& +0.64 / -0.46& +2.2 / -1.8 \\
-    MvNCRES& +0.15 / -0.12& +0.56 / -0.48 \\
-    CCQEPauliSupViaKF& +0.86 / -0.9& +1.6 / -1.8 \\
-    \hline
-    GENIE+MEC+RPA& +6.6 / -4.7& +15 / -8.7 \\
-    \hline
+    numuSumSmallGENIE & +0.213 / -0.41 & +0.455 / -0.68\\
+    MaNCEL & +0 / -0 & +0 / -0.216\\
+    NormCCQE & +0.726 / -0.95 & +2.91 / -2.55\\
+    MaCCQEshape & +0.528 / -0.426 & +1.6 / -2.92\\
+    MaCCRES & +0.706 / -0.143 & +11.2 / -14.3\\
+    MvCCRES & +0.566 / -0.189 & +7.22 / -9.44\\
+    MaNCRES & +0.151 / -0.286 & +0.616 / -0.833\\
+    MvNCRES & +0.0455 / -0.0714 & +0.186 / -0.305\\
+    CCQEPauliSupViaKF & +0.573 / -0.437 & +1.82 / -3.36\\
+    TransportPlusNA49 & +0.704 / -1.19 & +3.14 / -4.25\\
+    mecScale & +0.582 / -1.08 & +8.97 / -9.7\\
+    RPA & +0.298 / -0.16 & +2.53 / -3.2\\
+    GENIE+MEC+RPA & +1.64 / -1.7 & +14.2 / -17.7\\
     \textbf{Beam background normalization} & & \\
-    numuNCScale& +4.5 / -4.8& +14 / -14 \\
+    numuNCScale & +1.43 / -2.44 & +3.67 / -4.23\\
     \textbf{Scintillation model} & & \\
-    SABirks& +4 / -3.7& +3.1 / -5 \\
-    \hline 
-    all systematics& +20 / -10& +12 / -31 \\
+    SABirks & +0.193 / -0.739 & +12.1 / -14.2\\
+    \textbf
+    osc par & +2.79 / -4.05 & +69.7 / -5.23\\
+    \hline
+    all systs & +8.51 / -9.46 & +78.8 / -37.8\\
     \hline
   \end{tabular}
   \label{tab:systShifts}
 \end{table*}
+
+%Legend: in sin (10^-3) , dM (10^-6)
+
+
+
+
+%%%%%%%%%% CPied %%%%%%%%%%          
+%%%%%%%%%% CPied %%%%%%%%%%          
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Shift in best-fit point %%%%%%%%%%
+% \begin{table*}[t]
+%   \centering
+%   \caption{
+%     All improvs table of best fit point shifts
+%   }
+%   \begin{tabular}{c c c}
+%     \hline 
+%     \multirow{2}{*}{Source of uncertainty} & 
+%                                              Shift in & 
+%                                                               Shift in \\
+%                                            & $\sin^2\!\theta_{23}
+%                                              (\times 10^{-3})$ & 
+%                                                                  $\Delta
+%                                                                  m^2_{32}
+%                                                                  \left(10^{-6}\text{
+%                                                                  eV}^{2}\right)$\\
+%     \hline 
+%     \textbf{Normalisation} & & \\
+%     norm& +0.03 / -0.03& +0.04 / -0.04 \\
+%     relNorm& +5 / -6 & +4 / -4 \\
+%     normalizations& +5 / -6& +5 / -4 \\
+%     \hline
+%     \textbf{Absolute muon energy scale} & & \\
+%     SAMuEScale& +3 / -2& +20 / -20 \\
+%     \textbf{Relative muon energy scale} & & \\
+%     FDSAMuEScale& +4 / -3& +8 / -6 \\
+%     \textbf{Absolute hadronic energy scale} & & \\
+%     SACalibXY& +1 / -3& +21 / -15 \\
+%     SACalibYFunc& +1 / -1& +8 / -8 \\
+%     \textbf{Relative hadronic energy scale} & & \\
+%     SARelHadE& +4 / -4& +7 / -10 \\
+%     \hline
+%     \textbf{Cross sections and final state interactions} & & \\
+%     TransportPlusNA49& +1 / -1& +5 / -2 \\
+%     mecScale& +1 / -1& +10 / -11 \\
+%     RPA& +0.6 / -0.0 & +6 / -0 \\
+%     numuSumSmallGENIE& +0.3 / -0.3& +1 / -1 \\
+%     MaNCEL& +0.01 / -0.01& +0.07 / -0.03 \\
+%     NormCCQE& +0.96 / -0.80& +3.3 / -2.8 \\
+%     MaCCQEshape& +0.51 / -0.54& +2.2 / -2.0 \\
+%     MaCCRES& +0.67 / -0.74& +15 / -13 \\
+%     MvCCRES& +0.55 / -0.29& +9.3 / -8.3 \\
+%     MaNCRES& +0.24 / -0.17& +0.82 / -0.65 \\
+%     MvNCRES& +0.057 / -0.047& +0.21 / -0.18 \\
+%     CCQEPauliSupViaKF& +0.50 / -0.65& +2.6 / -2.3 \\
+%     \hline
+%     \textbf{Beam background normalization} & & \\
+%     numuNCScale& +2 / -2& +4 / -4 \\
+%     \textbf{Scintillation model} & & \\
+%     SABirks& +0.3 / -0.3& +13 / -14 \\
+%     \hline 
+%   \end{tabular}
+%   \label{tab:systShifts}
+% \end{table*}
+
+
+
+% \begin{table*}[t]
+%   \centering
+%   \caption{
+%     std syst table of best fit point shifts.
+%   }
+%   \begin{tabular}{c c c}
+%     \hline 
+%     \multirow{2}{*}{Source of uncertainty} & Shift in & Shift in \\
+%                                            & $\sin^2\!\theta_{23}
+%                                              (\times 10^{-3})$ &
+%                                                                  $\Delta
+%                                                                  m^2_{32}
+%                                                                  \left(10^{-6}\text{
+%                                                                  eV}^{2}\right)$
+%     \\
+%     \hline 
+%     \textbf{Normalisation} & & \\
+%     norm& +0.049 / -0.049& +0.13 / -0.13 \\
+%     relNorm& +3.5 / -3.6& +4.3 / -4.4 \\
+%     normalizations& +3.4 / -3.6& +4.4 / -4.5 \\
+%     \hline
+%     \textbf{Absolute muon energy scale} & & \\
+%     SAMuEScale& +9.7 / -8.8& +2.9 / -8.5 \\
+%     \textbf{Relative muon energy scale} & & \\
+%     FDSAMuEScale& +10 / -9.6& +26 / -16 \\
+%     muon E scales& +20 / -18& +29 / -4.6 \\
+%     \textbf{Absolute hadronic energy scale} & & \\
+%     SACalibXY& +5.2 / -5.7& +3.4 / -13 \\
+%     SACalibYFunc& +0.099 / -0.033& +2.3 / -2.8 \\
+%     calibrations& +5.3 / -5.5& +0.55 / -15 \\
+%     \textbf{Relative hadronic energy scale} & & \\
+%     SARelHadE& +11 / -11& +21 / -32 \\
+%     \hline
+%     \textbf{Cross sections and final state interactions} & & \\
+%     TransportPlusNA49& +1.6 / -1.1& +6.8 / -3.6 \\
+%     mecScale& +0.79 / -0.84& +5.6 / -6.6 \\
+%     RPA& +1.4 / -0& +3.1 / -0 \\
+%     numuSumSmallGENIE& +0.58 / -0.56& +1.7 / -1.6 \\
+%     MaNCEL& +0.1 / -0.046& +0.49 / -0.22 \\
+%     NormCCQE& +0.46 / -0.38& +1.7 / -1.4 \\
+%     MaCCQEshape& +0.6 / -0.61& +1.9 / -1.8 \\
+%     MaCCRES& +2 / -2.1& +11 / -8.8 \\
+%     MvCCRES& +1.3 / -1.3& +6.5 / -5.4 \\
+%     MaNCRES& +0.64 / -0.46& +2.2 / -1.8 \\
+%     MvNCRES& +0.15 / -0.12& +0.56 / -0.48 \\
+%     CCQEPauliSupViaKF& +0.86 / -0.9& +1.6 / -1.8 \\
+%     \hline
+%     GENIE+MEC+RPA& +6.6 / -4.7& +15 / -8.7 \\
+%     \hline
+%     \textbf{Beam background normalization} & & \\
+%     numuNCScale& +4.5 / -4.8& +14 / -14 \\
+%     \textbf{Scintillation model} & & \\
+%     SABirks& +4 / -3.7& +3.1 / -5 \\
+%     \hline 
+%     all systematics& +20 / -10& +12 / -31 \\
+%     \hline
+%   \end{tabular}
+%   \label{tab:systShifts}
+% \end{table*}
 
 
 

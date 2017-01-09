@@ -1,14 +1,26 @@
 
+% Introduce the NOvA experiment
 %Introduce the NOvA detectors and give big picture overview
-The NuMI Off-axis $\nu_e$ Appearance (NOvA) experiment consists of two 
-detectors which measure the neutrino composition of the NuMI
-(Neutrinos at the Main Injector) beam. The
-300~ton near detector is located on site at Fermilab 1.015~km 
-from the NuMI
-target. The 14~kiloton far detector is located at a site near Ash
-River, Minnesota and is 810~km from the
-NuMI target. Both detectors are placed off-axis from the centre
-of the NuMI beam by 14.6~mrads.
+The NuMI Off-axis $\nu_e$ Appearance (NOvA) experiment 
+is designed to make precise measurements of muon neutrino
+disappearance and electron neutrino appearance in a muon neutrino
+beam.  
+The experiment consists of two functionally equivalent
+detectors which measure the neutrino energy and flavour composition of 
+the Neutrinos at the Main Injector (NuMI) beam. 
+The detectors are constructed from PVC tubes filled with liquid
+scintillator and are highly granular to distinguish neutrino induced
+signals and background.
+The 300~ton near detector is located on site at Fermilab 1.015~km  
+from the NuMI target. The 14~kiloton far detector is located at a site
+near Ash River, Minnesota and is 810~km from the NuMI target. 
+The baseline and mean neutrino energy are chosen such that the far
+detector sees the first oscillation maximum driven by $\Delta
+m_{32}^2~\text{eV}^2$. 
+Both detectors are placed off-axis from the centre
+of the NuMI beam to enhance the sensitivity to electron neutrino
+appearance and muon neutrino disappearance.
+%by 14.6~mrads.
 
 The original design of the NOvA experiment is laid out in the
 technical design report (TDR) \cite{TDR} and the constructed experiment
@@ -21,29 +33,33 @@ the two detectors, are discussed in the following chapter.
 
 The NOvA experiment's neutrino source is the Neutrinos at
 the Main Injector (NuMI) beam at Fermilab. The following section
-briefly describes the process by which the NuMI muon neutrino beam is
+briefly describes the process by which the NuMI beam is
 created. More details are available in Ref~\cite{NuMI}.
 
 The NuMI beam-line extracts batches of approximately $4.8 \times
 10^{13}$ 120~GeV protons from the Main
-injector and directs the protons onto a 0.95~m long graphite
-target. This is known as a beam spill. There is typically an
-interval of 1.33~s between beam spills.
+injector and directs them onto a 0.95~m long graphite
+target. Each extraction of protons is known as a beam spill. There is
+typically an interval of 1.33~s between beam spills.
 
 An instructive diagram of the NuMI beam facility is presented in
-Figure~\ref{fig:NuMI}. The Figure shows the beam passing through the 
+Figure~\ref{fig:NuMI}. The Figure shows the beam components including the 
 Target Hall, Decay Pipe, Hadron Monitor, Absorber and Muon Monitors. 
-Collisions between the accelerated protons and the carbon atoms of the
+Within the target hall, collisions between the accelerated protons and
+the carbon atoms of the 
 target produce a plethora of secondary particles (mostly pions and
-kaons). The charged mesons are focused into a beam by two magnetic
-focussing horns. The focussed beam of charged mesons then travels
-into a 675~m long evacuated decay pipe. Along this length the
+kaons). The charged mesons of one sign (or the other) are focused into
+a beam by two magnetic focussing horns. 
+The resulting beam of charged mesons then enters a 675~m long He
+filled decay pipe. Along this length the 
 mesons decay predominantly to charged leptons and neutrinos. 
-The decay pipe is followed by hadron and muon
-monitors and about 240~m of rock. The rock absorbs the remaining
-charged particles leaving a beam of neutrinos. After the rock the beam
-arrives at the NOvA near detector. The beam then continues through the
-Earth's crust for 810~km before reaching the NOvA far detector.
+The decay pipe is followed by a hadron monitor, an absorber, muon
+monitors and about 240~m of rock. 
+The remaining
+muons are absorbed by the rock leaving a beam of
+neutrinos. After the rock the beam 
+arrives at the NOvA near detector before continuing through the
+Earth's crust for 810~km where it reachs the NOvA far detector.
 
 % The Main Injector accepts 12 batches, each spanning a spill window of
 % 10~$\mu$sec, of protons at a time. Each proton is accelerated up to
@@ -57,7 +73,7 @@ Earth's crust for 810~km before reaching the NOvA far detector.
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{../../img/beam/beam_diagram.png} 
-  \caption{A diagram showing the layout of the NuMI beam.  }
+  \caption{A diagram showing the layout of the NuMI beam. \cite{NuMI}}
   \label{fig:NuMI}
 \end{figure}
 
@@ -67,12 +83,17 @@ Two magnetic horns are used to focus the mesons created
 by collisions of protons with the NuMI target into a
 beam. Figure~\ref{fig:horn} shows the NuMI target, Horn~1, Horn~2 and
 example meson trajectories. 
-The Target is placed 1.3~m upstream from the opening of Horn~1 while
+The design of the focussing horns allows three potential
+Horn~1 to Horn~2 seperations corresponding to low, medium and high
+energy beam. 
+In the medium energy tune the Target is placed 1.3~m upstream from the
+opening of Horn~1 while 
 Horn~2 is placed 23~m downstream relative to the front face of Horn~1.
-These are the horn positions used for the NuMI medium energy tune. 
+The NuMI horns are setup in aforementioned medium energy configuration
+for the NOvA era.
+
 The horns act as a lens where the focal
 length is proportional to the momentum of the mesons.
-
 Changing the current
 direction within the focussing horns, choosing either forward or
 reverse horn current, changes the direction of
@@ -81,8 +102,6 @@ of the mesons that are focussed. Operating the horns with forward or
 reverse horn current selects positively or negatively charged mesons
 respectively, leading to a predominantly neutrino or antineutrino beam
 respectively. 
-
-
 
 \begin{figure}
   \centering
@@ -93,37 +112,29 @@ respectively.
     mode. Positively charged mesons arriving from different directions
     are focussed by the combination of the two horns. The trajectory of
     positively charged mesons that are over or under focussed by Horn
-    1 may be corrected by Horn 2. \cite{NuMI}
+    1 can be corrected by Horn 2. \cite{NuMI}
   }
   \label{fig:horn}
 \end{figure}
 
 
-% Energy Tune
-For the NOvA experiment the NuMI target and magnetic horns will be
-setup in the Medium Energy Tune configuration. In this configuration
-Horn 2 is placed 19.2~m downstream of Horn 1.
-
-
-\subsection{Off-axis Detectors}
+\subsection{Off-axis Experiment Design}
 
 The NOvA detectors are both placed 14~mrads off the axis of the NuMI
 beam.
-The reasons for placing the detectors at this angle will be described
-in more detail in the following paragraphs. 
-
-The decay process used to produce a neutrino beam is a two-body decay,
-where a
+The dominant decay process used to produce a neutrino beam is a
+two-body decay, where a
 pion (or kaon) decays to a neutrino and a muon. The two body decay 
-occurs isotropically in the parent particles rest frame. 
+occurs isotropically in the parent particle's rest frame. 
 In the lab frame the parent particle is not at rest when decaying, for
-pion and kaon decay this boosts the neutrinos into a cone in the
+pion and kaon decay this boosts the neutrinos in the
 direction of the parent particle.
-For small angles, the flux and energy of neutrinos produced by pion
-decay ($\pi \rightarrow \nu_{\mu} + \mu$) are given by:
+For small angles, the flux per decay ($\Phi$) and energy ($E_\nu$) of
+neutrinos produced by pion decay ($\pi \rightarrow \nu_{\mu} + \mu$)
+are given by 
 
 \begin{equation}
-\Phi = \left( \dfrac{2\gamma}{1+\gamma^2 \theta^2} \right)^2 \dfrac{A}{4\pi z^2}
+\Phi = \left( \dfrac{2\gamma}{1+\gamma^2 \theta^2} \right)^2 \dfrac{A}{4\pi z^2},
 \label{eqn:NuPiFlux}
 \end{equation}
 
@@ -132,17 +143,20 @@ E_{\nu} = \dfrac{0.43E_{\pi}}{1+\gamma^2\theta^2},
 \label{eqn:NuPiEnrgy}
 \end{equation}
 
-\noindent where $E_{\pi}$ is the energy of the parent pion, $m_{\pi}$ the mass of the
-parent pion, $\theta$ the angle between the pion and neutrino
-directions and $\gamma = E_{\pi}/m_{\pi}$.
+\noindent where $E_{\pi}$ is the energy of the parent pion, $m_{\pi}$
+the mass of the parent pion, $\gamma = E_{\pi}/m_{\pi}$, $\theta$ the
+angle between the parent pion and outgoing
+neutrino directions, A is the cross-sectional area and z is the distance
+from the pion decay vertex.
+
 
 Equations~\ref{eqn:NuPiFlux}~and~\ref{eqn:NuPiEnrgy} are shown as 
-functions of neutrino energy and off-axis angle for the Medium Energy
-Tune in Figure~\ref{fig:NuPiFlux}. The Figures show the relationship
-between the neutrino flux and energy with the parent pion energy for
-four off-axis angles ($\theta = 21~\text{mrads}$, $\theta =
+functions of pion energy for the Medium Energy NuMI Tune in
+Figure~\ref{fig:NuPiFlux}. The Figure also shows the effect of four
+off-axis angles ($\theta = 21~\text{mrads}$, $\theta =
 14~\text{mrads}$, $\theta = 7~\text{mrads}$ and $\theta =
 0~\text{mrads}$). 
+
 
 Figure~\ref{fig:NuESpectra_MEAndLE} shows the number of neutrino
 events as a function of the
@@ -160,14 +174,14 @@ In addition, figure~\ref{fig:NuESpectra_MEAndLE_b} shows that at
 14~mrad the Medium
 Energy Tune produces a narrow energy neutrino beam with approximately
 4 times more neutrinos at 2~GeV than the on-axis scenario. This peak at
-2~GeV is well matched to the expected energy of the oscillation
-maximum. The oscillation maximum for electron neutrino appearance in a
-muon neutrino beam is expected to occur at 1.6~GeV for
-NOvA's L/E and for $\Delta \textrm{m}_{32}^2=2.4~\textrm{meV}^2$.
+2~GeV is well matched to the expected energy of the first oscillation
+maximum which is expected to occur at 1.6~GeV for
+NOvA's L/E (experiment baseline to mean neutrino energy ratio) and for
+$\Delta \textrm{m}_{32}^2=2.4~\textrm{meV}^2$. 
 
 As described above, placing the detector off-axis increases the flux
 at the expected oscillation maximum. In addition, the narrow energy
-range of the off-axis beam improves the rejection of background
+range of the off-axis beam reduces background
 events. Neutral current events are an important background source
 whose topologies can be hard to distinguish from electron showers
 produced by $\nu_e$ charged current events. For neutral current events, the neutrino carries a
@@ -192,12 +206,16 @@ shown to shift below the signal region (red-hatched histogram).
   \hfill
   \begin{subfigure}[b]{0.45\textwidth}
   \includegraphics[width=\textwidth]{../../img/baird/beam/030-epi2enu.png}
-  \caption{Neutrino energy vs. pion energy.}
+  \caption{Neutrino vs. pion energy.}
   \label{fig:NuPiFluxb}
   \end{subfigure}
   \caption{The above distributions are for the medium energy tune NuMI
     beam as viewed from a site located
-    800km from the NuMI target and off-axis by an angle $\theta$. }
+    800km from the NuMI target and off-axis by an angle $\theta$. The
+    left plot shows the neutrino flux as a function of the energy of
+    the parent pion for different off-axis angles. The right plot
+    shows the neutrino energy as a function of the parent pion energy
+    for different off-axis angles.~\cite{TDR}}
   \label{fig:NuPiFlux}
 \end{figure}
 
@@ -219,7 +237,7 @@ shown to shift below the signal region (red-hatched histogram).
   \caption{Charged current $\nu_{\mu}$ event rates vs. neutrino
     energy in the absence of oscillations. The distributions are found
   for a detector which is 800~km from the NuMI target and for various
-  off-axis angles.}
+  off-axis angles.~\cite{TDR}}
   \label{fig:NuESpectra_MEAndLE}
 \end{figure}
 
@@ -232,7 +250,7 @@ shown to shift below the signal region (red-hatched histogram).
     intrinsic beam $\nu_e$ events and neutral current events. The
     simulation assumes an off-axis position of 12~km at 810~km, $\Delta m^2 = 2.5 \times 10^{-3}
     \textrm{eV}^2$, $\sin^2(2\theta_{23}) = 1.0$ and
-  $\sin^2(2\theta_{13}) = 0.1$.}
+  $\sin^2(2\theta_{13}) = 0.1$.~\cite{TDR}}
   \label{fig:NuMIBeamComp}
 \end{figure}
 
@@ -364,8 +382,7 @@ wavelength-shifting fibre.
     tocopherol & antioxidant & 0.0010 \\
     %\hline
   \end{tabular}
-  \caption{Liquid scintillator
-    composition. \cite{scintillatorComp} }
+  \caption{Chemical composition of the NOvA liquid scinttillator. \cite{scintillatorComp} }
   \label{tab:scintComp}
 \end{table}
 
@@ -494,14 +511,15 @@ far detector or near detector respectively.
     \centering
     \includegraphics[height=0.4\textheight]{../../img/det/gen/nova_cell.png}
     \captionof{figure}{A NOvA cell consisting of an extruded
-      PVC tube filled with liquid scintillator and a looped wavelength-shifting fibre.}
+      PVC tube filled with liquid scintillator and a looped
+      wavelength-shifting fibre. }
     \label{fig:cell}
   \end{minipage}%
   \hfill
   \begin{minipage}{.45\textwidth}
     \centering
     \includegraphics[height=0.4\textheight]{../../img/baird/det/extru_cross_section.png}
-    \captionof{figure}{A side on view of an extrusion constructed from
+    \captionof{figure}{An end on view of an extrusion constructed from
       16 NOvA cells.\\}
     \label{fig:extrusion}
   \end{minipage}
@@ -532,7 +550,8 @@ far detector or near detector respectively.
   \centering
   \includegraphics[width=0.5\textwidth]{../../img/det/gen/extrusionModule.jpg}
   \caption{A side on view of an extrusion module constructed from two
-    extrusions of 16 cells. }
+    extrusions of 16 cells, an end plate, a side seal, a manifold cover,
+    a snout and an electronics box  }
   \label{fig:module}
 \end{figure}
 
@@ -540,8 +559,8 @@ far detector or near detector respectively.
 \begin{figure}
   \centering
   \includegraphics[width=0.5\textwidth]{../../img/det/gen/planes.png}
-  \caption{Cut out of a NOvA detector showing the alternating
-    orientation of the stacked planes.}
+  \caption{Cut out of the NOvA detector showing the
+    alternating orientation of the cells within the stacked planes.}
   \label{fig:stackedPlanes}
 \end{figure}
 
@@ -644,8 +663,8 @@ another.
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{../../img/baird/det/neardet_cavern_diagram.png}
-  \caption{Bird's-eye view of the NuMI Beam-line, NOvA near detector cavern
-    and the MINOS Hall. }
+  \caption{Bird's-eye view diagram of the NuMI Beam-line, MINOS Hall, MINOS
+    shaft and the NOvA near detector cavern }
   \label{fig:cavern}
 \end{figure}
 
@@ -653,16 +672,33 @@ another.
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{../../img/baird/det/ND_01.png}
-  \caption{Technical drawing of the near detector and surrounding
-    cavern. The NuMI beam enters from the left and the shorter muon
-    catcher is shown on the right hand side of the detector. Note that
-    only some of the planes have been drawn to aid visualisation.}
+  \caption{Technical drawing of the NOvA near detector and 
+    cavern. The NuMI beam enters from the left. The muon
+    catcher planes are shown on the right hand side of the
+    detector. Note that only some of the planes have been drawn to
+    aid visualisation of the detector layout.} 
   \label{fig:neardet}
 \end{figure}
 
 
 
+\section{Monte Carlo Simulation}
 
 
+The NOvA experiment is simulated using several Monte Carlo packages.
+The simulation involves several stages, each using information
+from the previous step. Simulations model the
+NuMI beam, subsequent neutrino interactions within the detectors,
+the propagation of particles through the detector geometry, and
+finally the modelling of the detector response to those particles.
+
+% NuMI beam simulation
+The creation and propapagation of the NuMI beam is simulated using FLUKA
+and Geant4 through the FLUGG interface \cite{FLUKA, ferrari2005fluka,
+  agostinelli2003geant4}. The beam simulation produces files
+containing a flux of simulated neutrinos with given flavour, energy
+and direction. Details of each neutrino's parent are retained.
+
+% Interactions within the detector
 
 
