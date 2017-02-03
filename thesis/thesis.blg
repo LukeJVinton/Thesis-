@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: unsrt.bst
 Database file #1: tex/sections/bibliography.bib
-You've used 41 entries,
+Warning--I didn't find a database entry for "NOvANumuySABless"
+You've used 57 entries,
             1791 wiz_defined-function locations,
-            725 strings with 9545 characters,
-and the built_in function-call counts, 8603 in all, are:
-= -- 787
-> -- 321
-< -- 0
-+ -- 123
-- -- 82
-* -- 567
-:= -- 1423
-add.period$ -- 125
-call.type$ -- 41
-change.case$ -- 40
+            814 strings with 12886 characters,
+and the built_in function-call counts, 12348 in all, are:
+= -- 1080
+> -- 573
+< -- 4
++ -- 214
+- -- 157
+* -- 841
+:= -- 2045
+add.period$ -- 170
+call.type$ -- 57
+change.case$ -- 55
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 362
-empty$ -- 869
-format.name$ -- 82
-if$ -- 1891
+cite$ -- 57
+duplicate$ -- 499
+empty$ -- 1196
+format.name$ -- 157
+if$ -- 2696
 int.to.chr$ -- 0
-int.to.str$ -- 41
-missing$ -- 40
-newline$ -- 210
-num.names$ -- 41
-pop$ -- 50
+int.to.str$ -- 57
+missing$ -- 48
+newline$ -- 286
+num.names$ -- 57
+pop$ -- 97
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 150
+skip$ -- 228
 stack$ -- 0
-substring$ -- 697
-swap$ -- 41
-text.length$ -- 0
+substring$ -- 902
+swap$ -- 78
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 83
-width$ -- 43
-write$ -- 452
+while$ -- 115
+width$ -- 59
+write$ -- 615
+(There was 1 warning)

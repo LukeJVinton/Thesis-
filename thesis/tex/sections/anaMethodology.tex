@@ -2,24 +2,169 @@
 %Introduce the following chapter
 
 
-\section{Extrapolation}
+\section{Reconstruction}\label{sec:reco}
 
-\section{Selection}
+The NOvA analysis begins with a collection of hits from cells with APD 
+signals above threshold. 
 
-\section{Reconstruction}
+The reconstruction begins with a collection of above threshold APD
+signals clustered in space and time \cite{baird2015analysis,
+  ester1996density}. 
+The clusters of APD signals are used to reconstruct event
+candidates.
+The trajectories of charged particles within an event are reconstructed
+by applying a technique based on the Kalman filter
+algorythm~\cite{kalman1960new}. 
 
-\section{Calibration}
 
-\section{GENIE Tune}
 
-\section{Evaluation of Systematics}
+\section{Selection and Background}\label{sec:sel}
+
+A series of selection packages are used to identify muon neutrino
+events within the detector and also to reject background events.  
+There two main sources of background to the muon neutrino
+disappearance analysis are from cosmic ray muons and beam induced
+backgrounds including neutral current events, $\nu_e$ charged current
+and $\nu_\tau$ charged current events. 
+
+The beam background events are estimated using the simulation for each
+detector.
+Events passing the selection but failing a truth cut
+requiring a muon or anti-muon neutrino are deemed to be
+background. 
+% The beam background is predominantly due to tau, electron 
+% and neutral-current neutrino interactions within the detector.
+
+The cosmic background (mostly secondary cosmic ray muons) is estimated
+using two samples of far detector data which occur outside of the beam
+spill window.  
+The first sample is taken using the timing sidebands of the data
+collected with the NuMI trigger. This sample matches the exposure of the
+detector to the NuMI beam but the shape of the neutrino energy
+distribution is statistically limited.
+The second sample is taken using a cosmic trigger where data is
+collected for activity within the detector outside of the beamspill window.
+
+Figure~\ref{fig:cosCutFlow} shows the estimated number of cosmic
+background and signal events after each successive selection is
+applied to the sample.
+As shown in Figure~\ref{fig:cosCutFlow}, selections are made for good
+spills, data qualtiy, cosmic rejection, containment and neutral
+current rejection. 
+
+The first selection, at the top of Figure~\ref{fig:cosCutFlow}, is the
+good spill selection which requires that the
+NuMI beam is produced within accepatble bounds of spill time ($< 0.5
+\times 10^9~\text{seconds}$), 
+spill POT ($> 2 \times 10^{12}$), 
+horn current ($-202~\text{kA} < I < -198~\text{kA}$), proton beam
+position on NuMI target ($-2~\text{mm} < pos(x,y) < 2~\text{mm}$) and
+beam width ($0.57~\text{mm} < width(x,y) <
+1.58~\text{mm}$)\cite{NOvASADAQ}~\cite{NOvAFABeamMon}.  
+
+Next, the data quality selection removes events with problems in one
+or more data concentrator modules. 
+The selection requires that: no data concentrator modules completely
+drop out during the spill, 
+
+
+%good spills
+
+%explain data quality
+
+% explain the cosmic BDT
+
+%explain containment
+
+
+
+% include plot of events after each selection level
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../../img/selection/cutflow.pdf}
+  \caption{The number of signal events (red) and cosmic background
+    events (yellow) surviving each successive analysis selection. The
+    signal is estimated from the simulation and the cosmic background
+    is estimated from the timing sidebands of the NuMI trigger. Figure
+    taken from~\cite{NOvANumuSABless}.
+  } 
+  \label{fig:cosCutFlow}
+\end{figure}
+
+% explain the ReMId selection and the CVN selection
+A k-nearest neighbours (kNN) classifier~\cite{altman1992introduction}
+known as Reconstructed Muon Identification
+is used to identify muon candidates among the particle
+trajectories within an event~\cite{raddatzThesis}. 
+The Reconstructed Muon Identification algorythm uses the following
+four variables as inputs to the kNN classifier: 
+dE/dx, scattering, track length and fraction of plains along the track
+consistent with additional hadronic energy depositions~\cite{raddatzThesis}.
+
+
+
+\section{Calibration}\label{sec:calibration}
+
+
+threshold, attentuation, energy scale, timing, drift
+
+
+\section{Extrapolation}\label{sec:extrap}
+The NOvA near detector is used to compare distributions resulting from
+neutrino interactions in data and simulation. Any significant
+difference between the two means that a process exists that is not
+correctly modelled in the simulation. 
+
+The differences in the near detector neutrino energy spectrum between
+data and simulation are extrapolated to predict the far detector
+neutrino energy spectrum. The extrapolation accounts for neutrino
+oscillations, acceptance differences and flux differences between the
+near and far detector. 
+
+The extrapolation proceeds in stages. 
+First, simulation estimated background is subtracted from the the near
+detector data spectrum.  
+A reconstructed to true neutrino energy matrix obtained from the near
+detector simulation is used to convert the background subtracted
+reconstructed neutrino energy into a true energy spectrum. 
+A far-to-near detector event ratio is used to account for the effect
+of neutrino oscillations and the different acceptances of the two
+detectors.
+The true neutrino energy spectrum is multiplied by the far to near
+event ratio as a function of true neutrino energy to produce the far
+detector true neutrino energy spectrum.  The far detector
+true neutrino energy is converted back to reconstructed
+neutrino energy using the far detector reconstructed to true neutrino
+energy matrix obtained from the far detector simulation. 
+Finally, background events due to cosmic rays (from data) and beam
+backgrounds (from MC) are added to the extrapolated far detector
+reconstructed neutrino energy distribution to form a prediction that
+will later be compared to the far detector data.
+\cite{NOvASA}
+
+
+
+% Neutrino oscillation is a function, among other things, of true
+% neutrino energy. Therefore to predict the neutrino energy distribution
+% in the FD after oscillations requires the truth information provided
+% by the MC simulation.
+
+
+\section{GENIE Tune}\label{sec:genietune}
+
+Go through work done on the hadE task force. Show the plots of
+hadronic energy comparing data and MC whilst applying the MEC weights
+sequentially. 
+
+
+\section{Evaluation of Systematics}\label{sec:systs}
 show effect of each systematic and shift in Norm, mean energy and rms of neutrino energy.
 
-\subsection{Calibration}
+\subsection{Calibration}\label{sec:calibsysts}
 xy systematic and y shift systematic
 
-\subsection{Birks}
+\subsection{Birks}\label{sec:birkssysts}
 Birks B,C, ?
-Expand on rock muon issue
+Expand on rock muon issue 
 
-\subsection{Noise}
+\subsection{Noise}\label{sec:noisesysts}

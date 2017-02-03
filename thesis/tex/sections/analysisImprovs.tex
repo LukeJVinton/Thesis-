@@ -1,16 +1,185 @@
 
 
-Three (x2, for dm and sin) metrics for each improvement: SA BF (max-mix rej.), MINOS (max-mix rej.), and T2K BF (limit and rej. of (2.5,0.4))
+Three techniques with potential to improve the sensitivity of the NOvA
+experiment to the muon neutrino disappearance oscillation parameters
+are analysed in the following chapter. 
+The first technique involves seperating neutrino events into bins of
+energy resolution. 
+In the second technique the number of neutrino energy bins is varied
+to find the optimum number of bins.
+Finally, the third technique involves a hybrid selection of the ReMId
+(as used in NOvA's first and second muon neutrino disappearance
+papers) and CVN selections.
+
+The impact of each technique will be mesured using three metrics: the
+sensitivity to reject maximal mixing for the NOvA second analysis
+$\nu_\mu$ disappearance best fit, the sensitivity to reject maximal
+mixing for the most recent MINOS $\nu_\mu$ disappearance best fit and
+finally the sensitivity to reject the point ($\Delta m^2_{32} = 2.5
+\times 10^{-3}~\text{eV}^2$, $sin^22\theta_{23} = 0.4$) for the most
+recent T2K $\nu_\mu$ disappearance best fit.
+
+MINOS best fit from this paper~\cite{adamson2014combined}. Measured
+$|\Delta m^2_{32}| = [2.28 - 2.46] \times 10^{-3}~\text{eV}^2~(68\%
+C.L.)$ and $\sin^2\theta_{23} = 0.35–0.65 \text{(90\% C.L.)}$. The
+following analysis uses the best fit point for comparisons. The best
+fit point is taken to be $|\Delta m^2_{32}| = 2.36
+\times10^{-3}~\text{eV}^2$ and $\sin^2\theta_{23} = 0.41$. 
+
+The T2K best fit point here refers to the results from this
+paper~\cite{abe2015measurements}. The reported measurements are
+$\sin^2\theta_{23}=0.528^{+0.055}_{-0.038}$ and $|\Delta
+m^2_{32}|=(2.51 \pm 0.11)\times10^{-3}~\text{eV}^2)$
+
+NOvA's second analysis best fit point is that presented in this
+paper~\cite{NOvASA}. The normal ordering, lower ocant best fit point is 
+$\sin^2\theta_{23} = 0.404^{+0.030}_{-0.022}$ and $|\Delta
+m^2_{32}|=(2.67 \pm 0.11)\times10^{-3}~\text{eV}^2)$. 
+
+Three (x2, for dm and sin) metrics for each improvement: SA BF
+(max-mix rej.), MINOS (max-mix rej.), and T2K BF (limit and rej. of
+(2.5,0.4)) 
 
 \section{Hadronic Energy Fraction Binning}
 
+The first sensitivity improvement considered is to seperate events by
+reconstructed neutrino energy resolution. 
+Events with better energy resolution are less likely to migrate
+accross neutrino energy bin boundaries and into the oscillation dip.
+The reconstructed neutroino energy is the sum of the reconstructed
+muon energy and the reconstructed shower energy.
+In the NOvA detectors, muon energy is estimated using the length of the
+muon track with a resolution of 2\% while hadronic energy is estimated
+from the calorimetric response of the detector to a cluster of
+cell-hits to about 5\%.
+Neutrino events with a larger proportion of hadronic activity will be
+less well resolved by the detector.
+The metric used to estimate neutrino energy resolution is the hadronic
+energy fraction, $E_{had.} / E_{\nu}$. 
+
+The $E_{had.} / E_{\nu}$ distribution is obtained for each bin of
+reconstructed neutrino energy and the quantiles of $E_{had.} /
+E_{\nu}$ are identified. 
+These quantiles are then used as the
+boundaries of the $E_{had.} / E_\nu$ bins. In this analysis the number
+of \hadefrac{} bins can be varied to optimise the sensitivity. 
+Figures~\ref{fig:hadEFracHistP1}, \ref{fig:hadEFracHistP2}, \ref{fig:hadEFracHistE3b}
+and \ref{fig:hadEFracHistE3c} show the distribution of
+hadronic energy fraction vs. reconstructed neutrino energy for each
+far detector running period used in this analysis. The quantile
+boundaries for a division into four hadronic energy fraction bins are
+shown by the black histograms overlayed on the colour plot. 
+In this case, with four \hadefrac{} bins, the lowest quantile contains
+25\% of the sample with the best neutrino energy resolution. On the
+other hand, the highest quantile contains the 25\% of the sample with
+the worst neutrino energy resolution.
+
+
+%Plot: FD hadronic energy fraction vs. neutrino energy with quantile
+%boundaries 
+% made with: makeHadEFracHists.C
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../../../Analysis/thesisPlots/anaImprovs/hadEFrac/hadEFracHists/cperiod1.pdf}
+  \caption{Hadronic energy fraction vs. reconstructed neutrino
+    energy in the far detector MC during running period 1. The
+    quantile bounadaries are shown for the choice of 4 hadronic energy
+    fraction bins. } 
+  \label{fig:hadEFracHistP1}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../../../Analysis/thesisPlots/anaImprovs/hadEFrac/hadEFracHists/cperiod2.pdf}
+  \caption{Hadronic energy fraction vs. reconstructed neutrino
+    energy in the far detector MC during running period 2. The
+    quantile bounadaries are shown for the choice of 4 hadronic energy
+    fraction bins. } 
+  \label{fig:hadEFracHistP2}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../../../Analysis/thesisPlots/anaImprovs/hadEFrac/hadEFracHists/cepoch3b.pdf}
+  \caption{Hadronic energy fraction vs. reconstructed neutrino
+    energy in the far detector MC during running epoch 3b. The
+    quantile bounadaries are shown for the choice of 4 hadronic energy
+    fraction bins. } 
+  \label{fig:hadEFracHistE3b}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../../../Analysis/thesisPlots/anaImprovs/hadEFrac/hadEFracHists/cepoch3c.pdf}
+  \caption{Hadronic energy fraction vs. reconstructed neutrino
+    energy in the far detector MC during running epoch 3c. The
+    quantile bounadaries are shown for the choice of 4 hadronic energy
+    fraction bins. } 
+  \label{fig:hadEFracHistE3c}
+\end{figure}
+
+
+
+%Plot: FD oscillated neutrino energy spectrum for each quantile
+
+%Plot: FD hadEFrac quantiles neutrino energy with cosmics
+
+%Plot: FD hadEFrac quantiles neutrino energy with beam bkg
+
+%Plot: contours for 1-8 hadEFrac bins
+%Plot: SA BF
+%Plot: MINOS BF
+%Plot: T2K BF
+
+
+%Plot: rejection of max mixing vs. number of bins
+
+
 \section{Optimising Neutrino Energy Binning}
+
+The neutrino energy binning used for the muon neutrino
+disappearance analysis presented in first and second papers consists
+of 0.25~GeV width bins from 0 to 5~GeV. 
+Most of the neutrino oscillation information is gained between 1 and
+2~GeV.
+Using finer binning in this region could enhance the sensitivity of
+the disappearance analysis. 
+The advantages of finer binning will diminish as the bin size
+approaches the neutrino energy resolution.
+
+To investigate possible enhancements to the sensitivity, three
+alternative binning strategies are compared with the standard
+analysis. 
+All three binning strategies share a common binning between 0 and
+1~GeV of two bins, one from 0 to 0.75~GeV and the other from 0.75 to
+1~GeV. 
+They also share a common binning between 3 and 5~GeV,
+consisting of two 0.5~GeV bins from 3 to 4~GeV and 1 1~GeV bin from 4
+to 5~GeV.
+The first binning strategy uses 80 0.025~GeV bins between 1 and
+3~GeV. 
+The second strategy uses 40 0.025~GeV bins between 1 and 2~GeV and 4
+0.25~GeV between 2 and 3~GeV. 
+Finally, the third strategy uses 10 0.1~GeV bins between 1 and 2~GeV
+and 4 0.25~GeV between 2 and 3~GeV.
+
 
 \section{Hybrid Selection Using ReMId and CVN}
 
+
 \section{All Analysis Improvements Combined}
 
-Then respin number of HadEFrac. bins again w/ energy bins and hybrid. Iterate until while improvements are shown. 
+Then respin number of HadEFrac. bins again w/ energy bins and
+hybrid. Iterate until while improvements are shown.  
 
 
 \section{Systematic Uncertainty}
+
+show systematic tables after each improvement individually
+
+
+\section{Hadronic Energy Smearing Systematic}
+
+Systematic that smears the hadronic energy distributions in the near
+and far detector. Assess the effect of this systematic before and
+after the improvements (just hadEFrac binning and then with all
+improvements).
+
+

@@ -279,15 +279,19 @@ University of Sussex	\\
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MAIN THESIS TEXT: arabic page numbering 1, 2, 3, ...
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Commands %%%%%
+% \renewcommand{\baselinestretch}{\linespacing}
+\newcommand{\hadefrac}{$E_{had.} / E_\nu$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newpage
 \pagenumbering{arabic}
 
 
-
 \chapter{Introduction}
 \import{tex/sections/}{introduction.tex}
-% \chapter{The Standard Model}
-% \import{tex/sections/}{theory.tex}
 
 \chapter{Neutrino Physics}
 \import{tex/sections/}{NeutrinoPhysics.tex}
@@ -306,8 +310,6 @@ University of Sussex	\\
 \import{tex/sections/}{results.tex}
 
 \chapter{Conclusion}
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{LBNReview_Rubbia}
-M.~V. Diwan, V.~Galymov, X.~Qian, and A.~Rubbia.
-\newblock {Long-Baseline Neutrino Experiments}.
-\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 66:47--71, 2016.
-
 \bibitem{chadwick1914distribution}
 J~Chadwick.
 \newblock Distribution in intensity in the magnetic spectrum of the
@@ -220,6 +215,108 @@ P.~Adamson et~al.
 Stuart~L. Mufson.
 \newblock {Scintillator update}.
 \newblock {\em Internal NOvA document, DocDB-8541}, 2013.
+
+\bibitem{FLUKA}
+T.~T. {B{\"o}hlen}, F.~{Cerutti}, M.~P.~W. {Chin}, A.~{Fass{\`o}},
+  A.~{Ferrari}, P.~G. {Ortega}, A.~{Mairani}, P.~R. {Sala}, G.~{Smirnov}, and
+  V.~{Vlachoudis}.
+\newblock {The FLUKA Code: Developments and Challenges for High Energy and
+  Medical Applications}.
+\newblock {\em Nuclear Data Sheets}, 120:211--214, June 2014.
+
+\bibitem{ferrari2005fluka}
+Alfredo Ferrari, Paola~R Sala, Alberto Fasso, and Johannes Ranft.
+\newblock Fluka: A multi-particle transport code (program version 2005), 2005.
+
+\bibitem{agostinelli2003geant4}
+Sea Agostinelli, John Allison, K~al Amako, J~Apostolakis, H~Araujo, P~Arce,
+  M~Asai, D~Axen, S~Banerjee, G~Barrand, et~al.
+\newblock Geant4—a simulation toolkit.
+\newblock {\em Nuclear instruments and methods in physics research section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  506(3):250--303, 2003.
+
+\bibitem{andreopoulos2010genie}
+Costas Andreopoulos, A~Bell, D~Bhattacharya, F~Cavanna, J~Dobson, S~Dytman,
+  H~Gallagher, P~Guzowski, R~Hatcher, P~Kehayias, et~al.
+\newblock The genie neutrino monte carlo generator.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  614(1):87--104, 2010.
+
+\bibitem{hagmann2007cosmic}
+Chris Hagmann, David Lange, and Douglas Wright.
+\newblock Cosmic-ray shower generator (cry) for monte carlo transport codes.
+\newblock In {\em 2007 IEEE Nuclear Science Symposium Conference Record},
+  volume~2, pages 1143--1146. IEEE, 2007.
+
+\bibitem{adamNOvASim}
+Adam Aurisano.
+\newblock The nova detector simulation, nova internal document, docdb 13577,
+  June 2015.
+
+\bibitem{adamNOvASimProceedings}
+A~Aurisano et~al.
+\newblock Chep2015 proceeding: The nova simulation chain, a. aurisano, nova
+  internal document, docdb 13370, May 2015.
+
+\bibitem{baird2015analysis}
+Michael~David Baird.
+\newblock An analysis of muon neutrino disappearance from the numi beam using
+  an optimal track fitter, 2015.
+
+\bibitem{ester1996density}
+Martin Ester, Hans-Peter Kriegel, J{\"o}rg Sander, Xiaowei Xu, et~al.
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock In {\em Kdd}, volume~96, pages 226--231, 1996.
+
+\bibitem{kalman1960new}
+Rudolph~Emil Kalman et~al.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock {\em Journal of basic Engineering}, 82(1):35--45, 1960.
+
+\bibitem{NOvASADAQ}
+Louise Suter and James Musser.
+\newblock Sa data quality updates.
+\newblock NOvA Internal Document, DocDB-15307, April 2016.
+
+\bibitem{NOvAFABeamMon}
+Sarah~R Phan-Budd and Lisa Goodenough.
+\newblock Technical note on the noνa beam monitoring for 2015 summer analysis.
+\newblock NOvA Internal Document, DocDB-13572, July 2015.
+
+\bibitem{altman1992introduction}
+Naomi~S Altman.
+\newblock An introduction to kernel and nearest-neighbor nonparametric
+  regression.
+\newblock {\em The American Statistician}, 46(3):175--185, 1992.
+
+\bibitem{raddatzThesis}
+Nick Raddatz.
+\newblock {\em Measurement of Muon Neutrino Disappearance with Non-Fiducial
+  Interactions in the NOvA Experiment}.
+\newblock PhD thesis, University of Minnesota, 2016.
+
+\bibitem{NOvASA}
+NOvA authors.
+\newblock Place holder for sa nova numu paper.
+\newblock arXiv:1701.05891.
+
+\bibitem{adamson2014combined}
+P~Adamson, I~Anghel, A~Aurisano, G~Barr, M~Bishai, A~Blake, GJ~Bock, D~Bogert,
+  SV~Cao, CM~Castromonte, et~al.
+\newblock Combined analysis of $\nu_\mu$ disappearance and $\nu_\mu
+  \rightarrow\nu_e$ appearance in minos using accelerator and atmospheric
+  neutrinos.
+\newblock {\em Physical review letters}, 112(19):191801, 2014.
+
+\bibitem{abe2015measurements}
+Kou Abe, J~Adam, H~Aihara, T~Akiri, C~Andreopoulos, S~Aoki, A~Ariga,
+  S~Assylbekov, D~Autiero, M~Barbi, et~al.
+\newblock Measurements of neutrino oscillation in appearance and disappearance
+  channels by the t2k experiment with 6.6$\times$ 1 0 20 protons on target.
+\newblock {\em Physical Review D}, 91(7):072010, 2015.
 
 \bibitem{Marshall}
 John~Stuart Marshall.
