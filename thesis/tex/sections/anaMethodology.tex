@@ -1,40 +1,74 @@
-
 %Introduce the following chapter
+This chapter presents an overview of the steps taken for the second
+muon neutrino disappearance analysis. 
+The second analysis summary~\cite{SASummary} and the second analysis
+disappearance paper~\cite{NOvASA} are both refered to.
 
 
-\section{Reconstruction}\label{sec:reco}
 
-The NOvA analysis begins with a collection of hits from cells with APD 
-signals above threshold. 
+\section{Event Reconstruction}\label{sec:reco}
 
 The reconstruction begins with a collection of above threshold APD
-signals clustered in space and time \cite{baird2015analysis,
+signals clustered in space and time~\cite{baird2015analysis,
   ester1996density}. 
 The clusters of APD signals are used to reconstruct event
-candidates.
-The trajectories of charged particles within an event are reconstructed
-by applying a technique based on the Kalman filter
-algorythm~\cite{kalman1960new}. 
+candidates~\cite{baird2015analysis}.
 
+The trajectories of charged particles within the detector are
+reconstructed using a technique based on the Kalman filter
+algorythm~\cite{kalman1960new}~\cite{KalmanTrackNote}. An example
+event with tracks found using the NOvA Kalman filter is shown in
+Figure~\ref{fig:recoTrackEvd}. 
+The NOvA Kalman tracker is used to estimate the true trajectory of a
+particle within the detector given positions of cell
+hits. Trackable particles are charecterised by trajectories with long
+straight sections, dominated by small angle multiple scatttering, and
+intermittent large scattering angles caused electromagnetic or
+strong interactions. 
+The track finding process initially starts from the downstream end of
+the detector, where particles emerging from a NuMI interaction will
+(on average) be the most seperated, and proceeds upstream. 
+Track finding and fitting is performed seperately in each detector
+view since the trajectory in each view is independent. Later the views
+are matched to reconstruct the fill three dimensional tracks. This
+matching of views also presents an opportunity to recover tracks
+reconstructed as multiple seperate tracks due to hard
+scattering.
+~\cite{KalmanTrackNote}  
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth,angle=-90]{../../img/Methodology/kalmanTrackEvd.pdf} 
+  \caption{Example of reconstructed tracks found using the NOvA kalman
+    tracker in the far detector simulation. Individual reconstructed
+    tracks are shown by the red, blue and green lines. The x-position
+    and y-position views are shown in the top and bottom half of the
+    figure respectively. This figure taken from the NOvA Kalman track
+    technote~\cite{KalmanTrackNote}.   
+  } 
+  \label{fig:recoTrackEvd}
+\end{figure}
 
 
 \section{Selection and Background}\label{sec:sel}
 
 A series of selection packages are used to identify muon neutrino
-events within the detector and also to reject background events.  
+events within the detector and also to reject background events.
 There two main sources of background to the muon neutrino
 disappearance analysis are from cosmic ray muons and beam induced
 backgrounds including neutral current events, $\nu_e$ charged current
 and $\nu_\tau$ charged current events. 
+The good spill, data quality, cosmic, containment and reconstructed
+particle identification selections are described in the following
+paragraphs. 
+  
 
+% beam bkg and cosmics
 The beam background events are estimated using the simulation for each
 detector.
 Events passing the selection but failing a truth cut
 requiring a muon or anti-muon neutrino are deemed to be
 background. 
-% The beam background is predominantly due to tau, electron 
-% and neutral-current neutrino interactions within the detector.
-
 The cosmic background (mostly secondary cosmic ray muons) is estimated
 using two samples of far detector data which occur outside of the beam
 spill window.  
@@ -45,13 +79,14 @@ distribution is statistically limited.
 The second sample is taken using a cosmic trigger where data is
 collected for activity within the detector outside of the beamspill window.
 
+% intro. cut flow
 Figure~\ref{fig:cosCutFlow} shows the estimated number of cosmic
 background and signal events after each successive selection is
 applied to the sample.
 As shown in Figure~\ref{fig:cosCutFlow}, selections are made for good
 spills, data qualtiy, cosmic rejection, containment and neutral
 current rejection. 
-
+%good spills
 The first selection, at the top of Figure~\ref{fig:cosCutFlow}, is the
 good spill selection which requires that the
 NuMI beam is produced within accepatble bounds of spill time ($< 0.5
@@ -59,26 +94,10 @@ NuMI beam is produced within accepatble bounds of spill time ($< 0.5
 spill POT ($> 2 \times 10^{12}$), 
 horn current ($-202~\text{kA} < I < -198~\text{kA}$), proton beam
 position on NuMI target ($-2~\text{mm} < pos(x,y) < 2~\text{mm}$) and
-beam width ($0.57~\text{mm} < width(x,y) <
-1.58~\text{mm}$)\cite{NOvASADAQ}~\cite{NOvAFABeamMon}.  
+beam width ($0.57~\text{mm} < width(x,y) <1.58~\text{mm}$)
+\cite{NOvASADAQ}~\cite{NOvAFABeamMon}. 
 
-Next, the data quality selection removes events with problems in one
-or more data concentrator modules. 
-The selection requires that: no data concentrator modules completely
-drop out during the spill, 
-
-
-%good spills
-
-%explain data quality
-
-% explain the cosmic BDT
-
-%explain containment
-
-
-
-% include plot of events after each selection level
+% selection cutflow plot
 \begin{figure}
   \centering
   \includegraphics[width=0.9\textwidth]{../../img/selection/cutflow.pdf}
@@ -89,24 +108,263 @@ drop out during the spill,
     taken from~\cite{NOvANumuSABless}.
   } 
   \label{fig:cosCutFlow}
-\end{figure}
+p\end{figure}
 
-% explain the ReMId selection and the CVN selection
+
+%explain data quality
+Next, the data quality selection removes events with problems in one
+or more data concentrator modules. 
+The selection requires that: no data concentrator modules completely
+drop out during the spill, tracks do not all stop at DCM edge
+boundaries (this signals that the detector is out of sync and uses a
+DCM edge metric~\cite{DCMEdgeMetric}), and
+\textcolor{red}{fracdcm3hits $< 0.45$. Where is this defined? Is there
+  a technote?}.
+
+% explain the cosmic BDT
+The cosmic rejection selection utilises a boosted decision tree (BDT)
+to create a cosmic rejection particle identification
+variable~\cite{CosRejTechnote}. 
+The BDT is passed 11 variables including the angle of the track
+relative the NuMI beam direction, maximum height of activity within
+the detector, length of the track and the number of hits.
+
+%explain containment
+A selection is made to ensure the events used for the analysis are
+fully contained within the detetor. This selection serves two
+purposes, it ensures all the energy from a muon neutrino charged
+current interaction is deposited within the detector. The selection
+also assists the rejection of cosmic rays in the far detector and rock
+muons (from interactions of neutrionos in the rock upstream of the
+detector) in the near detector.
+The containment selection uses both the kalman tracks reconstructed as
+described in Section~\ref{sec:reco} and the hits to select fully
+contained events.
+The hit component of the selection requires that there are no hits in
+the outer two cells in either view and also no hits in the first or last
+two planes of the detector.
+The track component of the selection
+requires that the forward or backward projection from the end or start
+of the kalman track passes through at least 10 cells before exiting
+the detector. 
+
+% near detector containment
+The near detector has a slightly different selection to account for
+the muon catcher and the relative absence of the cosmic ray muon
+background. As described in Section~\ref{sec:neardet}, the
+muon catcher at the downstream end of the near detector is 2/3 the
+height of the fully active detector. The differences with respect to
+the far detector containment selection are outlined below.
+The projection cut is loosened to at least
+4 planes projected forward and at least 8 planes projected
+backwards. 
+The start position of the
+kalman track must occur in the fully active detector upstream of the
+muon catcher (z$=1150$~cm, active detector ends at z??). 
+The kalman track must either have either end within the the
+fully active detector or the position of the track within the detector
+at transition from fully active to muon catcher must be below the
+height of the muon catcher.
+~\cite{SASummary}
+
+
+% explain the ReMId selection
 A k-nearest neighbours (kNN) classifier~\cite{altman1992introduction}
-known as Reconstructed Muon Identification
+known as Reconstructed Muon Identification (ReMId)
 is used to identify muon candidates among the particle
 trajectories within an event~\cite{raddatzThesis}. 
 The Reconstructed Muon Identification algorythm uses the following
-four variables as inputs to the kNN classifier: 
+four variables to distinguish muons from pions using the kNN
+classifier:  
 dE/dx, scattering, track length and fraction of plains along the track
-consistent with additional hadronic energy depositions~\cite{raddatzThesis}.
+consistent with additional hadronic energy
+depositions. The kNN output is a score for each event, the
+distribution of ReMId scores is shown in Figure~\ref{fig:remidDist},
+the muon neutrino charged current signal events are shown by the black
+histogram which peaks close to 1 and the neutral current background
+events are shown by the red histogram. 
+For each event passing the preceeding cuts, the particle with the
+highest ReMId score is designated as the primary muon track.
+Events with $\text{ReMId} > 0.75$ are taken as muon neutrino
+charged current interactions, in the far detector this selection
+results in a signal efficiency and purity for contained events of 81\%
+and 95\% respectively. 
+The impact of neutrino oscillations on the efficiency
+and purity is approximately accounted for by setting $\Delta m^2_{32}
+= 2.5 \times 10^{-3} \text{eV}^2$ and $\sin^2\theta_{23} =
+0.5$.~\cite{raddatzThesis}~\cite{remidNote}.   
+
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth,angle=-90]{../../img/Methodology/RemidDistribution.pdf}
+  \caption{
+    Reconstructed Muon Identification distribution for muons neutrino
+    charged current events (black histogram) and neutral current
+    events (red histogram). For the standard analysis events are
+    required to have a ReMId score of 0.75 or greater. Figure taken
+    from~\cite{remidNote}.  
+  } 
+  \label{fig:remidDist}
+\end{figure}
+
+
+% cvn selection
+An alternative method called Convolutional Visual Network (CVN) for
+selecting muon neutrino charged current events has been developed.
+The CVN algorithm identifies muon neutrino charged current
+events based on the event topology and does not require detailed event
+reconstruction. 
+The output from the muon neutrino charged current event classifier is
+shown in Figure~\ref{fig:cvnDist}. The signal events are shown by the
+blue histogram. The background neutral current, appearance $\nu_e$ and
+inherent beam $\nu_e$ events are shown by the blue, purple and pink
+histograms respectively.
+~\cite{aurisano2016convolutional}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth,angle=-90]{../../img/Methodology/cvnDistribution.pdf}
+  \caption{
+    Output of the Convolutional Visual Network  for muon neutrino
+    charged current event identification. Muon neutrino
+    charged current events are shown by the green histogram. The
+    backgrounds of neutral current
+    events are shown by the blue histogram, appearance $\nu_e$ events
+    are shown by the purple histogram and the inherent beam $\nu_e$
+    events are shown by the pink histogram. Figure taken
+    from~\cite{aurisano2016convolutional}.   
+  } 
+  \label{fig:cvnDist}
+\end{figure}
 
 
 
 \section{Calibration}\label{sec:calibration}
 
+NOvA's energy calibration is performed in three stages.
+The attenuation calibration corrects the detector response along the
+NOvA cells using through going muons. The attenuation corrected
+response should be uniform across the detector. 
+The absolute energy calibration uses muons that stop within the
+detector to find a constant to convert the attenuation correct
+response into physically meaningful units of GeVs.
+The drift calibration accounts and adjusts for the variatition of the
+detector response with time caused by seasonal effects and instrument
+degradation. 
 
-threshold, attentuation, energy scale, timing, drift
+
+\subsection{Attenuation and Threshold Calibration}
+
+The attenuation calibration uses the energy depositions of
+through-going cosmic ray muons to produce constants and formulae such
+that such that the corrected detector response to energy depositions
+is uniform across the detector. 
+Attenuation fits are performed on a channel by channel basis, in other
+words the detector response along the length of each NOvA cell is
+fitted to produce a calibration for that cell. 
+
+Before calibrating, the detector response is divided by the the
+path-length (through a cell) to reduce the impact of variations in
+path-length arising from reconstruction effieciencies of different
+track angles. 
+To provide an accurate path length estimation only cells with hits
+from the same track in adjacent cells within the same plane are used
+for the calibration. Using this selection allows the path-length
+through a cell to be calculated from the cell width and the angle of
+the track. 
+
+Figure~\label{fig:attenCurvND} shows the uncalibrated
+detector response along the length of a NOvA near detector cell, data
+and a fit to the data are shown by the black points and the blue curve
+respectively. The fit to the data is used to provide constants that
+correct the detector response such that it should be uniform across
+the detector.~\cite{alexAtten}~\cite{prabAtten}
+
+\begin{figure}
+  \centering
+\includegraphics[width=0.6\textwidth, angle=-90]{../../img/Methodology/attenCurveNDCell.pdf}
+  \caption{
+    An example of a PE/cm vs. distance from cell center curve in the
+    NOvA near detector. The data is shown by the black points with
+    statistical erros. A fit to the data is shown by the blue
+    curve. Figure taken from~\cite{alexAtten}.
+  }
+  \label{fig:attenCurvND}
+\end{figure}
+
+
+\subsection{Absolute Calibration}
+% absolute calibration
+The absolute calibration method is described in the first analysis
+absolute calibration tech note~\cite{lukeAbsCal}. The results of the
+second analysis calibration and the differences compared to the first
+analysis are described in the second analysis absolute calibration
+technical note~\cite{dianaAbsCal}.
+The NOvA absolute calibration uses the energy deposited by stopping
+muons as a standard candle. 
+To reduce systematic uncertainties, only those
+energy deposits in a 1-2 m window away from the muon track end point
+are used. 
+The mean of the detector response distribution is found for
+data and MC in both near and far detectors. 
+The mean of the distribution of true energy deposits in the track
+window is used to provide a conversion factor between the detector
+response and the true energy deposited in the scintillator for minimum
+ionising muons.
+Figure~\ref{fig:calibrateddEdx} shows the resulting calibrated dE/dx
+distribution of stopping muons in NOvA's far
+detector.~\cite{lukeAbsCal} 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth, angle=-90]{../../img/Methodology/absCaldEdx.pdf}
+  \caption{
+    Calibrated dE/dx (MeV/cm) for hits within the 100~cm track window
+    in the NOvA far detector. 
+    Data and simulation are shown by the black points and red
+    histogram respectively.
+    Figure taken from~\cite{lukeAbsCal}.
+  } 
+  \label{fig:calibrateddEdx}
+\end{figure}
+
+
+\subsection{Drift Calibration}
+
+A drift calibration is being developed to account for variations in
+the detector response with time. At the point of writing this stage of
+the calibration is not yet implemented.
+
+
+\subsection{Timing Calibration}
+
+The aim of the timing calibration is to prescisely synchronise each
+detector externally with the neutrino beam and internally among
+the electronic detector components. 
+The internal timing calibration measures and accounts for timing
+offsets between data concentrator modules (see~\ref{sec:DAQ}) using
+hit times from cosmic ray tracks crossing multiple data concentrator
+modules.~\cite{evanTiming}
+
+
+
+\section{Energy Reconstruction}
+
+The neutrino energy is estimated with a resolution of aproximately 7\%
+from the muon and hadronic energy. 
+The muon energy is estimated with a resolution of 3.5\% using the
+length of the track within the detector.  
+As a consequence, the energy of muon's that do not stop within the
+detectors cannot be estimated with the same accuracy. 
+The visible hadronic energy is estimated from the calibrated
+detector response (see Section~\ref{sec:calibration}) of hits not
+associated with the muon track. 
+The simulation is used to create a conversion function from visible
+hadronic energy to total hadronic energy using a linear fit. 
+The total hadronic energy is estimated, with a resolution of 25\%,
+from the visible energy using the conversion function.~\cite{NOvASA} 
 
 
 \section{Extrapolation}\label{sec:extrap}
@@ -114,7 +372,6 @@ The NOvA near detector is used to compare distributions resulting from
 neutrino interactions in data and simulation. Any significant
 difference between the two means that a process exists that is not
 correctly modelled in the simulation. 
-
 The differences in the near detector neutrino energy spectrum between
 data and simulation are extrapolated to predict the far detector
 neutrino energy spectrum. The extrapolation accounts for neutrino
@@ -144,27 +401,241 @@ will later be compared to the far detector data.
 
 
 
-% Neutrino oscillation is a function, among other things, of true
-% neutrino energy. Therefore to predict the neutrino energy distribution
-% in the FD after oscillations requires the truth information provided
-% by the MC simulation.
-
-
 \section{GENIE Tune}\label{sec:genietune}
 
-Go through work done on the hadE task force. Show the plots of
-hadronic energy comparing data and MC whilst applying the MEC weights
-sequentially. 
+% introduce 2p2h MEC
+Recently other experiments have presented evidence suggesting an
+additional process contributing to the neutrino interaction event
+rate~\cite{rodrigues2016identification}. 
+The distribution of hadronic
+energy in the NOvA near detector data provides supporting evidence for
+the additional process~\cite{tuftsWeightNote}. 
+For the second analysis the simulation was adjusted to include a
+semi-empirical model of the so called two-particle two-hole (2p2h)
+process where 
+neutrinos scatter from nucleon pairs within the nucleus via a meson
+exchange current (MEC) between the nucleons.
+The model is motivated by observations of a rate enhancement in
+electron on nucleus scattering where the discrepency is modelled via
+the additional 2p2h process including meson exchange
+currents~\cite{benhar2008inclusive}. 
 
+% explain role of axial masses and how they are used as an approximate
+% way of including unmodelled processes.
+Axial mass ($\text{M}_{\text{A}}$) gets included as a bodge to the
+cross section. $\text{M}_{\text{A}}$ should be 1~GeV. 
+If it is greater it indicates the existence of an extra process at
+that energy scale. 
+
+% explain the CC QE cross section plot. Explain how the original MEC
+% weight in genie is found from the difference between data and the
+% free nucleon (M_A = 1~GeV) cross section.
+Figure~\ref{fig:QEXSection_katori} shows the quasielastic cross
+section vs. reconstructed neutrino energy for data taken with the
+MiniBooNE (red circles) and the NOMAD (blue stars) experiments. The
+MiniBooNE and NOMAD experiments measured the cross section for
+neutrino interactions with reconstructed neutrino energy in the ranges
+$0.4 - 2~\text{GeV}$ and $4 - 80~\text{GeV}$ respectively.
+At low energy MiniBooNE data shows good agreement with the Fermi Gas
+model with an axial mass of $1.35~\text{GeV}$. At higher energies
+NOMAD data~\cite{lyubushkin2009study} shows good agreement with the
+Fermi Gas model with an axial 
+mass of $1.03~\text{GeV}$ (the free nucleon cross section). 
+The NOMAD data indicates agreement with the free nucleon cross
+section, implying the multinucleon process is not present at higher
+energies. 
+Therefore, the GENIE MEC cross section is set to vanish
+above 5~GeV where data indicates agreement with the free nucleon
+model. 
+A cross section simply switching off is not expected for a physical
+process.
+
+\begin{figure}
+  \centering
+\includegraphics[width=0.95\textwidth]{../../img/Methodology/QEXSection_MiniBooNE_NOMAD.png}
+  \caption{
+    Charged current quasielastic cross section vs\. reconstructed
+    neutrino energy for MiniBooNE (red circles) and NOMAD (blue
+    stars). The solid red and dotted blue curves show the theory
+    predictions based on modelling the nucleons as a fermi gas with an
+    axial mass of $1.35$ and $1.03$~GeV respectively. Figure taken
+    from~\cite{katori2008measurement}.
+  } 
+  \label{fig:QEXSection_katori}
+\end{figure}
+
+
+% explain the different tufts weight components: Tufts2p2hWgt,
+% TuftsWeight, fixInitState&XSec
+
+Several changes were made to fix the limitations of the semi-empirical
+model described above.
+Figures~\ref{fig:tuftsWeight_hadE}, \ref{fig:tuftsWeight_muE} and
+\ref{fig:tuftsWeight_nuE} show the effect of the adjustments made to
+the simulation on the agreement between data and MC in the near
+detector. Corresponding ratios of data over MC are shown in
+Figures~\ref{fig:tuftsWeight_hadERatio}, \ref{fig:tuftsWeight_muERatio} and
+\ref{fig:tuftsWeight_nuERatio}.  
+First of all, weighting functions were used to correct the basic
+2p2h-MEC cross section behavior.  
+The n-p initial state in GENIE is weighted up by a factor of four
+while the n-n initial state is weight down by a factor of four.
+The linear reduction of the cross section for 2p2h-MEC events is
+corrected producing a flat cross section above 1~GeV. The effect of
+these two adjustements on the energy distributions is shown by the
+dotted blue histogram (labelled ``fixInitState\&XSec'') in the Figures.
+The dotted green curve (labelled ``Tufts2p2hWgt'') shows the MC
+distributions after the 2p2h cross section is reweighted as a function
+of $q_0$ and $\vec{q}$. 
+This is done using comparisons between the stock GENIE MEC events and
+the quasielastic events.
+Finally, the dotted magenta histogram (labelled ``TuftsWeight'') shows
+the MC distributions after all the above adjustments are made in
+combination with eweighting GENIE deep inelastic scattering with an
+invariant mass $< 1.7~\text{GeV}$ down by 35\%.~\cite{tuftsWeightNote}
+
+As mentioned above, the dotted magenta histogram in
+Figures~\ref{fig:tuftsWeight_hadE}, \ref{fig:tuftsWeight_hadERatio},
+\ref{fig:tuftsWeight_muE}, \ref{fig:tuftsWeight_muERatio},
+\ref{fig:tuftsWeight_nuE} and \ref{fig:tuftsWeight_nuERatio} shows the
+final MC distributions after the adjustments described above are
+applied. 
+Figure~\ref{fig:tuftsWeight_hadERatio} shows that the data/MC
+ratio for the hadronic energy distribution is improved after the
+inclusion of 2p2h events along with the combination of
+adjustments. However, there is still a large discrepency between the
+near detector data and MC in the range $1 - 2.5~\text{GeV}$. This
+means that the hadronic component of events will be worse resolved for
+higher values of hadronic energy. 
+Figure~\ref{fig:tuftsWeight_muERatio} shows the data/MC ratio for muon
+energy. Before including MEC (red histogram) MC generally
+underestimates the event counts for each muon energy bin, particularly
+in the range $2-3~\text{GeV}$. After the including the 2p2h events and
+making the adjustments (dotted magenta histogram) the MC
+underestimates the event count below about 1~GeV, close to matches the
+data between 1 and $1.5~\text{GeV}$, and overestimates the event count
+per bin above $1.5~\text{GeV}$.
+Figure~\ref{fig:tuftsWeight_nuERatio} shows the data/MC ratio for
+neutrino energy. Compared to the simulation excluding 2p2h (red
+histogram), the addition of 2p2h along with the adjustments 
+improves the data/MC ratio below $1.75~\text{GeV}$ and in the range
+$3.5 - 4~\text{GeV}$. However, the ratio worsens the in the range
+$1.75 - 3.5~\text{GeV}$.
+
+
+% - Use weighting function wMEC (eq. 1) to correct the basic MEC cross
+% section behavior. $w_{MEC} = w_{NN} w_{XS}(E)$
+% Weights up n-p initial state and weights down n-n initial state.
+% Eliminates the linear die-off of the cross section.
+%  = kDytmanMEC_FixItlState * kDytmanMEC_FixXsecEdep
+
+% - Use weighting function wTufts (eq. 3) to reweight the MEC cross
+% section as a function of MEC q0 and ~q to match the Tufts best
+% prediction.  = kTufts2p2hWgt
+% Reweight GENIE DIS with W < 1.7 GeV down by 35\%.
+% = Added in last step (TuftsWeight, kFixNonres1Pi) in conjunction with above two
+
+
+\begin{figure}
+\centering
+   \begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_Ehad.pdf}
+   \caption{Comparison of hadronic energy distributions.}
+   \label{fig:tuftsWeight_hadE} 
+\end{subfigure}
+\begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_RatioEhad.pdf}
+   \caption{Comparison of data/MC for each bin of hadronic energy for
+     each 2p2h-MEC weight applied to the MC.}
+   \label{fig:tuftsWeight_hadERatio}
+\end{subfigure}
+\caption[]{Comparison between data and MC hadronic energy
+  distributions in the near detector. MC distributions are shown for
+  each stage of the modifications made to the additional 2p2h-MEC
+  process included in the GENIE for the second analysis. The case
+  where 2p2h events are not included is shown by the red histogram. }
+\end{figure}
+
+\begin{figure}
+\centering
+   \begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_Emu.pdf}
+   \caption{Comparison of muon energy distributions.}
+   \label{fig:tuftsWeight_muE} 
+\end{subfigure}
+\begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_RatioEmu.pdf}
+   \caption{Comparison of data/MC for each bin of muon energy for
+     each 2p2h-MEC weight applied to the MC.}
+   \label{fig:tuftsWeight_muERatio}
+\end{subfigure}
+\caption[]{Comparison between data and MC muon energy
+  distributions in the near detector. MC distributions are shown for
+  each stage of the modifications made to the additional 2p2h-MEC
+  process included in the GENIE for the second analysis. The case
+  where 2p2h events are not included is shown by the red histogram. }
+\end{figure}
+
+
+\begin{figure}
+\centering
+   \begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_Enu.pdf}
+   \caption{Comparison of neutrino energy distributions.}
+   \label{fig:tuftsWeight_nuE} 
+\end{subfigure}
+\begin{subfigure}[b]{0.9\textwidth}
+\includegraphics[width=1\linewidth]{../../../Analysis/thesisPlots/tuftsWeight/nd_data_mc_tuftsBrkDwn_RatioEnu.pdf}
+   \caption{Comparison of data/MC for each bin of neutrino energy for
+     each 2p2h-MEC weight applied to the MC.}
+   \label{fig:tuftsWeight_nuERatio}
+\end{subfigure}
+\caption[]{Comparison between data and MC neutrino energy
+  distributions in the near detector. MC distributions are shown for
+  each stage of the modifications made to the additional 2p2h-MEC
+  process included in the GENIE for the second analysis. The case
+  where 2p2h events are not included is shown by the red histogram. }
+\end{figure}
 
 \section{Evaluation of Systematics}\label{sec:systs}
-show effect of each systematic and shift in Norm, mean energy and rms of neutrino energy.
+
+For the second muon neutrino disappearance analysis the effect of
+systematic uncertainties on the neutrino, muon and hadronic energy
+distributions were studied and quantified in terms of shifts to the
+mean and integral of the energy distributions after applying the
+appropriate systematic shift to the simulation.
+Monte Carlo samples were created with systematic shifts or alternative
+physics models (such as noise modelling) applied before the
+reconstruction stage of the simulation.
+
+
 
 \subsection{Calibration}\label{sec:calibsysts}
 xy systematic and y shift systematic
+
+The data/MC ratio of calibrated muon energy as a function of distance
+from the cell centers are used to define calibration shape
+systematics for the x and y-view cells independentantly. 
+The y-view cells display the most extreme disagrement between data and
+MC in terms of calibrated response along the cells. In comparison the
+disagreement between data and MC in the x-view cells is negligable and
+is currently neglected in the analysis of systematics\cite{dianaAbsCal}.
+
+A comparison of proton energy in the data and MC is
+used to define an uncertainty of $\pm 5$  for the energy scale of
+hadronic showers\cite{SusanProtondEdxCalib}. The effect of the 5\%
+calibration uncertainty is evaluted using MC samples generated with a
+$+$5\% or $-$5\% shift applied.
+
+
 
 \subsection{Birks}\label{sec:birkssysts}
 Birks B,C, ?
 Expand on rock muon issue 
 
+
+
 \subsection{Noise}\label{sec:noisesysts}
+
+
+

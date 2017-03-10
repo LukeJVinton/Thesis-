@@ -96,11 +96,16 @@
 \fancypagestyle{plain}{
 	\fancyhf{}
 	% Add "DRAFT: <today's date>" to header (comment out the following to remove)
-	\lhead{\textit{DRAFT: \today}}
+	\cfoot{\textit{DRAFT: \today}}
 	%
-	\chead{\thepage}
-	\renewcommand{\headrulewidth}{0pt}
+	\rhead{\textbf{\thepage}}
+	\renewcommand{\headrulewidth}{1pt}
 }
+
+\headheight -10pt              %% put this outside
+\headsep 30pt                 %% put this outside
+\voffset -10pt
+
 \pagestyle{plain}
  \newenvironment{changemargin}[2]{%
 
@@ -291,26 +296,32 @@ University of Sussex	\\
 
 
 \chapter{Introduction}
+\fancyhead[L]{\textbf{Introduction}}
 \import{tex/sections/}{introduction.tex}
 
 \chapter{Neutrino Physics}
+\fancyhead[L]{\textbf{Neutrino Physics}}
 \import{tex/sections/}{NeutrinoPhysics.tex}
 
-\chapter{The NOvA Experiment}
+\chapter{The NOvA Experiment}\label{chp:detectors}
+\fancyhead[L]{\textbf{The NOvA Experiment}}
 \import{tex/sections/}{detectors.tex}
 
 \chapter{NOvA Analysis Methodology}
+\fancyhead[L]{\textbf{NOvA Analysis Methodology}}
 \import{tex/sections/}{anaMethodology.tex}
 
 \chapter{Analysis Improvements}
+\fancyhead[L]{\textbf{Analysis Improvements}}
 \import{tex/sections/}{analysisImprovs.tex}
-\import{tex/sections/}{energyres.tex}
+%\import{tex/sections/}{energyres.tex}
 
 \chapter{Results}
+\fancyhead[L]{\textbf{Results}}
 \import{tex/sections/}{results.tex}
 
 \chapter{Conclusion}
-
+\fancyhead[L]{\textbf{Conclusion}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BIBLIOGRAPHY
@@ -319,6 +330,7 @@ University of Sussex	\\
 \addcontentsline{toc}{chapter}{Bibliography}
 %\bibliographystyle{plain}
 \bibliographystyle{unsrt}
+\fancyhead[L]{\textbf{Bibliography}}
 \bibliography{tex/sections/bibliography} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

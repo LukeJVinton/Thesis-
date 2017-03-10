@@ -23,24 +23,31 @@
 \BOOKMARK [2][-]{subsection.3.2.8}{3.2.8 The Near Detector}{section.3.2}% 23
 \BOOKMARK [1][-]{section.3.3}{3.3 Monte Carlo Simulation}{chapter.3}% 24
 \BOOKMARK [0][-]{chapter.4}{4 NOvA Analysis Methodology}{}% 25
-\BOOKMARK [1][-]{section.4.1}{4.1 Reconstruction}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.1}{4.1 Event Reconstruction}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.2}{4.2 Selection and Background}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.3}{4.3 Calibration}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.4}{4.4 Extrapolation}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.5}{4.5 GENIE Tune}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.6}{4.6 Evaluation of Systematics}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Calibration}{section.4.6}% 32
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Birks}{section.4.6}% 33
-\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Noise}{section.4.6}% 34
-\BOOKMARK [0][-]{chapter.5}{5 Analysis Improvements}{}% 35
-\BOOKMARK [1][-]{section.5.1}{5.1 Hadronic Energy Fraction Binning}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{5.2 Optimising Neutrino Energy Binning}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.3}{5.3 Hybrid Selection Using ReMId and CVN}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.4}{5.4 All Analysis Improvements Combined}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.5}{5.5 Systematic Uncertainty}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.6}{5.6 Hadronic Energy Smearing Systematic}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.7}{5.7 Energy Resolution Binning}{chapter.5}% 42
-\BOOKMARK [0][-]{chapter.6}{6 Results}{}% 43
-\BOOKMARK [1][-]{section.6.1}{6.1 Hadronic Energy Fractions In The Near Detector}{chapter.6}% 44
-\BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 45
-\BOOKMARK [0][-]{chapter.7}{Bibliography}{}% 46
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Attenuation and Threshold Calibration}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Absolute Calibration}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Drift Calibration}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 Timing Calibration}{section.4.3}% 32
+\BOOKMARK [1][-]{section.4.4}{4.4 Energy Reconstruction}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.5}{4.5 Extrapolation}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.6}{4.6 GENIE Tune}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.7}{4.7 Evaluation of Systematics}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Calibration}{section.4.7}% 37
+\BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Birks}{section.4.7}% 38
+\BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Noise}{section.4.7}% 39
+\BOOKMARK [0][-]{chapter.5}{5 Analysis Improvements}{}% 40
+\BOOKMARK [1][-]{section.5.1}{5.1 Best Fit Points}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{5.2 Impact of Cosmic Background on Sensitivity Contours}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{5.3 Hadronic Energy Fraction Binning}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.4}{5.4 Optimising Neutrino Energy Binning}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.5}{5.5 Hybrid Selection Using ReMId and CVN}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.6}{5.6 All Analysis Improvements Combined}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.7}{5.7 Combined Optimisation of Analysis Improvements}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.8}{5.8 Systematic Uncertainty}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.9}{5.9 Hadronic Energy Smearing Systematic}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{6 Results}{}% 50
+\BOOKMARK [1][-]{section.6.1}{6.1 Hadronic Energy Fractions In The Near Detector}{chapter.6}% 51
+\BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 52
+\BOOKMARK [0][-]{chapter.7}{Bibliography}{}% 53

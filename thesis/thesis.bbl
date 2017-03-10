@@ -260,6 +260,17 @@ A~Aurisano et~al.
 \newblock Chep2015 proceeding: The nova simulation chain, a. aurisano, nova
   internal document, docdb 13370, May 2015.
 
+\bibitem{SASummary}
+Jeff Hartnell and Greg Pawloski.
+\newblock Summary of the 2016 (second analysis) $\nu_\mu$ disappearance
+  analysis.
+\newblock NOvA Internal Document, DocDB-15232, May 2016.
+
+\bibitem{NOvASA}
+NOvA authors.
+\newblock Place holder for sa nova numu paper.
+\newblock arXiv:1701.05891.
+
 \bibitem{baird2015analysis}
 Michael~David Baird.
 \newblock An analysis of muon neutrino disappearance from the numi beam using
@@ -276,6 +287,11 @@ Rudolph~Emil Kalman et~al.
 \newblock A new approach to linear filtering and prediction problems.
 \newblock {\em Journal of basic Engineering}, 82(1):35--45, 1960.
 
+\bibitem{KalmanTrackNote}
+Nicholas Raddatz.
+\newblock Kalmantrack technical note.
+\newblock NOvA Internal Document, DocDB-13545.
+
 \bibitem{NOvASADAQ}
 Louise Suter and James Musser.
 \newblock Sa data quality updates.
@@ -283,8 +299,24 @@ Louise Suter and James Musser.
 
 \bibitem{NOvAFABeamMon}
 Sarah~R Phan-Budd and Lisa Goodenough.
-\newblock Technical note on the noνa beam monitoring for 2015 summer analysis.
+\newblock Technical note on the nova beam monitoring for 2015 summer analysis.
 \newblock NOvA Internal Document, DocDB-13572, July 2015.
+
+\bibitem{NOvANumuSABless}
+NOvA authors.
+\newblock Nova numu blessed plots.
+\newblock \url{http://nusoft.fnal.gov/nova/blessedplots/Numu_SA.html}, February
+  2017.
+
+\bibitem{DCMEdgeMetric}
+Susan Lein.
+\newblock Dcm edge metric.
+\newblock NOvA Internal Document, DocDB-13527, June 2015.
+
+\bibitem{CosRejTechnote}
+Kirk Bays.
+\newblock Nova cosmic rejection package and algorithms technical note.
+\newblock NOvA Internal Document, DocDB-11205.
 
 \bibitem{altman1992introduction}
 Naomi~S Altman.
@@ -298,10 +330,78 @@ Nick Raddatz.
   Interactions in the NOvA Experiment}.
 \newblock PhD thesis, University of Minnesota, 2016.
 
-\bibitem{NOvASA}
-NOvA authors.
-\newblock Place holder for sa nova numu paper.
-\newblock arXiv:1701.05891.
+\bibitem{remidNote}
+Nicholas Raddatz.
+\newblock Remid technical note.
+\newblock NOvA Internal Document, DocDB-11206.
+
+\bibitem{aurisano2016convolutional}
+A~Aurisano, A~Radovic, D~Rocco, A~Himmel, MD~Messier, E~Niner, G~Pawloski,
+  F~Psihas, A~Sousa, and P~Vahle.
+\newblock A convolutional neural network neutrino event classifier.
+\newblock {\em Journal of Instrumentation}, 11(09):P09001, 2016.
+
+\bibitem{alexAtten}
+Christopher Backhouse and Alexander Radovic.
+\newblock The attenuation and threhold correction of the nova detectors.
+\newblock NOvA Internal Document, DocDB-13579, 2015.
+
+\bibitem{prabAtten}
+Christopher Backhouse, Alexander Radovic, and Prabhjot Singh.
+\newblock The attenuation and threhold correction of the nova detectors.
+\newblock NOvA Internal Document, DocDB-13579, 2016.
+
+\bibitem{lukeAbsCal}
+Luke Vinton.
+\newblock Calorimetric energy scale calibration of the nova detectors.
+\newblock NOvA Internal Document, DocDB-13579, 2015.
+
+\bibitem{dianaAbsCal}
+Diana~Patricia Mendez.
+\newblock Second analysis calorimetric energy scale calibration of the nova
+  detectors.
+\newblock NOvA Internal Document, DocDB-13579, 2016.
+
+\bibitem{evanTiming}
+Evan Niner.
+\newblock Timing calibration technical note.
+\newblock NOvA Internal Document, DocDB-13579, 2015.
+
+\bibitem{rodrigues2016identification}
+PA~Rodrigues, J~Demgen, E~Miltenberger, L~Aliaga, O~Altinok, L~Bellantoni,
+  A~Bercellie, M~Betancourt, A~Bodek, A~Bravar, et~al.
+\newblock Identification of nuclear effects in neutrino-carbon interactions at
+  low three-momentum transfer.
+\newblock {\em Physical review letters}, 116(7):071802, 2016.
+
+\bibitem{tuftsWeightNote}
+Jeremy Wolcott.
+\newblock Genie tune and uncertainty band for second analysis.
+\newblock NOvA Internal Document, DocDB-15214, 2016.
+
+\bibitem{benhar2008inclusive}
+Omar Benhar, Donal Day, and Ingo Sick.
+\newblock Inclusive quasielastic electron-nucleus scattering.
+\newblock {\em Reviews of Modern Physics}, 80(1):189, 2008.
+
+\bibitem{lyubushkin2009study}
+V~Lyubushkin, B~Popov, JJ~Kim, L~Camilleri, J-M Levy, M~Mezzetto, D~Naumov,
+  S~Alekhin, P~Astier, D~Autiero, et~al.
+\newblock A study of quasi-elastic muon neutrino and antineutrino scattering in
+  the nomad experiment.
+\newblock {\em The European Physical Journal C-Particles and Fields},
+  63(3):355--381, 2009.
+
+\bibitem{katori2008measurement}
+Teppei Katori.
+\newblock {\em A Measurement of the muon neutrino charged current quasielastic
+  interaction and a test of Lorentz violation with the MiniBooNE experiment}.
+\newblock PhD thesis, Indiana U., 2008.
+
+\bibitem{SusanProtondEdxCalib}
+Susan Lein.
+\newblock Summary of de/dx plots for muons/protons.
+\newblock NOvA Internal Document, DocDB-15028, 2016.
 
 \bibitem{adamson2014combined}
 P~Adamson, I~Anghel, A~Aurisano, G~Barr, M~Bishai, A~Blake, GJ~Bock, D~Bogert,
@@ -317,6 +417,11 @@ Kou Abe, J~Adam, H~Aihara, T~Akiri, C~Andreopoulos, S~Aoki, A~Ariga,
 \newblock Measurements of neutrino oscillation in appearance and disappearance
   channels by the t2k experiment with 6.6$\times$ 1 0 20 protons on target.
 \newblock {\em Physical Review D}, 91(7):072010, 2015.
+
+\bibitem{hadEFracMigration}
+Luke Vinton.
+\newblock Event migration across hadronic energy fraction bins.
+\newblock NOvA Internal Document, DocDB-XXXXX, 2017.
 
 \bibitem{Marshall}
 John~Stuart Marshall.
