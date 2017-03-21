@@ -206,6 +206,12 @@ D.~S. Ayres et~al.
 \newblock {The NOvA Technical Design Report}.
 \newblock {\em Fermilab Publication}, 2007.
 
+\bibitem{NOvA_plotsAndFigures}
+NOvA authors.
+\newblock Nova official plots and figures.
+\newblock
+  \url{http://www-nova.fnal.gov/plots_and_figures/plots_and_figures.html}.
+
 \bibitem{NuMI}
 P.~Adamson et~al.
 \newblock {The NuMI Neutrino Beam}.
@@ -398,10 +404,58 @@ Teppei Katori.
   interaction and a test of Lorentz violation with the MiniBooNE experiment}.
 \newblock PhD thesis, Indiana U., 2008.
 
+\bibitem{VladGENIE}
+Vladimir Bychkov.
+\newblock Technote for genie systematics.
+\newblock NOvA Internal Document, DocDB-15234, 2016.
+
+\bibitem{BrunoIntensity}
+Zamorano.
+\newblock Intensity-related systematic uncertainty for the second analysis.
+\newblock NOvA Internal Document, DocDB-15217, 2016.
+
 \bibitem{SusanProtondEdxCalib}
 Susan Lein.
 \newblock Summary of de/dx plots for muons/protons.
 \newblock NOvA Internal Document, DocDB-15028, 2016.
+
+\bibitem{LukeCalibSystAna}
+Luke Vinton.
+\newblock Tech note on the calibration systematics for the muon neutrino
+  disappearance analysis.
+\newblock NOvA Internal Document, DocDB-15215, 2016.
+
+\bibitem{chou1952nature}
+CN~Chou.
+\newblock The nature of the saturation effect of fluorescent scintillators.
+\newblock {\em Physical Review}, 87(5):904, 1952.
+
+\bibitem{danBirksTuneCheck}
+Daniel Pershey.
+\newblock Birks-chou post tuning.
+\newblock NOvA Internal Document, DocDB-13233, 2015.
+
+\bibitem{LukeBirksSystAna}
+Luke Vinton.
+\newblock Birks’ systematic uncertainties for the second muon neutrino
+  disappearance analysis.
+\newblock NOvA Internal Document, DocDB-15347, 2016.
+
+\bibitem{LukeRocks}
+Luke Vinton.
+\newblock Nd normalisation with rock muons.
+\newblock NOvA Internal Document, DocDB-15292, 2016.
+
+\bibitem{LukeNoiseSystAna}
+Luke Vinton.
+\newblock Noise systematics for the second muon neutrino disappearance
+  analysis.
+\newblock NOvA Internal Document, DocDB-15216, 2016.
+
+\bibitem{CAFAnaNote}
+Christopher Backhouse.
+\newblock The cafana framework - technote.
+\newblock NOvA Internal Document, DocDB-9222, 2014.
 
 \bibitem{adamson2014combined}
 P~Adamson, I~Anghel, A~Aurisano, G~Barr, M~Bishai, A~Blake, GJ~Bock, D~Bogert,
@@ -418,15 +472,26 @@ Kou Abe, J~Adam, H~Aihara, T~Akiri, C~Andreopoulos, S~Aoki, A~Ariga,
   channels by the t2k experiment with 6.6$\times$ 1 0 20 protons on target.
 \newblock {\em Physical Review D}, 91(7):072010, 2015.
 
+\bibitem{KirkFCResult}
+Kirk Bays.
+\newblock Numu sa fc nh result.
+\newblock NOvA Internal Document, DocDB-15814, 2016.
+
 \bibitem{hadEFracMigration}
 Luke Vinton.
-\newblock Event migration across hadronic energy fraction bins.
-\newblock NOvA Internal Document, DocDB-XXXXX, 2017.
+\newblock Effect of systematics on hadefrac bin values.
+\newblock NOvA Internal Document, DocDB-17854, 2017.
 
 \bibitem{Marshall}
 John~Stuart Marshall.
 \newblock {\em {A study of muon neutrino disappearance with the MINOS detectors
   and the NuMI neutrino beam}}.
 \newblock PhD thesis, Cambridge U., 2008.
+
+\bibitem{LukeHybridOpt}
+Luke Vinton.
+\newblock Sensitivity studies. hybrid selection and number of neutrino energy
+  bins.
+\newblock NOvA Internal Document, DocDB-16292, 2016.
 
 \end{thebibliography}

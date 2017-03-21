@@ -33,20 +33,20 @@
 \BOOKMARK [1][-]{section.4.4}{4.4 Energy Reconstruction}{chapter.4}% 33
 \BOOKMARK [1][-]{section.4.5}{4.5 Extrapolation}{chapter.4}% 34
 \BOOKMARK [1][-]{section.4.6}{4.6 GENIE Tune}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.7}{4.7 Evaluation of Systematics}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.7}{4.7 Evaluation of Systematic Uncertainties}{chapter.4}% 36
 \BOOKMARK [2][-]{subsection.4.7.1}{4.7.1 Calibration}{section.4.7}% 37
 \BOOKMARK [2][-]{subsection.4.7.2}{4.7.2 Birks}{section.4.7}% 38
 \BOOKMARK [2][-]{subsection.4.7.3}{4.7.3 Noise}{section.4.7}% 39
 \BOOKMARK [0][-]{chapter.5}{5 Analysis Improvements}{}% 40
 \BOOKMARK [1][-]{section.5.1}{5.1 Best Fit Points}{chapter.5}% 41
 \BOOKMARK [1][-]{section.5.2}{5.2 Impact of Cosmic Background on Sensitivity Contours}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.3}{5.3 Hadronic Energy Fraction Binning}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.4}{5.4 Optimising Neutrino Energy Binning}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.5}{5.5 Hybrid Selection Using ReMId and CVN}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.6}{5.6 All Analysis Improvements Combined}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.7}{5.7 Combined Optimisation of Analysis Improvements}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.8}{5.8 Systematic Uncertainty}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.9}{5.9 Hadronic Energy Smearing Systematic}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.3}{5.3 Note On Feldman-Cousins}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.4}{5.4 Hadronic Energy Fraction Binning}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.5}{5.5 Optimising Neutrino Energy Binning}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.6}{5.6 Hybrid Selection Combining ReMId and CVN}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.7}{5.7 All Analysis Improvements Combined}{chapter.5}% 47
+\BOOKMARK [1][-]{section.5.8}{5.8 Combined Optimisation of Analysis Improvements}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.9}{5.9 Systematic Uncertainty}{chapter.5}% 49
 \BOOKMARK [0][-]{chapter.6}{6 Results}{}% 50
 \BOOKMARK [1][-]{section.6.1}{6.1 Hadronic Energy Fractions In The Near Detector}{chapter.6}% 51
 \BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 52
